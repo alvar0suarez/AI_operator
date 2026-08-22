@@ -288,9 +288,21 @@ Obsidian, MCP, Lovable, API, Git, RAG.
 4. **El doble público diluye.** Nosotros tenemos *una* alumna y sabemos su puesto.
    Podemos ser mucho más específicos que ellos, y ahí está nuestra ventaja real.
 
-5. **Dan por supuesto Claude Code.** Para alguien que hoy solo abre chatgpt.com,
-   una terminal es una barrera seria y temprana. Hay que decidir conscientemente
-   la escalera de herramientas en lugar de heredar la suya.
+5. **La demo es de Claude Code, aunque el programa se declare agnóstico.** Hay
+   que distinguir las dos cosas, porque en una primera lectura yo las confundí.
+   Lo que *dicen* en el Q&A es explícito y correcto:
+
+   > "No toméis esta formación como un apego a Claude o a ChatGPT, porque será
+   > agnóstica. Si en vuestra empresa tenéis Copilot, podréis usar Copilot durante
+   > el curso. No compréis Claude especialmente: esto no es un curso de Claude. Es
+   > una formación sobre cómo construir sistemas y configurar el contexto, y un AI
+   > Operator sabe trabajar independientemente de la herramienta. También os
+   > enseñaremos las diferencias y los matices entre Codex, Claude y Copilot."
+
+   Lo que *hacen* es otra cosa: la demo entera está montada con Claude Code +
+   Firecrawl + Obsidian. El principio declarado nos sirve y lo adoptamos. El
+   ejemplo concreto, no: nuestra alumna trabaja con Gemini de pago como estándar
+   de empresa, y la escalera empieza mucho antes de una terminal.
 
 ---
 
@@ -299,15 +311,32 @@ Obsidian, MCP, Lovable, API, Git, RAG.
 Cosas que, con el material disponible, no aparecen en ningún sitio y que en
 nuestro caso son obligatorias:
 
-- **Protección de datos.** Ni una mención. Nuestra alumna maneja datos de
-  estudiantes extranjeros: pasaportes, cartas para visado, alojamiento, pagos,
-  posiblemente menores. Meter eso en una herramienta de IA sin criterio es el
-  riesgo más real de todo el proyecto, y va antes que cualquier prototipo.
-- **Vender la idea dentro de la empresa.** Su itinerario no técnico acaba en
-  landing y portfolio, es decir, orientado a *cambiar de trabajo*. El objetivo de
-  nuestra alumna es el contrario: que en su empresa le digan que sí. Eso es un
-  módulo entero que allí no existe: alcance de piloto, riesgos, coste, a quién se
-  lo cuentas y cómo mides que funcionó.
+- **Protección de datos: sí la tratan, pero no sabemos con qué profundidad.**
+  Corrijo aquí un error de mi primera lectura, que decía que no la mencionaban.
+  Sí lo hacen, y con contundencia. En el Q&A (01:36:25) les preguntan
+  directamente por la seguridad al trabajar con datos de empresa y responden:
+
+  > "Por supuesto que sí. No puede faltar. Hoy es un fundamento. Viendo las
+  > filtraciones que hay — no sé si oísteis lo de los PESEL de 19 millones de
+  > personas — hoy está prácticamente en lo más alto de la lista de prioridades al
+  > trabajar con IA."
+
+  Y dan una respuesta operativa razonable: usa la suscripción que tenga contratada
+  tu empresa, porque probablemente ya esté en servidores europeos. En la web, el
+  tema aparece como *permisos mínimos*, *límites seguros* y *el humano aprueba
+  toda operación de escritura*.
+
+  Lo que sigue siendo cierto es que **no podemos saber cuánta profundidad tiene**
+  — está detrás del pago — y que su enfoque es de permisos y accesos, no de
+  régimen jurídico de datos personales. Para nuestro caso hace falta lo segundo
+  además de lo primero: pasaportes, cartas para visado, alojamiento, pagos,
+  posiblemente menores. Es contenido de primera, no un anexo.
+- **Su itinerario no técnico apunta a cambiar de trabajo.** Acaba en portfolio,
+  landing y "mira lo que tengo ahora en mi CV". Es coherente con su mercado, pero
+  no con nuestro encargo: nuestra alumna no quiere cambiar de rol ni de sector, y
+  **no necesita convencer a nadie** — en su empresa usar IA ya está bien visto y
+  lo mal visto es no automatizar. Todo el aparato de venta interna y de portfolio
+  sobra para nosotros. Lo que allí es el destino, aquí es ruido.
 - **Coste y licencias reales.** Firecrawl, conectores, Airtable, planes de pago.
   En una pyme de 30 personas eso es una conversación con quien firma.
 - **Qué hacer cuando el agente se equivoca delante de un cliente.** Plan de
@@ -315,3 +344,32 @@ nuestro caso son obligatorias:
 - **Multilingüe.** Su alumnado es polaco trabajando en polaco. La nuestra atiende
   a estudiantes extranjeros, previsiblemente en varios idiomas. Cambia el diseño
   de la base de conocimiento y de las pruebas.
+
+---
+
+## 7. Datos adicionales del Q&A
+
+Cosas que solo aparecen en los 37 minutos de preguntas en directo y que no están
+ni en la web ni en la parte preparada:
+
+- **Plataforma: Circle.** Con aplicación móvil, chat, directos, anuncios,
+  discusiones y contenido en texto, vídeo, gráfico y cuestionarios.
+- **Se apoya en programas anteriores suyos.** Mencionan "Claude Master Class" y
+  "Claude Business" como base ampliada, y una "Evolución del desarrollador"
+  anterior dirigida a programadores.
+- **Rechazan explícitamente enseñar a vender aplicaciones**, y con desprecio hacia
+  quienes lo prometen:
+
+  > "No os vamos a nublar la vista con que vais a aprender a construir aplicaciones
+  > y luego venderlas. En absoluto. Sé que hay gente en internet que engaña así a
+  > la gente, y no los respeto nada. Construir algo para uso interno y publicarlo
+  > en internet son dos mundos distintos."
+
+  Es la afirmación más honesta de todo el webinar y conviene retenerla como
+  estándar de tono.
+- **FAQ relevante:** no hace falta llevar idea de proyecto propio; ellos te ayudan
+  a elegir el proceso, y si no, dan un caso completo preparado.
+- **Garantía de 7 días** con devolución del 100 %, ofrecida explícitamente como
+  red para quien teme "no ser capaz".
+- Mencionan agentes que **manejan el navegador por ti** ("el agente irá clicando
+  por la página, tú puedes mirar o irte del ordenador y volver cuando termine").
