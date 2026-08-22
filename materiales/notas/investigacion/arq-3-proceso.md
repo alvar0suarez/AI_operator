@@ -463,3 +463,677 @@ Verbos de desempeño. Cada uno con su evidencia observable y el módulo donde se
 > entera sin ella delante.**
 
 No es «leer la última lección». Y RA20 es el indicador honesto de que ya no necesita el material.
+
+---
+
+# 3. LOS CINCO INSTRUMENTOS PERMANENTES
+
+Van antes del mapa de módulos porque todos los módulos cuelgan de ellos. Son cinco ficheros que viven
+más allá de las dieciocho semanas.
+
+## 3.1 El Expediente del proceso — el objeto que el curso transforma
+
+Una carpeta con el nombre del proceso. **No es documentación: es el sitio donde el proceso vive.** Cada
+capa deja dentro exactamente una cosa, y esa lista es el índice del curso:
+
+```
+expediente-<mi-proceso>/
+  00-como-se-hace-de-verdad.md      ← capa 0: disparador, documentos, decisiones no escritas, salida
+  00-hoja-de-sombra.md              ← capa 0: los dos días de observación, en crudo
+  01-linea-de-corte.md              ← capa 1: qué entrego y qué se queda conmigo, con motivo
+  01-ficha-de-criterio.md           ← capa 1: 4-6 indicadores observables, críticos marcados
+  01-casos.md  +  01-CLAVE.md       ← capa 1: la batería, y su clave SELLADA
+  02-mapa-de-datos.md               ← capa 2: qué dato entra, dónde, y dónde hay que quitarlo
+  02-fuentes/                       ← capa 2: cada fuente con FECHA y DUEÑO en la primera línea
+  03-disparador.md                  ← capa 3: qué lo lanza, con qué tope, cómo se apaga
+  04-frenos.md                      ← capa 4: temas prohibidos, condiciones de parada, quién revisa
+  05-evaluacion.md                  ← capa 5: antes, después, coste completo, amenaza no descartada
+  06-traspaso.md                    ← capa 6: dueño, caducidades, calendario de revisión, apagado
+  la-tira.md                        ← la batería pasada en cada capa, una columna por fecha
+  cuaderno-de-capas.md              ← 8 preguntas fijas + 8 dobletes
+  evidencias.md                     ← 3 líneas por capa, para M7
+```
+
+**Por qué una carpeta y no un documento.** Porque el entregable de este curso no es un informe: es un
+sistema con partes que se tocan por separado y caducan a ritmos distintos. Y porque el día que otra
+persona lo herede (M6, M7), lo que se entrega es esta carpeta y nada más.
+
+**Regla de la primera línea, que aparece en la capa 2 y no se abandona nunca:** todo fichero de
+`02-fuentes/` empieza con dos datos — **de cuándo es** y **quién manda sobre él**. Sin eso, un cuaderno
+con las condiciones de cancelación del año pasado responde con las del año pasado, con toda la
+confianza del mundo.
+
+## 3.2 La Tira — la misma batería, capa a capa, con fecha
+
+Diez casos escritos en M1 y **nunca cambiados**, pasados al terminar cada capa, en una hoja con una
+columna nueva por capa. Al final tiene esta forma:
+
+```
+CASO                          | como lo hago hoy | +criterio | +fuentes | +disparador | +frenos
+                              | 13-oct           | 27-oct    | 10-nov   | 24-nov      | 15-dic
+------------------------------|------------------|-----------|----------|-------------|--------
+T1  caso típico 1             |  SÍ              |   SÍ      |   SÍ     |    SÍ       |   SÍ
+T2  caso típico 2             |  NO              |   SÍ      |   SÍ     |    SÍ       |   SÍ
+...
+L1  ambiguo: dos categorías   |  inventa         |  inventa  | pregunta |  pregunta   | pregunta
+L2  queja educada indirecta   |  inventa         |  inventa  | inventa  |  pregunta   | pregunta
+L3  vacío de contenido        |  inventa         | pregunta  | pregunta |  pregunta   | pregunta
+R1  fuera de alcance          |  responde        | no lo sé  | no lo sé |  no lo sé   |  PARAR
+R2  menciona salud            |  responde        | responde  | no lo sé |   PARAR     |  PARAR
+                              |                  |           |          |             |
+MINUTOS POR UNIDAD            |   14             |   11      |    6     |     4       |    4
+QUIÉN LO DISPARA              |   yo             |   yo      |   yo     |  el suceso  | el suceso
+```
+
+**Y aquí está la lección central del curso, que no se cuenta: se lee en su propia hoja.**
+
+> Entre la tercera y la quinta columna **la calidad de la respuesta apenas se mueve**. Casi toda la
+> calidad se gana en la capa 1 y la capa 2 —cuando alguien escribe qué es hacerlo bien y le da fuentes
+> con fecha— y a partir de ahí solo se puede perder. Lo que cambia al añadir capas no es la calidad:
+> es **quién dispara, cuánto tarda y cuánta autonomía has cedido**.
+
+Si dentro de tres años le ponen delante una herramienta que no existe hoy, la pregunta que sabrá hacer
+es *«¿esto me cambia la calidad o me cambia el disparador?»*, que es la pregunta correcta. Y no se la
+habrá contado nadie: la habrá deducido de cinco columnas de su propio trabajo.
+
+**Dos reglas que la sostienen:**
+1. **Los casos se escriben ANTES de construir nada** y con muestreo, no elegidos. Si se escriben
+   después, se escriben para que pasen. Ella reconocerá la operación con su nombre: es preregistro.
+2. **La clave va sellada** en un fichero aparte, escrito el mismo día, que no se reabre hasta anotar
+   los resultados de cada pasada.
+
+**El riesgo de este instrumento, dicho aquí:** es trabajo sin novedad, media hora cada tres semanas, y
+las cosas sin novedad se convierten en ritual o desaparecen. La contramedida es que **el cierre de cada
+módulo no está permitido sin la columna nueva**: es un ítem binario de la lista de comprobación, no un
+consejo. Aun así, es el punto frágil que reconozco en §14.6.
+
+## 3.3 El Cuaderno de capas — ocho preguntas fijas y ocho dobletes
+
+Un fichero, ocho entradas de una cara. Cada entrada: la pregunta fija con sus seis casillas (§1.6) más
+el doblete con su veredicto. **Es el curso entero en su lenguaje y sin nombres de producto.**
+
+Su lista de comprobación es binaria y de diez segundos:
+
+- ¿Están rellenas **las seis** casillas de la pregunta fija? SÍ/NO
+- ¿Aparece algún nombre de producto fuera de la línea de techo? SÍ/NO
+- ¿El techo dice algo que la capa **no puede hacer**, y no algo que ella todavía no sabe hacer? SÍ/NO
+- ¿El doblete tiene veredicto firmado? SÍ/NO
+- Al cerrar el curso: ¿hay **al menos tres** dobletes con veredicto «no aplica»? SÍ/NO
+
+## 3.4 La Lista de techos — el catálogo, generado por el propio recorrido
+
+No se lee: **se escribe**, una fila al cerrar cada capa, a partir de la parte 3 de la pregunta fija.
+Tres columnas, y la tercera es la que convierte un catálogo en criterio:
+
+| Lo que esta capa no puede hacer | La clase de cosa que sí podría | Qué tendría que cambiar para que me tocara |
+|---|---|---|
+| Un asistente guardado recuerda sus instrucciones, **no recuerda lo que pasó ayer** | Un sistema con memoria persistente y auditable | Que necesitara continuidad entre sesiones **y** pudiera comprobar qué recuerda. Hoy no puedo auditarlo, así que no me fío |
+| Un disparador por horario **no reacciona a que haya pasado algo** | Un disparador por suceso | Nada: eso es la capa siguiente. *(Esta fila se tacha en la capa 3, y tacharla es el ejercicio)* |
+| Mi automatización **no puede tocar los ficheros compartidos** de la academia | Herramientas de automatización externas, o un permiso delegado sobre el recurso compartido | Que alguien me delegue una etiqueta o una carpeta propia dentro del buzón compartido, **o** que el flujo tenga que tocar algo fuera de esta suite: entonces la siguiente parada es una plataforma de automatización externa |
+| Un flujo con juicio **sigue siendo un camino que dibujé yo** | Un agente: le das el objetivo y los límites y él decide los pasos | Que aparezca una tarea cuyos pasos no pueda dibujar de antemano **y** que exista un plan que lo incluya **y** que los datos lo permitan. Hoy fallan las tres |
+| Nada de lo mío **puede procesar decenas de ficheros locales de golpe** | Un agente con acceso al sistema de ficheros | Una tarea repetida del tipo «revisar 200 contratos de estancia larga buscando una cláusula» |
+
+**Cuatro propiedades que hacen que esto no muera:**
+
+1. **La tercera columna es la que no caduca.** Un catálogo dice qué hay; esta columna dice bajo qué
+   condición cambiaría su decisión. «Tocar algo fuera de esta suite» seguirá siendo verdad cuando todo
+   se llame de otra manera.
+2. **Cada fila se escribe en el momento en que el proceso choca con el techo**, no en un módulo de
+   panorama. La fila del agente se escribe en la capa 4, cuando ya tiene un flujo con juicio y entiende
+   exactamente qué le falta.
+3. **La escribe ella.** Un fichero copiado no se relee; uno escrito, sí.
+4. **Tachar una fila es un ejercicio.** Cuando la capa siguiente rompe el techo anterior, se tacha con
+   fecha. La lista se lee, al final, como el registro de por dónde ha ido subiendo.
+
+## 3.5 El Cuaderno de evidencias — el hilo barato de la evangelización
+
+Tres líneas al cerrar cada capa, el día que el artefacto empieza a funcionar. Coste: dos minutos.
+
+```
+CAPA __ · fecha ______
+- Qué hacía yo antes, y cuántos minutos por unidad:
+- Qué hace ahora, y cuántos minutos por unidad:
+- Qué NO hace, y qué sigo haciendo yo:
+```
+
+Existe desde la semana 3 por una razón operativa, no ceremonial: **si M7 tuviera que fabricar las
+pruebas al final, las inventaría.** Un número reconstruido de memoria en la semana 16 no es un número.
+Y la tercera línea —*qué NO hace*— es la que después hace creíble a todo el dossier: quien enumera los
+límites de su propio sistema se gana el derecho a que le crean el resto.
+
+---
+
+# 4. MAPA DE MÓDULOS
+
+**Ocho módulos, 18 semanas, 2 h propias/semana** más el trabajo que es trabajo del puesto. Arranque en
+**octubre**: el pico de junio–septiembre de la academia (250–400 correos/día) mata cualquier calendario
+que lo ignore, y noviembre–febrero es su temporada baja.
+
+**Una frontera declarada desde la semana 1, y esto es diseño anti-abandono, no una rebaja:**
+
+> **Al terminar M4 (semana 11) ya hay curso:** un proceso suyo funcionando, en uso, con frenos y con
+> apagado probado. **M5, M6 y M7 son donde se cobran los objetivos 4 y 5** —criterio portátil y
+> evangelización— y son la parte que más rinde a doce meses vista. Decirlo así, y no fingir que las
+> dieciocho semanas son un bloque indivisible, es lo que evita que la semana 12 se lea como fracaso.
+
+Formato de cada ficha: **título · cambio mental · qué construye · duración realista · qué capacidad
+entrena y cómo se enseña de forma transferible · cómo se autocorrige sin mentor · el doblete · la
+pregunta fija**.
+
+Estructura fija de módulo (heredada de `dominio-autodidacta.md` §5.3, y no se toca):
+**3 sesiones núcleo de 35–45 min + 1 bloque de proyecto de 60–90 min en horario de trabajo + el cierre
+de capa (pregunta fija + doblete + columna nueva de la Tira, 40 min).**
+
+---
+
+## M0 · Capa 0 — Ver el proceso, y elegir cuál (semanas 1–2)
+
+**Cambio mental.** Tres, y el tercero es el que más cuesta.
+*«Lo primero no es la IA: es mirar qué hago realmente.»*
+*«Lo que creo que hago y lo que hago no son lo mismo, y la diferencia es exactamente lo que rompería una
+automatización.»*
+*«El mismo texto en la misma pantalla es seguro o inseguro según con qué cuenta haya entrado.»*
+
+**Qué construye.**
+1. **Día 1, 25 minutos: la primera victoria, dentro del proceso candidato.** Instrucciones permanentes
+   guardadas —quién es, dónde trabaja, en qué idiomas escribe, qué tono usa, qué no debe hacer nunca— y
+   usadas **hoy** sobre un correo real que tiene pendiente. Cronometrado antes y después. Sin instalar
+   nada, sin pedir nada a nadie, sin hablar con nadie. **El mapa del curso va después de este resultado,
+   nunca antes.**
+2. **Días 2–3: el embudo de noventa minutos** (§1.6 A1) y **la prueba de la sombra** (§1.6 A2).
+3. **`00-como-se-hace-de-verdad.md`**: el proceso descrito como se ejecuta —disparador, documentos que
+   abre, decisiones que toma que no están escritas, salida y a dónde va—, escrito **a partir de la hoja
+   de sombra**, no de memoria.
+4. **La ficha del entorno**: qué plan, si su cuenta tiene licencia, qué retención, si hay política
+   escrita — con los mensajes literales para copiar y pegar y las comprobaciones empíricas por si nadie
+   contesta.
+5. **La tarjeta del lunes** impresa al lado de la pantalla: el semáforo verde/ámbar/rojo.
+6. **Proceso de repuesto nombrado y firmado.**
+
+**Duración realista.** 2 semanas. **~2 h de tiempo propio** (25 min el día 1 + 90 min del embudo + 25
+min de la ficha del entorno), más 3 min/día de sombra y el cronometraje, que **son tiempo de trabajo**.
+El material lo declara así, línea a línea.
+
+**Qué capacidad entrena y cómo se enseña transferible.**
+Capacidad: **mirar un proceso y describirlo como es**. Es la más portátil del curso y la que ella pide
+con el nombre de «criterio portátil», y se enseña transferible por construcción:
+- **Se describe por observación, no por introspección.** Muestreo de eventos, tres campos, dos días. Ese
+  método vale para cualquier proceso de cualquier empresa en cualquier año, y no menciona ninguna
+  tecnología.
+- **Las cuatro preguntas que definen cualquier plan de cualquier proveedor** sustituyen a la tabla de
+  planes: *¿entrenan con lo que escribo? ¿cuánto lo guardan y quién decide? ¿dónde se procesa? ¿hay
+  contrato de encargado del tratamiento?* Más la quinta, que suele decidir de verdad: *¿alguien lo ha
+  configurado y ha dejado dicho por escrito qué se puede meter?* Es el ejemplo más limpio del curso de
+  criterio frente a clic, y va el primero a propósito.
+- **El techo de la capa:** describir un proceso no lo mejora. Una descripción no contesta correos.
+
+**Cómo se autocorrige.**
+- **Ejecución real.** El correo del día 1 salió mejor y en menos tiempo, o no. Cronómetro, no opinión.
+- **La prueba de la sombra tiene tres criterios de rechazo observables** (§1.6 A2). No hay nada que
+  valorar: se mira la hoja.
+- **La comprobación que más caza, y cuesta un minuto:** *¿tu descripción contiene al menos dos
+  decisiones que no estaban en tu idea previa del proceso?* Si no las contiene, la escribiste de
+  memoria y hay que volver a la sombra. Esta es la única forma sin mentor de detectar el error más
+  caro de la capa.
+- **La pantalla corrige el plan.** Las comprobaciones empíricas se corrigen solas, y enseñan de paso lo
+  que necesitará cuando el material envejezca: **la documentación dice una cosa y la instancia dice
+  otra, y manda la instancia.**
+- **Rúbrica de la ficha del entorno, ocho casillas, con un estándar de suspenso brutal y muy útil:**
+  *si en algún punto has escrito «creo que», «supongo que» o «me suena que», está mal resuelto.* «No lo
+  sé y lo pregunté el día 14» sí vale. Distinguir lo que sabes de lo que supones es el mismo estándar
+  que necesitará para evaluar respuestas de una IA, y por eso va el primero.
+
+**Caja obligatoria «lo que vas a ver la primera vez».**
+*«Vas a descubrir dos cosas incómodas. La primera: que este proceso lo haces menos veces de las que
+crees, o más. La segunda: que en dos días has tomado tres o cuatro decisiones que no están escritas en
+ningún sitio de la academia, y que solo sabes tú. Eso no es un fallo del ejercicio. Eso es el activo
+del curso: es lo que ninguna herramienta puede darte hecho, y es la razón por la que este curso lo
+puedes hacer tú y no un informático.»*
+
+**Doblete (20 min): P29, emergencias 24 h.** Aplicar la capa 0 a un proceso que **no se va a delegar
+nunca**. Veredicto correcto: describirlo sirve —para tener el protocolo escrito— pero no para
+entregarlo. Enseña que mapear un proceso no compromete a automatizarlo, que es justo el reflejo que
+hay que romper.
+
+**Pregunta fija.** *Lo que vale para cualquier proceso: observar dos días en vez de recordar, y anotar
+las decisiones no escritas. Lo que era de este: los tres documentos concretos que abro. Lo que vale con
+cualquier herramienta: las cinco preguntas del régimen de datos. Lo que era de esta: dónde se mira el
+distintivo. Techo: una descripción no hace el trabajo.*
+
+**Punto de consulta PC-1** al final de la semana 2 (§7).
+
+---
+
+## M1 · Capa 1 — Qué es hacerlo bien, y qué trozos no entrego (semanas 3–4)
+
+**Cambio mental.** Dos, y son los dos más caros del curso.
+*«El cuello de botella no es el prompt: es que nadie ha escrito nunca qué cuenta como respuesta
+correcta en esta tarea.»*
+Y el segundo, que ella no tiene que creer por autoridad porque lo deduce de algo que sabe desde tercero
+de carrera:
+
+> **Un modelo de lenguaje es el instrumento con la validez aparente más alta y la garantía de validez
+> de contenido más baja que vas a manejar en tu vida. Está optimizado para producir texto plausible: la
+> plausibilidad es su función objetivo, no un efecto secundario.**
+
+**Qué construye.**
+1. **La línea de corte** (`01-linea-de-corte.md`): el proceso partido en trozos, y cada trozo con
+   veredicto — *lo entrego · lo entrego con revisión mía antes de que salga · se queda conmigo*— y el
+   motivo escrito. **Es el entregable más importante del módulo y el que la rúbrica protege más duro.**
+2. **La ficha de criterio** (EP-01 de `dominio-psicologia.md`): definición en una frase, 4–6
+   dimensiones, un indicador observable por dimensión, críticos marcados, punto de corte. **Una cara.**
+3. **Las anclas de tono** (EP-02): tres frases completas —bajo, medio, alto— para dos dimensiones,
+   sacadas de correos que envió de verdad. Ese fichero **es** el contexto de tono de la capa 2, no un
+   calentamiento.
+4. **Los diez apartados** (EP-06): diez casos reales sacados **por orden cronológico, no elegidos**, y
+   cerrados antes de escribir una línea de instrucción.
+5. **La Tira**, primera y segunda columna: la batería pasada contra cómo lo hace hoy, y contra la
+   primera versión con criterio.
+
+**Duración realista.** 2 semanas. Es el módulo más denso en trabajo mental y **el más ligero en clics
+de todo el curso**: casi todo es un documento. Su sesión 1 empieza pasando la batería contra su forma
+actual de trabajar y viendo que saca 4 de 10, para que la ficha de criterio nazca como respuesta a un
+fallo observado y no como deberes previos.
+
+**Qué capacidad entrena y cómo se enseña transferible.**
+Capacidad: **operacionalizar**. `dominio-psicologia.md` C1 la marca como transferencia FUERTE: es la
+misma operación que hizo en la carrera, con otro objeto. Y hay un matiz que hay que dar en el mismo
+párrafo porque le ahorra una pregunta: **aquí no estás estimando nada, estás decidiendo**. No hay
+criterio verdadero que descubrir; hay criterio explícito y defendible, o no hay nada.
+Transferibilidad: la ficha de criterio no menciona ninguna herramienta por construcción, y la batería
+—5 típicos, 3 límite, 2 de rechazo, con tabla de especificaciones— es un instrumento que se pasa a
+cualquier cosa que produzca texto.
+
+**Cómo se autocorrige.**
+- **Ctrl+F sobre la ficha de criterio.** Si aparecen «adecuado», «correcto», «natural», «profesional» o
+  «de calidad» **sin un ancla detrás**, no ha operacionalizado: ha renombrado el constructo.
+  Autocorrección mecánica perfecta, cinco segundos.
+- **Prueba de tamaño:** la ficha cabe en una cara. Una rúbrica de dos páginas no se usa nunca.
+- **Rúbrica de la línea de corte, con dos criterios negativos que deciden el módulo:**
+  *(a) si no hay ningún trozo que se quede contigo, está mal resuelto — vuelve;*
+  *(b) si el motivo de algún «se queda conmigo» es «es difícil», está mal: los motivos legítimos son
+  riesgo, conocimiento que caduca, o que no existe una fuente de verdad que consultar.*
+- **Los diez apartados se abren al final, y tiene que fallar al menos uno.** Si no falla ninguno,
+  sospecha del muestreo antes que celebrar: *si tu batería la pasa entera a la primera, tu batería es
+  fácil; no es que tu sistema sea bueno.*
+- **Y el criterio no se toca.** Si al abrirlos le dan ganas de cambiar la ficha para que aprueben, **lo
+  anota y no lo cambia**. Ese impulso es el dato más interesante del ejercicio y tiene nombre: sesgo
+  del experimentador.
+- **El primer cebo (control positivo).** El curso trae una **línea de corte de mentira**, de una
+  academia inventada, con **tres defectos plantados y documentados** en un fichero sellado: uno visible
+  (un trozo con datos rojos marcado como «lo entrego»), uno de omisión (falta el trozo de revisión
+  humana antes de que algo salga), y uno de criterio (un trozo determinista clasificado como si
+  necesitara un modelo). Ella lo corrige con la rúbrica y **después** abre la hoja de defectos. Si
+  encuentra 1 o 0, **ese tipo de trabajo no se corrige con IA en el resto del curso**.
+- **El protocolo de corrección con IA, siete reglas**, primera aplicación: hilo nuevo · no digas que es
+  tuyo · nunca «¿está bien?» sino «enumera los incumplimientos de esta rúbrica y cita textualmente el
+  fragmento que los incumple» · pega la rúbrica entera · **prohibido discutir en el mismo hilo** · dos
+  modelos, y el desacuerdo es la señal, no el veredicto · su veredicto no cierra nada.
+
+**Checkpoint de divorcio, al final del módulo.** Cambiar de proceso es legítimo y está preautorizado
+desde la semana 1, y **cuesta unas dos horas** (§1.6 A3).
+
+**Doblete (20 min): P02, presupuestos.** Escribir su ficha de criterio hace visible que todos los
+indicadores se cumplen con una fórmula sobre la tabla de precios: número de semanas × tipo de curso ×
+alojamiento × suplemento de julio-agosto × descuento por volumen. Veredicto: **aquí no hace falta IA**,
+y meter un modelo de lenguaje no es ineficiente, **es introducir un error posible donde no lo había**.
+Es el ejemplo canónico del escalón −1 y viene del árbol de decisión de la referencia, que corta en los
+dos sentidos.
+
+**Pregunta fija.** *Techo de la capa: un criterio escrito no produce respuestas; solo permite juzgarlas.*
+
+---
+
+## M2 · Capa 2 — Que sepa de dónde sale cada dato (semanas 5–6)
+
+**Cambio mental.** *«La memoria fiable es un fichero, no una sensación.»* Y la tríada que los
+principiantes mezclan siempre y que la referencia nombra bien: **fuente de verdad** (hechos, desde una
+sola dirección) ≠ **memoria** (acuerdos que permanecen) ≠ **procedimiento** (pasos y formato).
+
+**Qué construye.**
+1. **El mapa de datos del proceso** (§9): cada dato que atraviesa el proceso, su color, en qué punto
+   del flujo entra y en cuál hay que quitarlo. Una cara.
+2. **Las fuentes**, con **fecha y dueño en la primera línea de cada una**. Para su proceso, las que
+   toque: tarifario vigente, calendario académico, condiciones generales, protocolo de incidencias,
+   FAQ. Tarifas, calendario y condiciones **no son datos personales**: se puede empezar en verde.
+3. **El asistente v2**, que responde citando el documento y su fecha, y que **dice «no lo sé»** cuando
+   la respuesta no está.
+4. **La prueba de traslado** (§5.4).
+5. **La Tira**, tercera columna.
+
+**Duración realista.** 2 semanas.
+
+**Qué capacidad entrena y cómo se enseña transferible.**
+Capacidad: **contexto con procedencia**. Tres piezas transferibles, ninguna con nombre de producto:
+- **Citar no es un adorno: es lo que hace que revisar cueste cinco segundos en lugar de una
+  investigación**, y por eso es lo que hace que la revisión se siga haciendo en julio.
+- **«No lo sé» es una respuesta correcta, hay que exigirla explícitamente y hay que probarla a
+  propósito.** Un sistema que nunca dice «no lo sé» no es que lo sepa todo: es que no lo has probado
+  bien.
+- **Una fuente sin fecha y sin dueño no es una fuente**, es un papel. El dueño es quien puede
+  cambiarla; la fecha es lo que te dice si mirarla.
+
+**Cómo se autocorrige.**
+- **La batería, tercera columna.** Umbral: falla >0 de los 5 típicos → no está listo; se inventa una
+  decisión en alguno de los 3 límite (aunque acierte) → no está listo; contesta algo distinto de «no lo
+  sé» en alguno de los 2 de rechazo → no está listo.
+- **Lista de comprobación binaria, diez ítems observables:** *¿cada fuente tiene fecha en la primera
+  línea? ¿cada fuente tiene un nombre de persona como dueño? ¿alguna respuesta cita un documento que no
+  está en las fuentes? ¿hay una frase que diga qué hacer cuando falta un dato? ¿he subido el maestro de
+  algo, en vez de una copia?*
+- **La prueba de la compañera**, sobre tres casos seudonimizados: *¿podría [nombre de una compañera
+  concreta] saber de quién hablo leyendo esto?* Si sí, sigue quitando. Y el criterio del otro lado, que
+  es el que casi nadie pone: **el prompt resultante tiene que seguir sirviendo**; si la respuesta que
+  da es inservible, has quitado contexto que no era identificador.
+- **PC-2 aquí** (§7): es el momento exacto en que pasa de pegar texto a subir ficheros, que es donde
+  cambia el orden de magnitud del riesgo.
+
+**Doblete (20 min): P08, carta de aceptación para visado.** Veredicto: **no aplica**, y el motivo
+transferible es el que hay que saber decir: *«la normativa de extranjería cambia de un año para otro
+—el Reglamento y sus instrucciones se reordenaron en 2025—, y congelar dentro de un artefacto un
+conocimiento que caduca es fabricar un error futuro.»* Es el doblete que mejor entrena el criterio
+portátil, porque **no metas conocimiento volátil dentro de un artefacto** vale para cualquier dominio.
+
+**Pregunta fija.** *Techo de la capa: un asistente guardado recuerda sus instrucciones, no recuerda lo
+que pasó ayer; y sigue esperando a que tú lo abras.*
+
+---
+
+## M3 · Capa 3 — Que ocurra sin que lo pidas (semanas 7–8)
+
+**Cambio mental.** *«Automatizar no es una herramienta nueva: es quitar el dedo del disparador.»* Es el
+momento psicológico del curso —la primera vez que algo pasa sin que ella lo pida— y por eso llega en la
+semana 7 y no en la 14.
+
+**Qué construye.** El trozo de su proceso que la línea de corte marcó como entregable, **con
+disparador**. Y las tres piezas que lo convierten en un sistema y no en un juguete:
+1. **El disparador**, con su tipo declarado (por horario o por suceso) y su justificación.
+2. **El tope**: *si la lista supera N, no hagas nada y avísame.* Un sistema que genera cuarenta
+   borradores un lunes de julio no ayuda, entorpece. **Enseñar a poner topes es enseñar diseño.**
+3. **El apagado, probado de verdad**, no imaginado.
+
+Y la regla que gobierna la capa entera y que va en negrita en el material:
+
+> **Automatiza la lectura y la preparación. La escritura hacia fuera la firma una persona.**
+>
+> Y la razón, que no es prudencia sino diseño de aprendizaje: **si el artefacto solo prepara, todos sus
+> errores son recuperables, y por eso puedes permitirte equivocarte mucho — que es exactamente lo que
+> hace falta para aprender.** Un curso construido sobre artefactos que envían no puede permitírselo.
+
+**Duración realista.** 2 semanas, y es el primer módulo con probabilidad real de desbordarse. Dos
+sesiones de 45 min de tiempo propio más un bloque de proyecto de 90 min en horario de trabajo.
+
+**Qué capacidad entrena y cómo se enseña transferible.**
+Capacidad: **disparador**. La transferencia es limpia porque la anatomía es universal: **hay
+disparadores de calendario y disparadores de suceso, y la diferencia entre los dos es el techo del
+módulo**. Un lunes no es un suceso; que entre un correo, sí. Eso será verdad en cualquier herramienta
+durante años.
+Y el segundo principio transferible, que decide entre herramientas de automatización en cualquier año:
+
+> **Automatiza donde ya viven tus datos.** La que reutiliza lo que ya tienes gana a la más potente. Y
+> la que mete a un proveedor nuevo entre tus datos y tú tiene que ganar por mucho para compensarlo —
+> especialmente cuando esos datos incluyen pasaportes, alojamientos y menores.
+
+**Los límites, por delante y no al tercer intento fallido.** En la primera página del módulo, no en una
+fe de erratas: la automatización nativa de su entorno **falla con unidades compartidas, carpetas
+compartidas y hojas con referencias externas** [V]; un solo disparador por flujo; tope de etiquetas
+visibles. Como la cuarta columna del embudo de M0 ya descartó los procesos que solo viven en recursos
+compartidos, aquí esto **no debería ser una sorpresa sino una confirmación** — y esa es exactamente la
+función de haber puesto la restricción en el criterio de elección.
+
+**Cómo se autocorrige.**
+- **Se dispara o no se dispara.** El corrector más fiable que existe, y aquí está entero.
+- **La prueba de los cinco casos fabricados**, uno por categoría, y **un sexto que NO debe disparar**,
+  que es el que casi nadie prueba. Cinco salidas correctas y una no-salida, o no las hay.
+- **La prueba de apagado.** Se apaga de verdad y se vuelve a encender. *Un sistema que no sabes apagar
+  no está terminado.*
+- **La prueba del tope:** meterle un lote grande a propósito y comprobar que se detiene.
+- **Lista de comprobación de plataforma, seis ítems binarios**, escrita como síntomas y reutilizable
+  como diagnóstico: *¿el fichero que toca está en una unidad compartida? ¿la hoja usa referencias
+  externas? ¿tiene más de un disparador? ¿hay algún paso que escriba fuera? ¿lo he probado con un caso
+  que debe NO disparar? ¿sé cómo se apaga y lo he apagado?*
+- **La Tira, cuarta columna.** Y aquí la lectura correcta es la contraintuitiva y hay que darla escrita:
+  *si la calidad ha mejorado respecto a la capa 2, sospecha: probablemente reescribiste el criterio por
+  el camino, y eso es mérito tuyo, no del disparador.*
+- **PC-4, el comodín**, disponible desde aquí.
+
+**Doblete (20 min): P30, el parte semanal a dirección académica.** Determinista puro. Veredicto: aplica
+igual, **con la mínima IA posible en el camino crítico**. Enseña que «automatizar» no significa «meter
+un modelo», que es la confusión más extendida y la que más caro sale.
+
+**Pregunta fija.** *Techo de la capa: un disparador por horario no reacciona a que haya pasado algo; y
+un camino fijo se traga en silencio el caso que no previste.*
+
+---
+
+## M4 · Capa 4 — Juicio donde hace falta, frenos donde hace falta (semanas 9–11)
+
+**Tres semanas, no dos.** Es el único módulo al que se le da aire antes del final, y se dice por qué:
+es la frontera conceptual del curso y el punto donde más gente se cae.
+
+**Cambio mental.** Dos.
+*«Un agente no es una automatización mejor: es una automatización que **ha renunciado a ser
+predecible** a cambio de poder afrontar casos que no previste. En atención al cliente esa renuncia se
+paga a conciencia y solo donde compensa.»* Y la dirección del error que casi nadie enseña: **un agente
+puede ser exceso.** Si los pasos son fijos, meterle juicio lo hace más caro, más lento y menos
+auditable.
+Y el segundo: *«el riesgo no es el del día 1, es el del día 60.»* Sesgo de automatización: a la tercera
+semana se deja de revisar. **La confianza no es una salvaguarda.**
+
+**Qué construye.**
+1. **El juicio, confinado a dos o tres puntos concretos** de su proceso, cada uno con su criterio
+   escrito y justificable.
+2. **La lista de temas prohibidos** (`04-frenos.md`), en negativo y sin matices: *nunca respondas sobre
+   requisitos o plazos de visado; nunca cites importes; nunca confirmes disponibilidad de alojamiento;
+   nunca respondas a una queja formal; nunca menciones salud. Si el tema aparece, escribe SOLO: DERIVAR
+   A PERSONA, y para.*
+3. **Las condiciones de parada**: cliente enfadado, mención de abogado u hoja de reclamaciones, salud,
+   menor implicado, importe por encima de X, o simplemente no encontrar la respuesta en sus fuentes.
+4. **El punto de revisión humana, con nombre propio.**
+5. **El plan para cuando falle**, en cinco pasos: detectar, parar, reparar con la persona (llamada, no
+   correo), corregir el sistema añadiendo ese caso a la batería, y valorar si hay brecha de datos —
+   **esto último no lo decide ella [!]**, lo escala el mismo día.
+6. **La Tira**, quinta columna.
+
+**Duración realista.** 3 semanas.
+
+**Qué capacidad entrena y cómo se enseña transferible.**
+Capacidad: **juicio acotado y condiciones de parada**. Y aquí va la honestidad incómoda, dicha sin
+disculparse porque es cierta y porque lo alcanzable es lo que se sostiene:
+
+> **Su escalón 3 realista es «un proceso con juicio en dos o tres puntos», no «un agente autónomo que
+> gestiona el buzón».** La barrera número uno no es técnica ni de capacidad suya: es **de licencia**
+> —los agentes de verdad están detrás de planes que su empresa casi con seguridad no tiene [V]—, de
+> **permisos** —un agente útil necesitaría el buzón compartido y la hoja de camas—, y de **datos** —sus
+> procesos de más volumen mezclan salud, religión, menores y documentación de identidad—.
+
+Lo transferible de la capa no depende de nada de eso: **la condición de parada es lo que separa un
+asistente de un problema**, y se escribe igual en cualquier herramienta y en cualquier empresa. La
+lección desarrollada de §12 es precisamente esta.
+
+**Cómo se autocorrige.**
+- **Cinco casos de parada fabricados que DEBEN parar.** Si alguno no para, no está listo. Comprobación
+  pura, cero rúbrica.
+- **Rúbrica con criterios negativos y salida escrita obligatoria** (sin «no aplica»): la lista de temas
+  prohibidos incluye **importes, plazos de visado, disponibilidad y salud aunque su proceso no los
+  toque hoy** —los sistemas se expanden solos y la lista se escribe para el sistema de dentro de seis
+  meses—; la respuesta a «quién revisa antes de que salga» es **una persona con nombre**, no «se
+  revisa»; y **ninguna salida llega a un cliente sin que alguien le dé a enviar** — si su diseño lo
+  permite, vuelve al principio.
+- **Verdadero/falso de doce ítems** sobre el marco de datos (E-05 de `dominio-rgpd.md`), autocorrección
+  instantánea. Menos de 10 aciertos → releer.
+- **Segundo cebo**, ahora sobre una lista de frenos: cierra el ciclo de control positivo y detecta si su
+  corrector se ha degradado en dos meses.
+- **PC-5 al final del módulo** (§7).
+
+**Doblete (20 min): P28, respuesta a reseñas online.** Veredicto: **aplica con cambios** — clasificar y
+preparar sí, publicar **nunca**. Y el motivo no es de calidad, es de RGPD: confirmar públicamente que
+alguien fue alumno y tuvo un problema **ya es una cesión de datos**. Es el doblete que mejor enseña que
+un freno puede venir de un sitio que no es la calidad del texto.
+
+**Pregunta fija.** *Techo de la capa: un flujo con juicio sigue siendo un camino que dibujé yo; y sigue
+sin decirme si esto sirve para algo.*
+
+---
+
+## M5 · Capa 5 — Medirlo sin engañarme (semanas 12–13)
+
+**Cambio mental.** *«Que el sistema se ejecute cada lunes no es que sirva. Puede ejecutarse
+impecablemente y no cambiar nada, porque el informe que produce no lo lee nadie o porque los borradores
+se reescriben siempre.»* **Evaluación de proceso ≠ evaluación de resultado.**
+
+**Qué construye.**
+1. **Media página de evaluación, con fecha**: el número antes (de la hoja de sombra de M0, medida
+   **antes** de construir nada, que es lo que la hace honesta), el número después, el **coste completo**
+   —montaje + revisión + mantenimiento—, **cuál de las seis amenazas a la validez interna podría
+   explicar el resultado** y qué mediría para descartarla.
+2. **La prueba ciega** (EP-08, «el ejercicio con mejor relación valor/esfuerzo del curso»): cinco
+   respuestas suyas de hace meses y diez salidas del sistema sobre casos comparables, sin marcas de
+   origen, **barajadas por otra persona**, puntuadas con la ficha de criterio de M1.
+3. **La cadena causal en cinco flechas** (EP-14), con el eslabón que no depende de ella subrayado.
+4. **La lectura completa de la Tira**: una frase escrita por columna diciendo qué aportó esa capa. Si
+   no puede escribir esa frase para alguna columna, esa capa no le aportó nada, y merece la pena
+   saberlo.
+
+**Duración realista.** 2 semanas. La prueba ciega es una tarde.
+
+**Qué capacidad entrena y cómo se enseña transferible.**
+Capacidad: **medir si sirve**. Es la más portátil de todas y la que ningún curso de IA da, porque es
+metodología y no producto. Se enseña con su vocabulario **declarando el préstamo**: *«en el mundo de la
+IA a la batería la llaman evals o tests de regresión; el nombre psicométrico —ítems ancla— dice mejor
+para qué sirven, que es hacer comparables dos momentos distintos.»*
+
+**Herramienta y por qué: una hoja de cálculo, un cronómetro y una persona que baraje.** Deliberado: **la
+evaluación no se hace con la herramienta evaluada.** Pedirle a un modelo que juzgue lo que él mismo
+produjo acumula dos sesgos documentados —preferencia por lo verboso y auto-preferencia— que apuntan al
+mismo desastre: aprobar por construcción.
+
+**Cómo se autocorrige.**
+- **La prueba ciega es autocorrección en estado puro.** No hay rúbrica que discutir: o acierta
+  identificando cuáles eran suyas, o no; o ganan las suyas, o no. Y el patrón que aparece casi siempre
+  —el sistema empata o gana en las dimensiones no críticas y pierde en la exactitud del dato— **le dice
+  exactamente dónde poner la revisión humana**, que es la decisión que el curso entero perseguía.
+- **Prohibiciones de vocabulario como comprobación mecánica.** Si aparece «significativo», está mal:
+  aquí no se estima un parámetro poblacional, se comprueba la cobertura de un instrumento contra un
+  criterio fijado. Si la medida es «horas a la semana» en vez de **minutos por unidad**, está mal: es
+  lo único que sobrevive a que su volumen se multiplique por tres entre febrero y julio.
+- **La resta obligatoria.** Si no ha restado revisión y mantenimiento, está mal. Y si el saldo es
+  negativo y aun así quiere conservarlo por otra razón —menos errores, menos carga mental, respuesta
+  más rápida al cliente—, **que lo diga y mida esa otra razón**: es legítimo, pero entonces el ahorro de
+  tiempo no era el objetivo.
+- **Una amenaza que no puede descartar, nombrada obligatoriamente.** Un pre-post de un solo grupo nunca
+  las descarta todas, y decirlo es lo que separa un dato de un argumento comercial. Las seis, traducidas
+  a su caso: historia (septiembre no es julio), maduración (ella misma ha mejorado en la tarea),
+  regresión a la media (eligió lo que más dolía, y lo que más duele suele medirse en su peor semana),
+  instrumentación, reactividad de la medida (la semana que se cronometra se trabaja más rápido — y este
+  juega **a favor**: el ahorro real es mayor que el medido) y atrición (si deja de usarlo los días de
+  agobio, la muestra final son los días tranquilos).
+- El único favor humano del módulo —**barajar**— son cinco minutos y **no consume punto de consulta**:
+  vale cualquier compañera.
+
+**Caja obligatoria «lo que vas a ver la primera vez».** *«Es posible que el ahorro sea menor de lo que
+esperabas. Si eso pasa, es un resultado del curso, no un fracaso tuyo — y es exactamente el tipo de
+resultado que casi nadie publica. Antes de decidir nada, comprueba las dos cosas que casi siempre lo
+explican: que estés midiendo por unidad y no por semana, y que hayas contado el tiempo de revisión en el
+lado correcto de la resta.»*
+
+**Doblete (20 min): P12, el check-in del lunes.** Veredicto: **no aplica limpiamente.** El valor de ese
+proceso es que fija la percepción de calidad de toda la estancia, y eso no se mide en minutos por
+unidad. Es **deficiencia del criterio** (`dominio-psicologia.md` C2b) con un caso de su casa, y enseña
+la vacuna contra la métrica de vanidad mejor que cualquier explicación.
+
+**Pregunta fija.** *Techo de la capa: medir dice si sirve hoy, no si seguirá sirviendo cuando cambie el
+tarifario ni cuando yo no esté.*
+
+---
+
+## M6 · Capa 6 — Que sobreviva sin ti (semanas 14–15)
+
+**Cambio mental.** *«Un sistema sin dueño y sin fecha se degrada. Y cuando se degrada, el recuerdo que
+queda en la empresa no es “faltaba mantenimiento”: es “aquello de la IA no funcionaba”.»*
+
+**Qué construye.**
+1. **La ficha de traspaso** (`06-traspaso.md`): qué fuente caduca y cada cuánto · **quién la revisa, con
+   nombre** · qué batería se vuelve a pasar cuando se toque algo · cómo se apaga, probado · y qué hacer
+   el día que falle.
+2. **El calendario de revisión**, con la próxima fecha escrita: cuándo se vuelve a pasar la Tira, cuándo
+   se revisan las fuentes, cuándo se revisa la Lista de techos.
+3. **La rúbrica escrita por ella**, con al menos tres criterios negativos, sin usar la del curso — y
+   **validada contra un cebo**: si el cebo pasa su rúbrica, su rúbrica es blanda y se rehace.
+4. **El apéndice del escalón 4**, marcado como opcional y como lectura (§10.2).
+
+**Duración realista.** 2 semanas, con aire.
+
+**Qué capacidad entrena y cómo se enseña transferible.**
+Capacidad: **hacer que un artefacto sobreviva a su autora**. Es puramente organizativa, no tiene nada
+de tecnológica y es la que más vale dentro de tres años y en otra empresa. Las tres preguntas que la
+componen valen para cualquier cosa que alguien monte en cualquier sitio: *¿qué de esto caduca y cada
+cuánto? ¿quién es la persona que lo mira? ¿cómo se apaga?*
+
+**Cómo se autocorrige.**
+- **La validación de su rúbrica contra un cebo** es un control positivo aplicado al instrumento que ella
+  misma acaba de fabricar, y **es el criterio honesto de que ha terminado el curso**: cuando escribe las
+  rúbricas, ya no lo necesita.
+- **Lista binaria de la ficha de traspaso:** *¿hay un nombre de persona en «quién lo mantiene»? ¿hay una
+  fecha en cada fuente? ¿hay una fecha en «próxima revisión»? ¿está probado el apagado? ¿alguien que no
+  sea yo podría encontrar la carpeta?*
+- **La prueba del hueco:** dejar el sistema una semana sin tocarlo y comprobar qué se ha desactualizado.
+  Es barata y es la única forma de ver la degradación antes de que la vea un cliente.
+
+**Doblete (20 min): P32, mantenimiento de plantillas y FAQ.** Veredicto: **aplica igual**, y el
+diagnóstico correcto es que ahí el problema no es que falte automatización, sino que **falta una fuente
+de verdad**: se actualiza la versión española del tarifario y las otras cinco se quedan viejas durante
+meses. Es el riesgo «alto y silencioso» del inventario. Y es un hallazgo **que aportar**, no un fracaso:
+en una empresa donde lo mal visto es no automatizar, llegar diciendo *«esto todavía no se puede
+automatizar porque no sabemos cuál es el tarifario vigente en alemán»* es trabajo de valor. Va derecho
+al dossier de M7.
+
+**Pregunta fija.** *Techo de la capa: un sistema puede estar impecablemente mantenido y no usarlo nadie
+más que yo.*
+
+---
+
+## M7 · Capa 7 — Que lo adopten: evidenciar y contagiar (semanas 16–18)
+
+**El módulo adicional que el brief reincorpora.** Desarrollado entero en §6.
+
+**Cambio mental.** *«Un artefacto que solo funciona conmigo delante no es un sistema de la academia: es
+una manía mía. Lo que hace que otros lo adopten no es convencerles: es que puedan usarlo sin mí, y que
+yo pueda enseñar el número y decir también qué no hace.»*
+
+**Qué construye.** El **dossier de una cara** · la **demo de tres minutos** guionizada y cronometrada ·
+**la semana sin ella** (el piloto) · la **conversación del proceso de otra persona** · y la **lista de
+lo que decidió no automatizar**, que es la pieza que le da credibilidad a todo lo demás.
+
+**Duración realista. 3 semanas**, y es el único módulo con una espera que no depende de ella: el piloto
+dura una semana natural y no se puede acelerar.
+
+**Cómo se autocorrige.** El piloto **es** la corrección, y es binario. Ver §6.4, que es donde este
+módulo se juega su credibilidad como diseño.
+
+**Doblete (20 min): el proceso de una compañera.** Es a la vez el octavo doblete y la primera semilla de
+contagio: veinte minutos aplicando **solo la capa 0** al proceso de otra persona, en voz alta, sin
+construir nada. Ver §6.3, punto 7.
+
+**Pregunta fija.** La última, y se contesta sobre el curso entero.
+
+---
+
+## 4.1 Vista de conjunto
+
+| M | Semanas | Capa | Qué sale del expediente | Escalón del perfil | Corrección dominante |
+|---|---|---|---|---|---|
+| M0 | 1–2 | 0 · Ver el proceso | Descripción real + hoja de sombra + ficha del entorno + primera victoria | 1 · chat | Cronómetro + tres rechazos observables + la pantalla |
+| M1 | 3–4 | 1 · Criterio y línea de corte | Línea de corte + ficha de criterio + anclas + batería + clave sellada | 1 · chat | Ctrl+F + muestra apartada + primer cebo |
+| M2 | 5–6 | 2 · Contexto con procedencia | Mapa de datos + fuentes fechadas + asistente que cita y se abstiene | 1 · chat | Batería (col. 3) + lista binaria + prueba de la compañera |
+| M3 | 7–8 | 3 · Disparador | Disparador + tope + apagado probado | 2 · automatización | Se dispara o no + el caso que NO debe disparar |
+| M4 | 9–11 | 4 · Juicio y frenos | Temas prohibidos + condiciones de parada + revisor con nombre + plan de fallo | 3 · agentes | Cinco paradas fabricadas + rúbrica negativa + segundo cebo |
+| M5 | 12–13 | 5 · Medir | Evaluación de media página + prueba ciega + lectura de la Tira | transversal | La prueba ciega |
+| M6 | 14–15 | 6 · Sobrevivir sin ti | Ficha de traspaso + calendario + rúbrica propia validada | transversal | Su rúbrica contra un cebo |
+| M7 | 16–18 | 7 · Que lo adopten | Dossier + demo + **la semana sin ella** + lista de noes | **adicional** | **El piloto** |
+| — | — | apéndice | *(lectura opcional: qué hay más arriba)* | 4 · opcional | ninguna |
+
+**Herramientas nuevas en 18 semanas: dos o tres**, según lo que su proceso pida —un asistente con
+fuentes, un disparador, y en algunos casos una aplicación en lote— y ninguna se introduce antes de que
+el proceso se haya quedado corto sin ella. **Coste: cero euros.** Si el curso acaba costando dinero, el
+diagnóstico estaba mal.
