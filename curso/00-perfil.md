@@ -53,34 +53,75 @@ Desglosado, tal y como ella lo ha formulado:
 3. **Manejar datos sensibles con seguridad.** No como aviso legal: como
    competencia práctica. Quiere saber cuál es la forma segura de trabajar.
 
+4. **Adquirir criterio portátil.** No solo resolver sus tareas de hoy: quedarse
+   con un conjunto de habilidades y una agilidad mental que le permita, de forma
+   sencilla y panorámica, mirar un proceso cualquiera —en esta empresa, en otra, o
+   en su vida cotidiana— y ver "esto se puede hacer así, esto se puede automatizar
+   de esta otra manera". Con la conciencia explícita de que esa sensibilidad se
+   afina con la experiencia y de que esto es solo el primer escalón de una
+   formación continua.
+5. **Evangelizar hacia dentro.** Su empresa empuja el uso de IA pero, en su
+   valoración, con bastante desconocimiento de lo que realmente se puede hacer.
+   No necesita permiso, pero sí quiere saber **cómo evidenciar el valor de lo que
+   monta** y cómo arrancar un proyecto de manera que después la organización lo
+   adopte. Es un objetivo distinto de "conseguir el sí": no es pedir autorización,
+   es demostrar y arrastrar.
+
 **Lo que NO es el objetivo**, y conviene tenerlo escrito porque es la tentación
 natural de un curso así:
 
 - **No es convertirse en AI specialist.** No busca cambiar de rol ni de sector.
-- **No es conseguir la aprobación de nadie.** En su empresa no hace falta pedir
-  permiso ni vender la idea a dirección. Cualquier módulo orientado a "cómo
-  conseguir el sí" sobra.
+  Ojo con el matiz: sí quiere que lo aprendido le sirva **en su futuro laboral**,
+  también si cambia de empresa. Portabilidad sí, cambio de carrera no.
+- **No es pedir permiso.** En su empresa usar IA ya está bien visto y lo mal visto
+  es no automatizar. La evangelización del punto 5 es para que *adopten* lo que
+  ella construya, no para que la *autoricen*.
 - **No es aprender herramientas por coleccionarlas.** Las herramientas caducan;
   el criterio para elegirlas, no.
 - **No es hacer algo vistoso.** Prefiere lo útil y eficaz a lo bonito. El grafo
   de Obsidian del webinar de referencia es un buen ejemplo de lo que *no*
   queremos: espectacular en pantalla, marginal en valor.
 
-## Escalera de herramientas: la progresión pedida
+## Escalera de capacidades: la progresión pedida
 
-Orden explícito, de menos a más:
+Orden explícito, de menos a más. Ojo: son **capacidades**, no productos.
 
-1. Uso más eficaz de los chats que ya tiene, sobre todo **Gemini** por ser el
-   estándar de la empresa. Salir de "pregunto y copio".
+1. Usar mucho mejor el chat que ya tiene. Salir de "pregunto y copio".
 2. **Automatizaciones** de tareas sencillas y repetitivas.
 3. **Agentes**, cuando la tarea lo justifique.
 4. Herramientas más avanzadas tipo Claude Code: bienvenidas si llegan, pero
    **no son el segundo paso**. Están al final, y son opcionales.
 
-Nota sobre la referencia: el programa polaco declara ser **agnóstico de
-herramienta** ("si en tu empresa tenéis Copilot, usad Copilot; esto no es un
-curso de Claude"), aunque su demo esté hecha íntegramente con Claude Code. El
-principio nos sirve; el ejemplo, no.
+## El curso es agnóstico de herramienta
+
+Esta es una decisión de diseño de primer orden, no un detalle.
+
+**Gemini de pago es su entorno actual, no el eje del curso.** Es donde practicará
+la mayor parte del tiempo, porque es lo que su empresa paga y recomienda, y por
+tanto los ejemplos concretos se darán ahí. Pero el curso **no puede ser un curso
+de Gemini**. El objetivo es un conocimiento general de esta clase de herramientas
+que le permita saltar sin fricción a Claude, a ChatGPT o a lo que exista dentro de
+dos años.
+
+De ahí un criterio que atraviesa todo el material y que conviene hacer explícito
+en su redacción: **separar el criterio de los clics**. En cada lección, lo que
+dura —qué es un agente, cuándo conviene, cómo se acota su acceso, cómo se evalúa
+su salida— va separado tipográfica y estructuralmente de lo que caduca —dónde está
+hoy ese botón, cómo se llama hoy esa función—. Lo primero es el curso; lo segundo
+es un apéndice reemplazable.
+
+El listón para incluir algo: **¿le seguirá sirviendo dentro de dos o tres años?**
+Si la respuesta es que no, o va al apéndice de clics, o no entra. Nada por estar
+de moda.
+
+Coincide, además, con lo que la propia referencia declara: *"no toméis esta
+formación como un apego a Claude o a ChatGPT; será agnóstica. Un AI Operator sabe
+trabajar independientemente de la herramienta."* El principio nos sirve; su
+ejemplo —una demo hecha entera con Claude Code— no.
+
+Lo que sí es específico de su entorno y hay que resolver pronto: **averiguar qué
+plan de Gemini tiene contratado su empresa y cómo está configurado**, porque de
+eso depende qué puede meter ahí dentro.
 
 ## Restricciones del formato
 
