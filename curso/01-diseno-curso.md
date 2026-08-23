@@ -14,8 +14,7 @@
 >
 > **Marcas:** **[V]** verificado en fuente primaria · **[S]** coherente entre fuentes secundarias ·
 > **[R]** reconstrucción razonada · **[E]** evidencia publicada citada en los informes de dominio ·
-> **[NV]** no verificable desde fuera · **[!]** decisión que no es suya y se escala · **[J]** juicio de
-> diseño de este documento.
+> **[NV]** no verificable desde fuera · **[!]** decisión que no es suya y se escala.
 
 ---
 
@@ -332,17 +331,26 @@ instrumento con el que se clasifica cualquier cosa.
 
 ```
                       M0 chat  →  M1 criterio  →  M2 fuentes  →  M3 disparador  →  M4 juicio
-1 ¿Quién dispara?        yo          yo             yo            un reloj ←       un reloj
+1 ¿Quién dispara?        yo          yo             yo         suceso+reloj ←   suceso+reloj
 2 ¿Quién decide pasos?   yo          yo             yo          yo, de antemano   yo, salvo 2 puntos ←
 3 ¿De dónde sabe?     lo que pego  lo que pego   fuentes mías ←   fuentes mías     fuentes mías
 4 ¿Qué puede tocar?      nada        nada        leer lo mío ←    leer lo mío    escribir en lo mío ←
 5 ¿Quién firma?          yo          yo             yo               yo            yo  ← nunca cambia
 ```
 
-**La fila 1 dice «un reloj» y no «un suceso», y no es un descuido.** La única ruta obligatoria de la capa 3
-es la Ruta 0, que dispara **a hora fija**, y el propio módulo enseña que **un lunes no es un suceso**. «Un
-suceso» es la respuesta siguiente de la escala y **solo aparece si su plan tiene la Ruta B**. En la capa 4
-el disparador no vuelve a cambiar: lo que cambian son las preguntas 2 y 4.
+**La fila 1 tiene dos respuestas en la capa 3, y eso es contenido, no una imprecisión.** La Ruta 0 son dos
+piezas y cada una responde distinto: **el filtro reacciona a un suceso** —llega un mensaje que cumple una
+condición y lo etiqueta, sin que nadie esté delante— pero **quien la lleva a actuar es un reloj**, el
+recordatorio a hora fija. Por eso se escribe **suceso + reloj**: el sistema *detecta* al instante y *actúa*
+cuando toca.
+
+**Y ahí está el techo real de la capa 3, que no es la reactividad sino la actuación.** Lo que falta no es
+que el sistema se entere de que ha pasado algo: ya se entera. Lo que falta es que **haga algo más que
+poner una etiqueta** en el momento en que se entera, y que **encadene pasos** sin esperar al reloj. Eso es
+lo que compra la Ruta B, y por eso el techo se escribe así y no como «me falta un disparador por suceso»
+—que sería escribir un techo que ya rompiste en la semana 2, con el filtro de correo—.
+
+En la capa 4 el disparador no vuelve a cambiar: lo que cambian son las preguntas 2 y 4.
 
 **La fila 5 no cambia en todo el curso, y eso es contenido, no casualidad.** *Automatiza la lectura y la
 preparación; la escritura hacia fuera la firma una persona.* Y esa regla tiene **tres motivos, no dos**,
@@ -379,7 +387,7 @@ autonomía acaba de ceder.
 | **4** | **ASISTENTE GUARDADO CON FUENTES** | Se repite, el conocimiento está escrito y es estable, el juicio sigue siendo suyo | **P01** las seis preguntas que repite el 70–80 % de los leads · **P10** certificados |
 | **5** | **DISPARADOR Y PASOS FIJOS** | Hay un disparador identificable **y** los pasos son siempre los mismos | **P27** encuestas · **P30** parte semanal · **P06** recordatorio de pagos |
 | **6** | **FLUJO CON JUICIO** | Hay disparador, pero en dos o tres puntos hay que **evaluar** algo para saber por dónde seguir | **P28** triaje de reseñas · **P20** clasificar y enrutar incidencias (nunca responderlas) |
-| **ZP** | **ZONA PROHIBIDA** | No es un veredicto: es **un tachón encima del que hubiera**. El peor error cuesta dinero, un plazo legal o un visado; **o** hay un dato rojo irreducible | **P05 · P08 · P17 · P22 · P25 · P26 · P29** — *estos siete no son una muestra: son la lista entera, y son exactamente los siete que el paso 3 del embudo descarta por número* |
+| **ZP** | **ZONA PROHIBIDA** | No es un veredicto: es **un tachón encima del que hubiera**. La prueba, en tres condiciones y basta **una**: **(a)** el peor error es **irreversible** y lo paga un tercero ante una administración, o cuesta la plaza, el viaje o el visado · **(b)** hay un **dato rojo irreducible** —menor, salud, cuenta bancaria— que no se puede quitar sin vaciar la tarea · **(c)** cae en el **Anexo III** del Reglamento de IA. **Ojo con el error de calibración más común:** un proceso determinista cuyo peor error cuesta dinero **recuperable** —una suma mal hecha que se corrige al facturar— es **veredicto 1**, no ZP. Lo que hace ZP no es que haya dinero: es que no se pueda deshacer | **P05 · P08 · P17 · P22 · P25 · P26 · P29** — *son los siete que el paso 3 del embudo descarta por número, sin pensar. No son toda la lista posible: puede haber más procesos tuyos que pasen la prueba, y reconocerlos es parte de la pasada 2 del Mapa* |
 
 **Las tres decisiones que hacen que esta rejilla valga y no sea un catálogo disfrazado.** El veredicto 1
 va el primero, no al final como advertencia: «no hace falta IA» es un **destino**, no un fracaso. El
@@ -650,7 +658,7 @@ un catálogo en criterio.
 | Un criterio escrito **no produce respuestas** | Un asistente con ese criterio dentro | Nada: eso es la capa siguiente *(fila tachada en la capa 2)* |
 | **Un asistente recuerda cosas que tú no elegiste** — y ese es el problema: no puedes listar qué recuerda, no puedes fecharlo y puede que no puedas borrarlo | Una memoria auditable: que puedas ver la lista de lo que recuerda y quitar una entrada | Que pueda **ver** qué recuerda y **quitar** una entrada. Hoy no puedo, así que no es una fuente |
 | Un filtro determinista **clasifica por reglas, no por sentido** | Un paso que evalúe el contenido | Que la regla tenga más excepciones que casos |
-| Un disparador por reloj **no reacciona a que haya pasado algo** | Un disparador por suceso | Que exista la Ruta B en mi plan **y** que la herramienta pueda mirar el sitio donde ocurre el suceso. **Esto no llega con la capa siguiente**: la capa 4 pone frenos, no cambia el disparador |
+| **Un filtro se entera, pero solo puede etiquetar**: no encadena pasos ni actúa fuera de mi buzón, y para que pase algo de verdad hay que esperar al reloj | Un disparador que **actúe** en el momento del suceso y encadene pasos | Que exista la Ruta B en mi plan **y** que la herramienta pueda actuar sobre el sitio donde ocurre el suceso. **Esto no llega con la capa siguiente**: la capa 4 pone frenos, no cambia el disparador |
 | Mi automatización **no puede actuar sobre recursos que no son míos** | Un permiso delegado, o una plataforma externa | Que alguien reenvíe a mi buzón lo que cumpla un criterio, **o** que el flujo tenga que tocar algo fuera de esta suite |
 | **No puedo fijar la versión del modelo**: mañana puede responder distinto sin que yo toque nada | Un sistema donde la versión se elija y se congele | Que pudiera elegir versión, y que el proveedor se comprometiera a mantenerla |
 | Un flujo con juicio **sigue siendo un camino que dibujé yo** | Un agente: le das objetivo y límites y decide los pasos | Que aparezca una tarea cuyos pasos no pueda dibujar de antemano **y** que exista un plan que lo incluya **y** que los datos lo permitan. Hoy fallan las tres |
@@ -693,7 +701,7 @@ en la semana 1** para que la renuncia no se lea como una limitación del curso.
 |---|---|---|---|
 | 1 | 20 min | trabajo | Recibe **los 32 procesos ya escritos**. Tacha los que en su academia no ocurren o no lleva ella; corrige volúmenes; añade lo que falte; marca con palote los de **esta semana** |
 | 2 | 20 min | propio | **Mapa de los doce, pasada 1.** Los doce son, **de los que llevan palote en el paso 1** —los de esta semana—, **los doce de más frecuencia**; empate lo rompe el que le lleve más minutos por unidad; si salen menos de doce, se completan con los siguientes de la lista de 32 que ella sí ejecute. **Las zonas prohibidas no se sacan de aquí:** el descarte es el paso siguiente, y reconocerlas es parte de la medida |
-| 3 | 10 min | trabajo | **Descarte de los siete, por número y sin pensar:** fuera P05, P08, P17, P22, P25, P26, P29 — **son exactamente los siete de la fila ZP de la rejilla, y por eso el descarte no exige criterio: exige copiar una lista**. Después, escribir el motivo transferible de **tres** de ellos con la lista cerrada, y abrir la clave |
+| 3 | 10 min | trabajo | **Descarte de los siete, por número y sin pensar:** fuera P05, P08, P17, P22, P25, P26, P29 — **son los siete de la fila ZP de la rejilla, y por eso este descarte no exige criterio: exige copiar una lista**. *(Que sean siete no significa que no haya más procesos tuyos que pasen la prueba de ZP: significa que estos siete están decididos de antemano para que el día 3 no se te vaya en pensarlos. Los demás los cazarás en la pasada 2.)*. Después, escribir el motivo transferible de **tres** de ellos con la lista cerrada, y abrir la clave |
 | 4 | 5 min | trabajo | **Regla estacional:** *«si no lo hago en enero, no vale»* |
 | 5 | 20 min | trabajo | Puntúa los 6–8 supervivientes en **cinco columnas observables**. Supervivientes = los que llevan palote, menos los siete descartados del paso 3 y los que caen por la regla estacional del paso 4; si quedan más de ocho, se puntúan **los ocho de más frecuencia** |
 | 6 | 40 min en 2 días | trabajo | **La prueba de la sombra** |
@@ -739,7 +747,7 @@ no estaba escrita en ninguna parte**. Tres criterios de rechazo, ninguno de opin
 
 | Lo que ve en la hoja | Qué significa | Veredicto |
 |---|---|---|
-| **En dos días no lo ha ejecutado ni una vez** | La frecuencia percibida y la real no coinciden casi nunca | **Descartado** |
+| **En dos días no lo ha ejecutado ni una vez** | La frecuencia percibida y la real no coinciden casi nunca | **Descartado**, *salvo que se haya aplicado la relajación 3 del embudo vacío*: entonces la ventana **se prorroga hasta cubrir dos ejecuciones o hasta el final de la semana 2**, lo que ocurra antes. Un proceso semanal no aparece en dos de cinco días, y descartarlo por eso sería descartar justo lo que la válvula acaba de admitir |
 | **No ha abierto ningún documento** | No hay contexto que dar: es juicio puro | **Descartado.** Es «chat, mejor usado» |
 | **Las decisiones no escritas son cada vez distintas** | No es un proceso: es una serie de casos | **Descartado**, o se acota al trozo que sí se repite |
 
@@ -791,7 +799,7 @@ perfectamente» **puede descartar casi todo lo que ella hace**, porque casi todo
 |---|---|---|
 | 1 | **Pedir un reenvío, no una etiqueta.** Un mensaje de dos líneas a quien administre el buzón: *«¿me podéis poner en `info@` una regla que reenvíe a mi dirección los correos que cumplan `<criterio>`?»* | Duplica el mensaje —hay dos copias y la suya hay que borrarla en algún momento, y eso es una fila del mapa de datos— y **no deja marca en el buzón compartido**, así que lo que produzca lo tiene que llevar de vuelta a mano |
 | 2 | La cuarta columna acepta **«una copia mía sirve»** como suficiente | Se abre una fila en la línea de corte: *«mantener la copia al día son N minutos por semana»*, y **ese coste se resta en M5** |
-| 3 | La frecuencia baja de **≥5 a ≥1 por semana**, si el proceso tarda más de 15 minutos | La Tira tendrá menos pasadas reales; se compensa con casos históricos. **Y por debajo de dos veces por semana se activa la regla de escape de la línea base**: el número de M5 deja de ser mediana de diez y pasa a ser mediana de la n que haya, declarada con esas palabras. Es un número más débil, y esto es lo que cuesta relajar aquí |
+| 3 | La frecuencia baja de **≥5 a ≥1 por semana**, si el proceso tarda más de 15 minutos | La Tira tendrá menos pasadas reales; se compensa con casos históricos. **La sombra se alarga** —hasta cubrir dos ejecuciones—, y por eso esta relajación **se decide el día 3 y no el día 5**. **Y por debajo de dos veces por semana se activa además la regla de escape de la línea base**: el número de M5 deja de ser mediana de diez y pasa a ser mediana de la n que haya, declarada con esas palabras. Es un número más débil, y esto es lo que cuesta relajar aquí |
 | 4 | Se **parte un proceso grande** y se toma el trozo que sí califica | Ninguno real: la línea de corte de M1 iba a partirlo de todos modos |
 | 5 | Se adopta **P27** (análisis de las respuestas de la encuesta) | Es el expediente modelo: pierde el efecto sorpresa de algunas claves, y gana el mejor primer proyecto de su lista |
 
@@ -1036,8 +1044,9 @@ semana 2.
 
 #### PUERTA M0 → M1 — bloquea, con dos condiciones y no cinco
 
-- [ ] **La hoja de sombra tiene dos días y ninguno de los tres criterios de rechazo se ha activado** (o se
-      ha activado y se ha cambiado de candidato).
+- [ ] **La hoja de sombra cubre al menos dos ejecuciones del proceso candidato** —dos días laborables si
+      es diario; la ventana prorrogada si se aplicó la relajación 3— **y ninguno de los tres criterios de
+      rechazo se ha activado** (o se ha activado y se ha cambiado de candidato).
 - [ ] **La descripción contiene al menos dos decisiones no previstas.**
 
 Lo demás se firma en la lista de cierre pero **no bloquea**, porque *«pregunté a X el día D y no obtuve
@@ -1271,6 +1280,28 @@ nadie más la use—. En M5 se queda solo la **relectura**: qué eslabón se cum
 > > cambiado un resultado que se comprueba una vez por uno que hay que comprobar cada vez, y has metido
 > > una posibilidad de error donde no la había.**
 
+#### El experimento del escalón −1 · 25 min · pieza aparte del doblete
+
+**Por qué va separado.** El doblete son veinte minutos sobre papel y no se construye nada. Esto sí
+construye, y por eso tiene su propia línea en el reparto de horas en vez de esconderse dentro de otra:
+un ejercicio que no cabe en el tiempo que se le asigna es un ejercicio que no se hace.
+
+**Qué haces, con números que sí caben:**
+
+1. **Tres presupuestos reales, no veinte** (3 min). Coge tres de los que ya has hecho este mes, con su
+   resultado correcto conocido.
+2. **Los mismos tres por los dos caminos** (10 min): una fórmula en la hoja, y el modelo con la tabla de
+   precios delante.
+3. **Cronometra COMPROBAR, no producir** (10 min). Este es el eje y es lo único que importa: con la
+   fórmula, comprobar es mirarla **una vez** y ya vale para los tres —y para los trescientos—; con el
+   modelo hay que comprobar **los tres, uno a uno**.
+4. **Escribe la cuenta que sigue** (2 min): *«y el día que cambie el suplemento de verano, con la fórmula
+   toco una celda; con el modelo vuelvo a comprobarlo todo entero».*
+
+> **La versión de veinte casos ya está hecha, con sus cronometrajes, en el expediente modelo de P27.**
+> Está ahí para que veas que el resultado no cambia al escalar, no para que la repitas. Si tienes la
+> semana mala, **léela en lugar de hacer la tuya**: es lo que se cae de esta pieza.
+
 #### Orden de sacrificio de M1
 
 - **Núcleo que no se cae nunca:** la línea de corte con sus veredictos y motivos · la batería con clave
@@ -1279,6 +1310,8 @@ nadie más la use—. En M5 se queda solo la **relectura**: qué eslabón se cum
   la segunda se completa en la semana 5.
 - **Se cae segundo:** el cebo 1 → se aplaza a la semana 5, **y PC-2 se mueve con él**, porque PC-2 es
   literalmente una conversación sobre el resultado del cebo.
+- **Se cae tercero:** el experimento del escalón −1 → **se lee la versión ya hecha del expediente modelo**
+  en lugar de hacer la propia. Pierde la mitad buena —haber cronometrado tú— y conserva la conclusión.
 - **Nunca se recorta la ficha de criterio a menos de cuatro indicadores.** Por debajo de cuatro no es un
   criterio: es una preferencia.
 
@@ -1432,7 +1465,11 @@ que caduca es fabricar un error futuro*. Vale para cualquier dominio.
 
 - **Núcleo que no se cae nunca:** las fuentes con fecha, dueño y precedencia · la regla de «no lo sé»
   probada · **el caso hostil probado** · la columna 3 de la Tira.
-- **Se cae primero:** la prueba de portabilidad nº 1 → se aplaza a la semana 8, donde ya hay otra.
+- **Se cae primero:** la prueba de portabilidad nº 1 → **no se aplaza, porque es ítem de puerta**; se
+  reduce a su **versión mínima de diez minutos**: una sola pregunta pasada en la otra herramienta y las
+  tres columnas rellenadas con una línea cada una. Lo que se aplaza a la semana 8 es la versión larga.
+  *(Aplazarla entera dejaría la puerta M2→M3 imposible de abrir justo en la semana mala, que es
+  exactamente para lo que existe este orden.)*
 - **Se cae segundo:** la instrucción multilingüe → puede reducirse a **un solo idioma probado**,
   declarándolo en la lista de frenos como parada por idioma no probado.
 - **El mapa de datos no se aplaza nunca**, porque va delante de cargar fuentes reales.
@@ -1444,7 +1481,8 @@ que caduca es fabricar un error futuro*. Vale para cualquier dominio.
       obedecido**.
 - [ ] **La casilla de retención del historial está contestada.** Sin ella no se suben ficheros con datos de
       alumnos, y a estas alturas ya se han subido.
-- [ ] La prueba de portabilidad está hecha y sus tres columnas rellenas.
+- [ ] La prueba de portabilidad está hecha y sus tres columnas rellenas. **Vale la versión mínima de
+      diez minutos**: lo que la puerta comprueba es que has mirado, no cuánto has mirado.
 - [ ] El mapa de datos tiene, en cada fila ámbar o roja, **un paso concreto y una persona**.
 - [ ] **No queda en el expediente ningún paso que suba un audio, un documento completo o una captura
       existiendo una versión escrita por ella más corta.** Si existe, se sustituye antes de pasar. Es la
@@ -1513,8 +1551,9 @@ desactivados y no hay forma de saberlo hasta intentarlo. Con esta frase encima:
 1. **El disparador** sobre el trozo que la línea de corte marcó como entregable, con su tipo declarado y su
    justificación. **Un lunes no es un suceso.**
 2. **El tope, y es duro**: *si la lista supera N, no hagas nada y avísame.* **N es lo que ella puede
-   revisar de una sentada, medido con cronómetro; el peor día del año pasado no fija N: dice cuántas veces
-   va a saltar el tope y por tanto si hace falta modo pico.**
+   revisar de una sentada, medido con cronómetro; el peor lote del año pasado —contado con la
+   periodicidad con la que va a correr el disparador— no fija N: dice cuántas veces va a saltar el tope y
+   por tanto si hace falta modo pico.**
 3. **El apagado, probado de verdad**, no imaginado.
 4. **La prueba de carga de julio** (ver abajo).
 5. **La tarde de P27**, en dos bloques.
@@ -1550,8 +1589,10 @@ justamente desconocido. De ahí la distinción que se enseña aquí y se etiquet
 #### La prueba de carga de julio — cuarenta y cinco minutos, y se descubre cuando aún se puede cambiar
 
 El sistema se diseña y se mide entre octubre y febrero, y **tiene que aguantar julio**, cuando su volumen
-se multiplica por tres. **Pásale el lote real de un día de julio del año pasado y cronometra la revisión
-por unidad × volumen de pico.** Si la revisión de un día de julio no cabe en una jornada de julio, el
+se multiplica por tres. **Pásale el lote real de la peor semana de julio del año pasado —el lote entero
+acumulado, contado con la periodicidad con la que va a correr tu disparador, no el volumen de un día
+suelto— y cronometra la revisión por unidad × volumen de ese lote.** Si la revisión del peor lote de julio
+no cabe en una jornada de julio, el
 diseño está mal. Y en la ficha del disparador se escribe por delante el **modo pico**: qué hace el sistema
 cuando el tope salta **tres ejecuciones seguidas** —tres días si corre a diario, tres martes si corre los
 martes; se cuenta en ejecuciones y no en días porque el proceso modelo corre una vez por semana—.
@@ -2254,8 +2295,8 @@ literalmente**, pero no la usa como plan de estudios, y la diferencia importa:
 |---|---|---|---|
 | **0 · Chat a pelo** *(donde está hoy)* | Estado de partida, medido en M1: **saca 4 de 10**. Y medido también en viajes de copiar-pegar al día | *«Cada conversación empieza en blanco y le vuelvo a explicar la academia. Y no sé con qué cuenta entro ni qué protege esa cuenta»* | P3 = «lo que le pego en el momento» |
 | **1 · Usar mucho mejor el chat** | **M0** (instrucciones permanentes · asistente v1 · **trabajar donde vive el trabajo, en vez de traerlo a una conversación aparte**) → **M1** (el criterio escrito antes del prompt) → **M2** (fuentes propias con fecha, dueño, precedencia, cita y «no lo sé») | *«Recuerda cosas que yo no elegí y no puedo ver cuáles. Y sigue esperando a que yo lo abra cada vez»* | **P3 pasa a «fuentes que yo controlo y fecho»**. Aquí se gana casi toda la calidad del curso |
-| **−1 · NI IA** *(el peldaño que el perfil no pide y que es la mitad del criterio)* | **Semana 2**: el filtro de correo. **M1**: el veredicto 1 con su prueba de la servilleta y P02 | *«Un filtro clasifica por reglas, no por sentido»* | P1 pasa a «un suceso» **sin que P3 cambie**: no hay modelo en el camino |
-| **2 · Automatizaciones** | **M3** (Ruta 0 obligatoria; A y B si existen; más el lote de la tarde de P27) | *«Dispara los lunes. No reacciona a que **haya pasado algo**.»* Y después: *«siempre el mismo camino: el caso que no previste sale mal, y sale mal en silencio»* | **P1 pasa de «yo» a «un reloj»** —y a «un suceso» solo donde exista la Ruta B, que no es obligatoria—; P2 se congela en «yo, de antemano» |
+| **−1 · NI IA** *(el peldaño que el perfil no pide y que es la mitad del criterio)* | **Semana 2**: el filtro de correo. **M1**: el veredicto 1 con su prueba de la servilleta y P02 | *«Un filtro clasifica por reglas, no por sentido»* | P1 pasa a «un suceso» **sin que P3 cambie**: no hay modelo en el camino. **Este es el primer sitio del curso donde el disparador deja de ser tu dedo**, y conviene notarlo: pasa en la semana 2 y sin IA |
+| **2 · Automatizaciones** | **M3** (Ruta 0 obligatoria; A y B si existen; más el lote de la tarde de P27) | *«Se entera de que ha llegado algo, pero lo único que puede hacer es ponerle una etiqueta: para que pase algo de verdad tengo que esperar al reloj.»* Y después: *«siempre el mismo camino: el caso que no previste sale mal, y sale mal en silencio»* | **P1 pasa de «yo» a «suceso + reloj»**: el filtro detecta, el recordatorio actúa. Lo que la Ruta B añadiría no es reaccionar —eso ya lo hace— sino **actuar en el momento**; P2 se congela en «yo, de antemano» |
 | **3 · Agentes, cuando la tarea lo justifique** | **M4**, en su forma alcanzable: **juicio confinado a dos o tres puntos**, con frenos etiquetados, y **la ficha de cinco preguntas rellenada para un agente real que el curso no enseñó** | *«Sigue siendo un camino que dibujé yo»*. Y la conclusión honesta: **su escalón 3 realista es un proceso con juicio, no un agente autónomo**, por licencia, permisos y datos — **no por capacidad suya** | **P2 se abre en dos o tres puntos**; P4 pasa a «escribir en lo mío»; **P5 no cambia nunca** |
 | **4 · Avanzado (tipo terminal)** | **Apéndice de lectura, sin entregable.** *Si termina el curso sin abrirlo, el curso ha funcionado igual*, y eso va en su primera línea | La condición que lo activaría: **procesar decenas de ficheros locales de forma repetida** | P2 pasa entera al sistema. **Y ahí está el pago: renuncia a ser predecible** |
 
@@ -2580,8 +2621,9 @@ visto.**
 noes de doce en el Mapa **sin clave, con señal de fallo**.
 
 **4 · El caso canónico se hace, no se prohíbe** — y se hace sobre el eje correcto. El presupuesto (P02) se
-monta con modelo y con fórmula sobre los mismos veinte casos, **y lo que se cronometra es COMPROBAR los
-veinte de cada lado, no producirlos**. Con la fórmula, comprobar es mirar la fórmula una vez; con el
+monta con modelo y con fórmula sobre los mismos casos —**tres**, en el experimento de 25 minutos de M1;
+veinte en la versión ya cronometrada del expediente modelo—, **y lo que se cronometra es COMPROBAR cada
+lado, no producirlo**. Con la fórmula, comprobar es mirar la fórmula una vez; con el
 modelo, hay que comprobar los veinte, y otra vez enteros el día que cambie el suplemento de verano.
 **Enseñar el «no» haciendo el «sí» y midiendo dónde pierde es infinitamente más fuerte que prohibirlo — y
 midiendo la auditabilidad en vez de la exactitud, el resultado no depende de lo bueno que sea el modelo de
@@ -3270,7 +3312,7 @@ donde debe estar el aparato que bloquea, porque de M5 en adelante **no hay cimie
 | Puerta | Condición, toda observable | Por qué bloquea |
 |---|---|---|
 | **M0 → M1** | Hoja de sombra de dos días sin criterio de rechazo activado · **dos decisiones no previstas** | Un proceso mal elegido contamina las dieciocho semanas, y a partir de M2 deshacerlo es caro |
-| **M2 → M3** | Batería **en dos pasadas de dos días, contando la peor** · **hostil no obedecido** · **casilla de retención contestada** · traslado hecho · **ningún paso sube un audio, un documento completo o una captura habiendo versión escrita más corta** · **diagnóstico de uso escrito con un cambio concreto** | **Automatizar algo que no funciona es multiplicar el error** — y automatizar un tratamiento de datos que no tenía que existir también lo multiplica, una vez por ejecución |
+| **M2 → M3** | Batería **en dos pasadas de dos días, contando la peor** · **hostil no obedecido** · **casilla de retención contestada** · traslado hecho, aunque sea en su versión mínima · **ningún paso sube un audio, un documento completo o una captura habiendo versión escrita más corta** · **diagnóstico de uso escrito con un cambio concreto** | **Automatizar algo que no funciona es multiplicar el error** — y automatizar un tratamiento de datos que no tenía que existir también lo multiplica, una vez por ejecución |
 | **M3 → M4** | El disparador ha corrido una semana sobre unidades reales · **cinco procesadas y una fuera de alcance sin tocar** · tope y apagado probados · **ha visto fallar algo y sabe por qué, escrito como entrada → salida** | **Sin haber visto un fallo no hay criterio para dar autonomía a nada** |
 | **M4 → M5** | Cinco paradas **3/3** y el sexto que no para · marca y motivo en cada parada · **ninguna consecuencia irreversible depende de un freno B** · **ningún dato escrito en vez de copiado** · revisor con nombre y hora · **ningún camino llega a un cliente sin firma humana** | **Medir un sistema sin frenos mide otra cosa**, y el que paga el error es un cliente |
 
@@ -3382,7 +3424,7 @@ momentos son localizables, se les puede poner algo delante.
 | M | Semanas | Nº sem. | Horas propias | Tiempo de trabajo | Por qué esa duración |
 |---|---|---|---|---|---|
 | **M0** | 1–2 | 2 | **~3 h 45** | sombra (3 min/día) · línea base (5 días, y los de la semana 2 que hagan falta hasta n = 10) · embudo (55 min) · **filtro (15 min)** | **Deliberadamente ligero por semana: la mortalidad está aquí** |
-| **M1** | 3–4 | 2 | **~4 h 45** | línea de corte (45 min) | El más denso mentalmente. Se sostiene porque el asistente v1 ya funciona encima de la mesa **y porque la sesión 2 termina en un salto medido, no en un documento** |
+| **M1** | 3–4 | 2 | **~5 h 10** | línea de corte (45 min) · **experimento del escalón −1 (25 min)** | El más denso mentalmente, y el que más se acerca al techo de dedicación: por eso su orden de sacrificio tiene tres escalones y no dos. Se sostiene porque el asistente v1 ya funciona encima de la mesa **y porque la sesión 2 termina en un salto medido, no en un documento** |
 | **M2** | 5–6 | 2 | **~5 h 15** | carga de fuentes · uso diario | La segunda semana es casi toda uso real, que es lo que mira la puerta |
 | **M3** | 7–8 | 2 | **~4 h 30** | montaje (85 min) · **P27 en dos bloques (110 min)** · **prueba de carga (45 min, sesión aparte)** | **El módulo con más probabilidad de desbordarse.** Por eso su orden de sacrificio deja fuera las rutas A y B y aplaza la portabilidad |
 | **M4** | 9–11 | **3** | **~6 h** | pruebas de parada (×3) | **El único módulo con aire antes del final**, y es donde una puerta cerrada tiene que poder costar una semana |
@@ -3613,10 +3655,10 @@ capa:
 
 **(2) El tope, y tiene que ser duro.** *Si la lista supera N, no hagas nada y avísame.*
 
-> **N no es el peor día: N es lo que tú puedes revisar.** Es el error de dimensionado más común y merece
+> **N no es el peor lote: N es lo que tú puedes revisar.** Es el error de dimensionado más común y merece
 > tres líneas. Se mide: cronometra lo que tardas en revisar **una** unidad y calcula cuántas te caben en el
-> rato que de verdad vas a dedicarle. Eso es N. El peor día del año pasado **no fija N: te dice cuántas
-> veces va a saltar el tope**, y por tanto si necesitas modo pico o no. Si pones N = peor día, el tope no
+> rato que de verdad vas a dedicarle. Eso es N. El peor lote del año pasado **no fija N: te dice cuántas
+> veces va a saltar el tope**, y por tanto si necesitas modo pico o no. Si pones N = peor lote, el tope no
 > salta nunca y no es un tope: es un adorno.
 >
 > **Y superar N es no hacer nada, no hacer un poco.** Procesar las primeras N y dejar el resto —«hago 25 y
@@ -3738,7 +3780,8 @@ QUÉ HACE, PASO A PASO:   1 · 2 · 3 …   (ninguno de estos pasos envía nada 
 EL TOPE:                 si hay más de ___ unidades → no hace nada y me avisa
                          · ¿es DURO o BLANDO?  ___   · ¿dónde vive exactamente?  ___
                          · N = lo que puedo revisar de una sentada, medido: ___
-                         · el peor día del año pasado fue: ___ → ¿habría saltado el tope? ___
+                         · el peor LOTE del año pasado —contado con la periodicidad con la que va a
+                           correr tu disparador— fue: ___ → ¿habría saltado el tope? ___
 MODO PICO:               si el tope salta tres ejecuciones seguidas, lo que hago es: ___
 CÓMO SE APAGA:           dónde, y la fecha en que lo apagué y lo volví a encender: ___
 ```
@@ -3819,7 +3862,7 @@ no existe**. «No aplica» no es una respuesta admitida.
 | # | Señal de fallo | ☐ | Dónde / por qué no |
 |---|---|---|---|
 | 1 | El tope está escrito como una instrucción al modelo y no como una condición fuera de él | ☐ | |
-| 2 | N se ha elegido «a ojo»: no está medido **lo que puedes revisar de una sentada**, o no lo has contrastado con el peor día del año pasado para saber cuántas veces saltará | ☐ | |
+| 2 | N se ha elegido «a ojo»: no está medido **lo que puedes revisar de una sentada**, o no lo has contrastado con el peor lote del año pasado para saber cuántas veces saltará | ☐ | |
 | 2b | Superar el tope **procesa una parte** en vez de parar entero y avisar | ☐ | |
 | 3 | Hay un paso que escribe hacia fuera, o que podría hacerlo si alguien cambia una casilla | ☐ | |
 | 4 | El sistema toca algo compartido y **mueve, archiva o marca como leído** en vez de solo añadir | ☐ | |
@@ -3857,7 +3900,7 @@ ______
 
 ```
 QUÉ LO LANZA:   reloj · todos los martes a las 10:00, un recordatorio de calendario me lleva a la
-                etiqueta «encuesta-nueva», que un filtro pone solo desde el 14 de octubre:
+                etiqueta «encuesta-nueva», que un filtro pone solo desde el 21 de octubre:
                 remitente = formularios@... Y asunto contiene «respuesta»
 QUÉ HACE:       1 · abro la bandeja etiquetada
                 2 · pego las respuestas nuevas en el documento-bandeja (una fila por respuesta)
@@ -3867,11 +3910,13 @@ QUÉ HACE:       1 · abro la bandeja etiquetada
 EL TOPE:        si hay más de 25 respuestas → no proceso ninguna; me avisa y decido yo qué hago
                 · DURO · vive en el tamaño del lote que pego yo
                 · N = 25, que es lo que puedo revisar de una sentada (medido: 40 s por respuesta)
-                · el peor día del año pasado fueron 38 respuestas, el 12 de julio → ese día el tope
-                  habría saltado, y por eso este proceso va a necesitar modo pico, que se decide en
-                  la prueba de carga
+                · el peor LOTE del año pasado fue la semana del 7 de julio: 61 respuestas → el tope
+                  habría saltado, y en julio saltaría casi todas las semanas. Por eso este proceso
+                  va a necesitar modo pico, que se decide en la prueba de carga
+                · ojo con la unidad: corre los martes, así que el tope se mide en LOTES SEMANALES.
+                  El peor día fueron 38, pero el peor lote fueron 61, y es el lote lo que reviso
 MODO PICO:      ___ (se rellena en la sesión de la prueba de carga)
-CÓMO SE APAGA:  desactivando el filtro y borrando el recordatorio. Apagado y encendido el 21-nov
+CÓMO SE APAGA:  desactivando el filtro y borrando el recordatorio. Apagado y encendido el 2-dic
 ```
 
 **Y así es como quedará esa casilla después de la prueba de carga**, que es su propia sesión de 45 minutos
@@ -3886,7 +3931,7 @@ va en blanco: el modo pico inventado en octubre es justamente lo que falla en ju
 |---|---|---|
 | Reloj y no suceso | Las respuestas llegan en goteo y no hay ninguna urgencia en atender una sola; **agruparlas es mejor que reaccionar a cada una** | Por suceso, el sistema se dispararía 600 veces al año para procesar una fila cada vez, y el coste de revisión se multiplicaría |
 | El tope vive en el tamaño del lote | Es lo único que se cumple **siempre**, con cualquier herramienta y en cualquier año | Escrito como instrucción, el 12 de julio habría procesado 38 y me habría dicho que procesó 25 |
-| N = 25 y no 38 | **N es lo que puedo revisar de una sentada, no lo que llega el peor día.** 38 es el dato que me dice que el tope saltará alguna vez en julio, que es exactamente para lo que sirve | Con N = 38 el tope no salta nunca: existe en el papel y no hace nada |
+| N = 25 y no 61 | **N es lo que puedo revisar de una sentada, no lo que trae el peor lote.** El 61 es el dato que me dice que el tope saltará casi todas las semanas de julio, que es exactamente para lo que sirve | Con N = 61 el tope no salta nunca: existe en el papel y no hace nada |
 | Superar el tope no procesa nada | Un lote a medias es peor que ninguno: no queda marca de dónde corté, y las que quedan fuera **no las voy a recuperar el día que el tope salta**, que es el día que estoy liada | Procesar 25 de 38 me deja 13 respuestas huérfanas y la sensación de que está hecho |
 | Una fila por llamada | **Lote no significa una sola petición: significa una instrucción aplicada N veces** | Con las 25 en una petición, el fallo típico es que salgan 22 filas y no se note |
 | El filtro solo añade una etiqueta | El buzón es compartido | Archivar habría hecho desaparecer correos de la bandeja de tres compañeras un lunes de julio |
@@ -4121,7 +4166,7 @@ propósito**, con el motivo de cada cosa.
 | **Degradación al crecer** (*«si le metes 15 ficheros más, ¿empieza a perderse?»*) | **IGUAL, recuperada** | Vuelve como fila de la caja del fondo con su prueba: pasar la batería después de añadir fuentes |
 | **«No lo sé» + citar la fuente** | **IGUAL, y es requisito de puerta** | En atención al cliente esto no es un refinamiento: es lo que separa una herramienta usable de un generador de problemas |
 | **Acceso a herramientas y permisos mínimos; el humano aprueba las escrituras** | **MEJOR** | Aquí es **una fila que no cambia nunca** en el instrumento número uno, con sus tres motivos, y se prueba: *ningún camino llega a un cliente sin firma humana* es condición de puerta |
-| **Preguntas de control sobre las fuentes** | **IGUAL, recuperada** | Doce ítems binarios en M2 |
+| **Preguntas de control sobre las fuentes** | **IGUAL, recuperada** | Diez ítems binarios en M2 |
 | **El tono anti-hype** (*«ves el resultado; detrás hay varias decenas de intentos»*) | **IGUAL** | Es su mejor minuto y se cita literalmente. Aquí se instrumenta además con la caja «lo que vas a ver la primera vez» **antes** de cada ejercicio |
 | **Protección de datos como permisos y accesos** | **MEJOR, y por obligación del caso** | Su respuesta es de permisos; aquí hace falta además **régimen jurídico**: pasaportes, cartas de visado, alojamiento, pagos, menores, familias de acogida y grabaciones de llamadas. Cuatro anclajes, un mapa de datos por proceso, y **el semáforo dentro del criterio de elección del proyecto** |
 | **Inyección indirecta de instrucciones** | **AÑADIDO** | No aparece en la referencia. Es el modo de fallo canónico en 2026 de la arquitectura que ella construye, y aquí entra con caso de batería, condición de parada, criterio de capa 2 y reetiquetado de la firma humana |
