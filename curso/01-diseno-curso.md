@@ -16,6 +16,18 @@
 > **[R]** reconstrucción razonada · **[E]** evidencia publicada citada en los informes de dominio ·
 > **[NV]** no verificable desde fuera · **[!]** decisión que no es suya y se escala.
 
+> ⚠ **DOCUMENTO SUPERADO EN SU PREMISA — 23.08.2026.** El diseño vigente es
+> `curso/02-diseno-patrones.md`. Este documento se organizaba alrededor de **un proceso real de la
+> empresa, con datos reales, llevado dieciocho semanas**, y esa premisa se retiró: el curso pasa a
+> organizarse por **patrones de tarea de la profesión, sobre casos inventados**.
+>
+> **Se conserva porque su maquinaria sigue siendo válida y está auditada dos veces:** la separación
+> criterio/clics, el sistema de autocorrección, el protocolo de la IA correctora, el plan
+> anti-abandono, la rejilla de veredictos, el tratamiento de protección de datos y los puntos de
+> consulta. El diseño nuevo tira de aquí. **Lo que es falso es su columna vertebral**, no su
+> contenido.
+
+
 ---
 
 ## En una página
