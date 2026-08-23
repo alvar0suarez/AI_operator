@@ -11,6 +11,7 @@ Construir el envase sin conocer el contenido sale mal.
 | Fichero | Qué es | Publicado |
 |---|---|---|
 | `fundamentos-1-primera-victoria.html` | Fundamentos, sesión 1. Lección, ejercicio, rúbrica y solución | [enlace](https://claude.ai/code/artifact/c94e0ba1-9db4-4e61-a0b0-7173cb16d613) |
+| `patron-1-pregunta-repetida.html` | Patrón 1 de 7. Las nueve secciones, la batería de diez casos y su clave sellada | [enlace](https://claude.ai/code/artifact/27789834-02af-4fda-b2fc-0cc506047005) |
 
 ## Los dos mecanismos que la página añade y el texto no puede
 
