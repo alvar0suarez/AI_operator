@@ -1,0 +1,998 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI Operators to 5-tygodniowy program, w którym nauczysz się przekazywać AI kontekst firmy, projektować agentów i budować rozwiązania usprawniające prawdziwą pracę.">
+  <title>AI Operators | Zostań Operatorem AI w 5 tygodni</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <meta property="og:title" content="AI Operators | Zostań Operatorem AI w 5 tygodni">
+  <meta property="og:description" content="Zostań Operatorem AI: naucz się projektować agentów, przekazywać im kontekst firmy i wdrażać ich do prawdziwej pracy.">
+  <meta property="og:url" content="https://aioperators.pl/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://aioperators.pl/assets/social-share-image.png">
+  <meta property="og:image:secure_url" content="https://aioperators.pl/assets/social-share-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="AI Operators, zostań Operatorem AI w 5 tygodni">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Operators | Zostań Operatorem AI w 5 tygodni">
+  <meta name="twitter:description" content="Zostań Operatorem AI: naucz się projektować agentów, przekazywać im kontekst firmy i wdrażać ich do prawdziwej pracy.">
+  <meta name="twitter:image" content="https://aioperators.pl/assets/social-share-image.png">
+  <meta name="twitter:image:alt" content="AI Operators, zostań Operatorem AI w 5 tygodni">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..700&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260821-pricing-flyer-v2">
+
+  <!-- Apresly Analytics -->
+  <script type="text/javascript" data-cfasync="false"> var apreslyUrl = btoa(encodeURIComponent(location.href));var apreslyParentUrlValue;try {apreslyParentUrlValue = window.parent.location.href;} catch(err) {if(err.name === "SecurityError") {apreslyParentUrlValue = document.referrer;}} var apreslyParentUrl = (parent !== window) ? ("/" + btoa(encodeURIComponent(apreslyParentUrlValue))) : "";(function() {var apreslyScript = document.createElement("script");apreslyScript.type = "text/javascript";apreslyScript.async = true;apreslyScript.setAttribute("data-scriptid", "apresly-tracking-code");apreslyScript.src = "https://app.apresly.com/api/cpa/v1/cpa?identifyToken=eyJhbGciOiJIUzI1NiJ9.eyJjbGllbnRHdWlkIjoiZmE4MWJjOGEtNzNmZS00M2E3LWJiNDUtNmI4ZTQwYTVkZGQ0In0.GO8gkvJTP9djOtUWJbXHgr0RzEK463kjaRPZdOKG-Ns&pageLocation="+apreslyUrl+"&parentPageLocation="+apreslyParentUrl;var scriptBegin = document.getElementsByTagName("script")[0];scriptBegin.parentNode.insertBefore(apreslyScript, scriptBegin);})();</script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3296281647132956');
+  fbq('track', 'PageView');
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-checkout]').forEach(function (link) {
+      link.addEventListener('click', function () { fbq('track', 'InitiateCheckout'); });
+    });
+  });
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3296281647132956&amp;ev=PageView&amp;noscript=1" alt=""></noscript>
+</head>
+<body>
+  <div class="sale-bar" id="saleBar">
+    <a href="#cena"><strong>Przedsprzedaż do 2 września.</strong> Najniższa cena tego programu nie wróci. <span>Dołącz teraz&nbsp;→</span></a>
+    <button type="button" data-close-bar aria-label="Zamknij informację">×</button>
+  </div>
+
+  <header class="nav" data-nav>
+    <div class="wrap nav__inner">
+      <div class="nav-brand">
+        <a class="wordmark" href="#start" aria-label="AI Operators, strona główna">
+          <span class="wordmark__ai">AI</span><span class="wordmark__dot"></span><span>Operators</span>
+        </a>
+        <a class="nav-endorser" href="https://wkontenerach.pl" target="_blank" rel="noopener" aria-label="AI Operators by wKontenerach.pl">
+          <small>by</small>
+          <img src="assets/wkontenerach-white.png" alt="wKontenerach.pl" width="5379" height="1244">
+        </a>
+      </div>
+      <nav class="nav__links" aria-label="Główna nawigacja">
+        <a href="#dla-kogo">Dla kogo</a>
+        <a href="#program">Program</a>
+        <a href="#mentorzy">Mentorzy</a>
+        <a href="#opinie">Opinie</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="button button--small" href="#cena">Dołącz teraz</a>
+      <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-controls="mobileMenu" aria-label="Otwórz menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" data-mobile-menu aria-label="Nawigacja mobilna">
+      <a href="#dla-kogo">Dla kogo</a>
+      <a href="#program">Program</a>
+      <a href="#mentorzy">Mentorzy</a>
+      <a href="#opinie">Opinie</a>
+      <a href="#cena">Cena</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero__grid">
+        <div class="hero__content reveal">
+          <h1 class="hero__desktop-heading"><span>Zostań Operatorem AI.</span> <span><mark>Deleguj AI</mark> realne zadania.</span></h1>
+          <p class="hero__lead">W 5 tygodni nauczysz się wybierać procesy, przekazywać agentom kontekst firmy i wdrażać ich do pracy według jasnych zasad.</p>
+
+          <div class="entry-points" id="dla-kogo">
+            <article class="entry-point">
+              <span class="entry-point__tag">Jesteś osobą nietechniczną?</span>
+              <strong>Wejdź do branży AI albo zostań osobą od AI w swojej firmie.</strong>
+              <p>Bez programowania. Z konkretnym projektem do portfolio.</p>
+            </article>
+            <article class="entry-point">
+              <span class="entry-point__tag">Jesteś Inżynierem IT?</span>
+              <strong>Buduj własne narzędzia AI, by optymalizować swoją pracę i zespołu.</strong>
+              <p>Połącz agenta z systemami firmy przez MCP i API.</p>
+            </article>
+          </div>
+
+          <div class="hero__actions">
+            <a class="button button--large" href="#program">Zobacz tematy programu</a>
+            <a class="text-link text-link--forward" href="#cena">Dołącz w przedsprzedaży <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal reveal--delay">
+          <div class="hero-photo">
+            <img src="assets/mentors-hero.jpg" alt="Aleksandra Zajączkowska i Damian Naprawa, mentorzy AI Operators" width="1800" height="1344">
+            <div class="hero-photo__names" aria-hidden="true">
+              <span>Aleksandra Zajączkowska</span>
+              <span>Damian Naprawa</span>
+            </div>
+            <div class="hero__mobile-heading">
+              <h1><span>Zostań Operatorem AI.</span> <span><mark>Deleguj AI</mark> realne zadania.</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__facts" aria-label="Najważniejsze informacje">
+        <div><span>Start</span><strong>26 października</strong></div>
+        <div><span>Format</span><strong>5 intensywnych tygodni</strong></div>
+        <div><span>Co tydzień</span><strong>Spotkania na żywo</strong></div>
+      </div>
+    </section>
+
+    <section class="operator-film" id="operator-film" data-operator-film aria-label="Od chaosu do kontrolowanego procesu AI">
+      <div class="operator-film__scroll">
+        <div class="operator-film__stage">
+          <div class="operator-film__frame">
+            <div class="operator-film__media">
+              <video class="operator-film__video" data-operator-video muted playsinline disablepictureinpicture preload="metadata" tabindex="-1" aria-hidden="true" poster="assets/animation/editorial-operator-start-v1.jpg" width="1280" height="720">
+                <source src="assets/animation/editorial-operator-seedance15-scrub-v2.mp4" type="video/mp4" media="(max-width: 680px)">
+                <source src="assets/animation/editorial-operator-seedance15-scrub-48fps-v6.mp4" type="video/mp4">
+                <img src="assets/animation/editorial-operator-end-v1.jpg" alt="Uporządkowany proces AI prowadzony i zatwierdzany przez człowieka">
+              </video>
+              <canvas class="operator-film__canvas" data-operator-canvas width="704" height="396" aria-hidden="true"></canvas>
+              <div class="operator-film__shade" aria-hidden="true"></div>
+            </div>
+
+            <div class="operator-film__copy">
+              <div class="operator-film__topline" aria-hidden="true">
+                <span>Kim jest AI Operator?</span>
+                <span>Od chaosu do procesu</span>
+              </div>
+
+              <div class="operator-film__captions" data-operator-captions>
+                <p class="operator-film__caption is-active" data-film-caption="0"><span>01</span>Dzisiaj AI pomaga Ci dorywczo.</p>
+                <p class="operator-film__caption" data-film-caption="1"><span>02</span>Każde zadanie zaczynasz od początku.</p>
+                <p class="operator-film__caption" data-film-caption="2"><span>03</span>Jako Operator AI łączysz kontekst, wiedzę i narzędzia.</p>
+                <p class="operator-film__caption" data-film-caption="3"><span>04</span>Następnie wyznaczasz granice i zatwierdzasz efekt.</p>
+                <p class="operator-film__caption" data-film-caption="4"><span>05</span>Chaos zamienia się w proces gotowy do pracy.</p>
+              </div>
+
+              <div class="operator-film__footer" aria-hidden="true">
+                <span class="operator-film__progress"><i data-film-progress></i></span>
+                <span class="operator-film__counter"><b data-film-counter>01</b> / 05</span>
+                <span class="operator-film__hint">Przewiń, aby uruchomić proces</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-proof section--ink">
+      <div class="wrap featured-proof__grid reveal">
+        <div class="featured-proof__person">
+          <img src="assets/testimonials/klaudia-szewczuk.jpg" alt="Klaudia Szewczuk" width="160" height="160">
+          <div><strong>Klaudia Szewczuk</strong><span>Prawniczka / Zarządzanie Projektami</span></div>
+        </div>
+        <blockquote>
+          <span class="quote-mark">“</span>
+          <p>Nie miałam wcześniejszego doświadczenia ani w pracy z AI, ani z kodowaniem. Zbudowałam agenta, który <mark>zaoszczędził 30 godzin pracy miesięcznie</mark> jednemu pracownikowi.</p>
+          <footer>Opinia klientki jednego z naszych szkoleń</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="logo-strip" aria-label="Firmy, w których pracują uczestnicy szkoleń">
+      <div class="wrap">
+        <p>Uczestnicy naszych programów pracują między innymi w:</p>
+        <div class="logo-strip__items">
+          <img src="assets/logos/pko.png" alt="PKO" loading="lazy">
+          <img src="assets/logos/orange.png" alt="Orange" loading="lazy">
+          <img src="assets/logos/intel.png" alt="Intel" loading="lazy">
+          <img src="assets/logos/capgemini.png" alt="Capgemini" loading="lazy">
+          <img src="assets/logos/mbank.jpg" alt="mBank" loading="lazy">
+          <img src="assets/logos/abb.png" alt="ABB" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="course-video" aria-labelledby="course-video-title">
+      <div class="wrap">
+        <div class="course-video__rule" aria-hidden="true">
+          <span>WIDEO / IDEA PROGRAMU</span>
+          <span>AI OPERATORS</span>
+        </div>
+
+        <div class="course-video__grid">
+          <div class="course-video__copy reveal">
+            <h2 id="course-video-title">Kim jest <mark>AI Operator</mark>?</h2>
+            <p>Zobacz, dlaczego samo korzystanie z czatu to za mało, jak wygląda przejście od pojedynczych poleceń do działającego procesu</p>
+            <a class="course-video__link" href="#program">Poznaj pełny program <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <figure class="course-video__media reveal">
+            <div class="course-video__frame">
+              <div class="course-video__frame-label" aria-hidden="true">
+                <span>PLAY</span>
+              </div>
+              <div class="course-video__player">
+                <iframe src="https://player.vimeo.com/video/1219908456?h=f4205c28b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="AI Operators - idea programu" loading="lazy" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+            <figcaption><span>AI Operators</span><span>Idea programu</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning-project" aria-labelledby="learning-project-title">
+      <div class="learning-project__index" aria-hidden="true">FORMAT / 01</div>
+      <div class="wrap learning-project__wrap">
+        <header class="learning-project__heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> Projekt edukacyjny, nie kurs online</p>
+            <h2 id="learning-project-title">Jak będzie wyglądać nauka?</h2>
+          </div>
+          <div class="learning-project__intro">
+            <span>Jak pracujesz</span>
+            <ul>
+              <li><strong>5 tygodni</strong><small>wspólnej pracy</small></li>
+              <li><strong>Własny projekt</strong><small>zamiast samej teorii</small></li>
+              <li><strong>Stały feedback</strong><small>od mentorów i grupy</small></li>
+            </ul>
+          </div>
+        </header>
+
+        <div class="learning-project__format reveal" aria-label="Elementy projektu edukacyjnego">
+          <article class="learning-project__item">
+            <div class="learning-project__meta"><span>01</span><small>Przed spotkaniem</small></div>
+            <h3>Lekcje i zadania</h3>
+            <p>Uczysz się we własnym tempie. Co tydzień rozwijasz ten sam projekt.</p>
+          </article>
+          <article class="learning-project__item">
+            <div class="learning-project__meta"><span>02</span><small>Co tydzień</small></div>
+            <h3>Spotkania na żywo</h3>
+            <p>Przynosisz pytania i wersję roboczą. Jeśli Cię nie ma, wracasz do nagrania.</p>
+          </article>
+          <article class="learning-project__item">
+            <div class="learning-project__meta"><span>03</span><small>Między sesjami</small></div>
+            <h3>Społeczność</h3>
+            <p>Wymieniasz się rozwiązaniami i widzisz, jak nad projektami pracują inni.</p>
+          </article>
+          <article class="learning-project__item">
+            <div class="learning-project__meta"><span>04</span><small>Przez cały projekt</small></div>
+            <h3>Wsparcie mentorów</h3>
+            <p>Dostajesz feedback do pytań, zadań i projektu, kiedy utkniesz.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="positioning">
+      <div class="wrap">
+        <header class="section-heading reveal">
+          <p class="eyebrow"><span></span> Od użytkownika do Operatora AI</p>
+          <h2>Od pojedynczego czatu do <mark>działającego procesu.</mark></h2>
+          <p>Poznasz sposób pracy, który możesz przenieść do dowolnej firmy.</p>
+        </header>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <span class="pillar__number">01</span>
+            <div class="pillar__icon" aria-hidden="true"><i></i><b></b><em></em></div>
+            <h3>Wybiera</h3>
+            <p>Wiesz, co przekazać AI i kiedy użyć czatu, workflow albo agenta.</p>
+          </article>
+          <article class="pillar reveal reveal--delay">
+            <span class="pillar__number">02</span>
+            <div class="pillar__icon pillar__icon--context" aria-hidden="true"><i></i><b></b><em></em></div>
+            <h3>Uczy kontekstu</h3>
+            <p>Agent zna zasady firmy, wiedzę i granice działania.</p>
+          </article>
+          <article class="pillar reveal reveal--delay-2">
+            <span class="pillar__number">03</span>
+            <div class="pillar__icon pillar__icon--deliver" aria-hidden="true"><i></i><b></b><em></em></div>
+            <h3>Dowozi</h3>
+            <p>Jako Operator AI budujesz rozwiązanie, testujesz wynik i kontrolujesz jego dostęp.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="spotlight spotlight--haze">
+      <div class="wrap spotlight__grid">
+        <div class="spotlight__copy reveal">
+          <p class="eyebrow"><span></span> Kontekst firmy</p>
+          <h2>Agent zna kontekst firmy <mark>od pierwszego polecenia.</mark></h2>
+          <p>Porządkujesz procesy, decyzje i dokumenty. Agent wie, gdzie szukać odpowiedzi.</p>
+          <ul class="checklist">
+            <li>Plik kontekstowy dla firmy i projektu</li>
+            <li>Pamięć, która zachowuje właściwe ustalenia</li>
+            <li>Skill zapisujący powtarzalną procedurę</li>
+            <li>Baza wiedzy oparta na dokumentach firmy</li>
+          </ul>
+        </div>
+        <div class="context-visual reveal reveal--delay" aria-label="Schemat kontekstu firmy">
+          <div class="context-visual__top"><span>company-context/</span><b>aktualny</b></div>
+          <div class="file-row"><span class="file-row__icon">C</span><div><strong>CONTEXT.md</strong><small>cele, zasady, ograniczenia</small></div><i>źródło #1</i></div>
+          <div class="file-row"><span class="file-row__icon">P</span><div><strong>procesy/</strong><small>procedury zespołu</small></div><i>12 plików</i></div>
+          <div class="file-row"><span class="file-row__icon">W</span><div><strong>wiedza/</strong><small>dokumenty i decyzje</small></div><i>graf</i></div>
+          <div class="context-visual__result"><span></span><p><small>Agent odpowiada</small><strong>na podstawie firmy, nie domysłów.</strong></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spotlight">
+      <div class="wrap spotlight__grid spotlight__grid--reverse">
+        <div class="operator-visual reveal" aria-label="Proces działania agenta AI">
+          <div class="operator-visual__label">Agent uruchomiony</div>
+          <div class="flow-node flow-node--input"><span>01</span><div><small>Wejście</small><strong>Powtarzalne zadanie</strong></div></div>
+          <div class="flow-line"><i></i><span>kontekst + wiedza</span></div>
+          <div class="flow-node flow-node--agent"><span>AI</span><div><small>Agent AI</small><strong>Działa według procedury</strong></div><b>● online</b></div>
+          <div class="flow-line"><i></i><span>test + weryfikacja</span></div>
+          <div class="flow-node flow-node--output"><span>✓</span><div><small>Rezultat</small><strong>Gotowy do użycia</strong></div></div>
+        </div>
+        <div class="spotlight__copy reveal reveal--delay">
+          <p class="eyebrow"><span></span> Delegowanie z kontrolą</p>
+          <h2>Oddajesz część procesu agentowi i <mark>zachowujesz kontrolę.</mark></h2>
+          <p>Określasz rolę, dostęp i kryteria sukcesu. Potem testujesz wynik.</p>
+          <ul class="checklist">
+            <li>Jasny cel i rezultat pracy agenta</li>
+            <li>Minimalne uprawnienia i bezpieczne granice</li>
+            <li>Przypadki poprawne, brzegowe i błędne</li>
+            <li>Człowiek zatwierdza działania wymagające zapisu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tracks section--ink">
+      <div class="wrap">
+        <header class="section-heading section-heading--light reveal">
+          <p class="eyebrow eyebrow--light"><span></span> </p>
+          <h2>Dla <mark>nietechnicznych</mark> i technicznych</h2>
+          <p>Pierwsze 4 tygodnie dają wspólny fundament. W 5. tygodniu realizujesz projekt dopasowany do swojej roli i doświadczenia.</p>
+        </header>
+
+        <figure class="track-fork reveal">
+          <div class="track-fork__image">
+            <img src="assets/road-choose.png" alt="Osoba dochodząca do rozwidlenia dwóch ścieżek" loading="lazy" width="1448" height="1086">
+          </div>
+          <figcaption>
+            <span class="track-fork__step">Wspólny start / tygodnie 1-4</span>
+            <strong>Nie musisz wybierać ścieżki przy zakupie.</strong>
+            <p>Najpierw uczysz się wybierać procesy, budować agentów, przekazywać im kontekst i pracować z bazą wiedzy.</p>
+            <small>W 5. tygodniu wybierasz projekt ↓</small>
+          </figcaption>
+        </figure>
+
+        <div class="tracks__grid">
+          <article class="track-card reveal">
+            <div class="track-card__image">
+              <img src="assets/business.png" alt="Osoba analizująca proces biznesowy i budująca rozwiązanie AI bez programowania" loading="lazy" width="1448" height="1086">
+              <span>ścieżka dla nietechnicznych</span>
+            </div>
+            <div class="track-card__body">
+              <div class="track-card__top"><span>05A</span><small>Dla osób spoza IT</small></div>
+              <p class="track-card__eyebrow">Ścieżka dla nietechnicznych</p>
+              <h3>Usprawnij proces biznesowy z AI.</h3>
+              <p>Pracujesz na własnym procesie albo korzystasz z kompletnego przykładu analizy konkurencji.</p>
+              <ul>
+                <li>Dowolny proces z Twojej pracy</li>
+                <li>Prototyp rozwiązania biznesowego</li>
+                <li>Projekt gotowy do portfolio</li>
+              </ul>
+              <div class="track-card__result"><span>Kończysz z:</span><strong>agentem dla własnego procesu + działającym prototypem</strong></div>
+            </div>
+          </article>
+          <article class="track-card track-card--accent reveal reveal--delay">
+            <div class="track-card__image">
+              <img src="assets/engineer.png" alt="Inżynier łączący agenta AI z systemami firmy przez kod i API" loading="lazy" width="1448" height="1086">
+              <span>ścieżka dla inżynierów</span>
+            </div>
+            <div class="track-card__body">
+              <div class="track-card__top"><span>05B</span><small>Dla inżynierów</small></div>
+              <p class="track-card__eyebrow">Ścieżka dla technicznych</p>
+              <h3>Połącz agenta z systemami firmy.</h3>
+              <p>Budujesz serwer MCP i agenta do sprawdzania statusu, debugowania oraz obsługi incydentów.</p>
+              <ul>
+                <li>Własne narzędzia MCP</li>
+                <li>Kontrolowany dostęp do API i dokumentacji</li>
+                <li>Projekt gotowy do pokazania zespołowi</li>
+              </ul>
+              <div class="track-card__result"><span>Kończysz z:</span><strong>serwerem MCP + agentem diagnostycznym</strong></div>
+            </div>
+          </article>
+        </div>
+        <p class="tracks__access reveal"><span>✓</span> Niezależnie od wyboru zachowujesz dostęp do obu ścieżek przez 12 miesięcy.</p>
+      </div>
+    </section>
+
+    <section class="tools">
+      <div class="wrap">
+        <header class="section-heading reveal">
+          <p class="eyebrow"><span></span> Narzędzia są środkiem</p>
+          <h2>Ten proces działa w <mark>różnych narzędziach.</mark></h2>
+        </header>
+        <div class="tool-cloud reveal">
+          <span>Claude Code</span><span>OpenAI Codex</span><span>ChatGPT</span><span>Gemini</span><span>Obsidian</span><span>MCP</span><span>Lovable</span><span>API</span><span>Git</span><span>RAG</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mentors" id="mentorzy">
+      <div class="wrap">
+        <header class="section-heading reveal">
+          <p class="eyebrow"><span></span> Mentorzy</p>
+          <h2>Uczą Cię praktycy, którzy <mark>budują z AI.</mark></h2>
+        </header>
+        <div class="mentors__grid">
+          <div class="mentors__photo reveal"><img src="assets/mentors.png" alt="Aleksandra Zajączkowska i Damian Naprawa" loading="lazy"></div>
+          <div class="mentor-bios">
+            <article class="mentor-bio reveal reveal--delay">
+              <div class="mentor-bio__head"><span>01</span><div><h3>Aleksandra Zajączkowska</h3></div></div>
+              <p>AI Engineer z 7+ lat doświadczenia. Pracowała z AI zanim to stało się modne. Przeszła od zera całą ścieżkę kariery w AI, a teraz pomaga osobom, które chcą wejść do branży AI. Trenerka Eskadry Bielika, polskiego modelu AI. </p>
+              <div class="stat-row"><strong>7 lat</strong><span>doświadczenia w AI</span><strong>25k+</strong><span>obserwujących na Instagramie</span></div>
+            </article>
+            <article class="mentor-bio reveal reveal--delay-2">
+              <div class="mentor-bio__head"><span>02</span><div><h3>Damian Naprawa</h3></div></div>
+              <p>Architekt Systemów. Rozwija z agentami AI zarówno procesy biznesowe, jak też aplikacje SaaS. Zbudował między innymi agenta do treści SEO (zdobywając klientów z USA czy Australii), a także firmowy kontekst, pozwalający bardzo szybko uruchamiać nowe linie biznesowe.</p>
+              <div class="stat-row"><strong>5000+</strong><span>absolwentów szkoleń</span><strong>3 kontynenty</strong><span>klienci aplikacji SaaS</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="program section--ink" id="program">
+      <div class="wrap">
+        <header class="section-heading section-heading--light reveal">
+          <p class="eyebrow eyebrow--light"><span></span> Program, który prowadzi do gotowego projektu</p>
+          <h2>Co tydzień potrafisz <mark>zrobić z AI więcej.</mark></h2>
+          <p>Nie kolekcjonujesz przypadkowych lekcji. Krok po kroku budujesz system, który przejmuje prawdziwy proces z Twojej pracy.</p>
+        </header>
+
+        <p class="program-structure reveal"><strong>Tygodnie 1-4</strong> wspólny fundament <span>/</span> <strong>Tydzień 5</strong> wybór ścieżki dla nietechnicznych lub dla technicznych</p>
+
+        <div class="curriculum">
+          <article class="curriculum-card reveal">
+            <header class="curriculum-card__head">
+              <div class="curriculum-card__week"><small>Tydzień</small><strong>01</strong></div>
+              <div>
+                <h3>Wiesz jak wybierać modele AI do zadań i przechodzisz z okna czatu do projektu.</h3>
+                <p>Przestajesz wybierać narzędzia na wyczucie. Oceniasz zadanie przez wartość, ryzyko i oczekiwany rezultat.</p>
+              </div>
+            </header>
+            <div class="curriculum-card__body">
+              <div class="curriculum-card__learn">
+                <span class="curriculum-card__label curriculum-card__label--benefit">Co osiągniesz?</span>
+                <ul>
+                  <li>Przestaniesz przepalać czas i tokeny na zbyt mocne modele. Dobierzesz GPT, Claude'a albo Gemini do jakości, ryzyka i budżetu zadania.</li>
+                  <li>Z niejasnego polecenia ułożysz specyfikację z celem, kontekstem, ograniczeniami i formatem wyniku, który da się od razu ocenić.</li>
+                  <li>Przeniesiesz powtarzalne zadanie z okna czatu do projektu, który zna pliki, kontekst i zasady Twojej firmy.</li>
+                  <li>Rozłożysz własny proces na część dla człowieka, workflow i agenta, z jasnym momentem akceptacji przed ważną decyzją.</li>
+                </ul>
+              </div>
+              <div class="curriculum-card__outcome">
+                <span class="curriculum-card__label">Co stworzysz?</span>
+                <strong>Audyt jednego procesu z Twojej pracy: ocenę wartości, ryzyka i kosztu oraz decyzję, czy użyć czatu, workflow czy agenta.</strong>
+              </div>
+            </div>
+            <aside class="curriculum-live" aria-label="LIVE otwierający 27 października">
+              <div class="curriculum-live__date"><span>LIVE</span><time datetime="2026-10-27">27.10</time><small>wtorek</small></div>
+              <div class="curriculum-live__copy"><p>Otwarcie programu</p><strong>LIVE otwierający - Od zadania do projektu AI</strong><span>Poznajemy zasady programu, narzędzia i sposób pracy. Ustawiamy projekty, dobieramy pierwsze zadania i odpowiadamy na pytania organizacyjne.</span></div>
+            </aside>
+          </article>
+
+          <article class="curriculum-card reveal">
+            <header class="curriculum-card__head">
+              <div class="curriculum-card__week"><small>Tydzień</small><strong>02</strong></div>
+              <div>
+                <h3>Budujesz agenta, któremu możesz powierzyć powtarzalne zadanie.</h3>
+                <p>Agent dostaje jasną rolę, dostęp tylko do potrzebnych narzędzi i kryterium, po którym poznasz dobrą pracę.</p>
+              </div>
+            </header>
+            <div class="curriculum-card__body">
+              <div class="curriculum-card__learn">
+                <span class="curriculum-card__label curriculum-card__label--benefit">Co osiągniesz?</span>
+                <ul>
+                  <li>Wybierzesz powtarzalne zadanie, którego przejęcie naprawdę zwalnia czas, i zapiszesz dla agenta mierzalne kryterium dobrej pracy.</li>
+                  <li>Podłączysz agenta przez MCP do realnego źródła danych lub narzędzia, bez oddawania mu dostępu do całej firmy.</li>
+                  <li>Zaprojektujesz rolę, granice i warunki zatrzymania, dzięki którym agent wie, kiedy działać, a kiedy poprosić Cię o decyzję.</li>
+                  <li>Przetestujesz jego pracę na co najmniej pięciu przypadkach poprawnych, brzegowych i błędnych, zanim powierzysz mu prawdziwy proces.</li>
+                </ul>
+              </div>
+              <div class="curriculum-card__outcome">
+                <span class="curriculum-card__label">Co stworzysz?</span>
+                <strong>Działającego agenta podłączonego do jednego źródła lub narzędzia, z ograniczonym dostępem i scenariuszami testowymi.</strong>
+              </div>
+            </div>
+            <aside class="curriculum-live" aria-label="Spotkanie na żywo 5 listopada">
+              <div class="curriculum-live__date"><span>LIVE</span><time datetime="2026-11-05">05.11</time><small>czwartek</small></div>
+              <div class="curriculum-live__copy"><p>Spotkanie na żywo</p><strong>LIVE Q&amp;A - Agent, narzędzia i bezpieczny dostęp</strong><span>Rozbieramy projekty na rolę, narzędzia, uprawnienia i testy. Poprawiamy miejsca, w których agent może utknąć albo przekroczyć granice.</span></div>
+            </aside>
+          </article>
+
+          <article class="curriculum-card reveal">
+            <header class="curriculum-card__head">
+              <div class="curriculum-card__week"><small>Tydzień</small><strong>03</strong></div>
+              <div>
+                <h3>Agent poznaje zasady firmy i pracuje według Twojego standardu.</h3>
+                <p>Zapisujesz wiedzę, wymagania i procedury tak, aby wynik nie zależał od ciągłego tłumaczenia tych samych rzeczy.</p>
+              </div>
+            </header>
+            <div class="curriculum-card__body">
+              <div class="curriculum-card__learn">
+                <span class="curriculum-card__label curriculum-card__label--benefit">Co osiągniesz?</span>
+                <ul>
+                  <li>Zbudujesz plik kontekstowy, po którym agent od pierwszej sesji zna firmę, projekt, zasady pracy i oczekiwany rezultat.</li>
+                  <li>Ułożysz hierarchię źródeł prawdy, dzięki której sprzeczne instrukcje nie kończą się przypadkową decyzją modelu.</li>
+                  <li>Nadasz agentowi kontrolowaną pamięć: zachowa decyzje i preferencje, ale nie utrwali danych wrażliwych ani nieaktualnych ustaleń.</li>
+                  <li>Zamienisz powtarzalną procedurę w skill z warunkami uruchomienia, wymaganym wejściem, granicami działania i stałym formatem wyniku.</li>
+                </ul>
+              </div>
+              <div class="curriculum-card__outcome">
+                <span class="curriculum-card__label">Co stworzysz?</span>
+                <strong>Pakiet kontekstu firmy i projektu oraz skill, który odtwarza wybraną procedurę bez ponownego tłumaczenia zasad.</strong>
+              </div>
+            </div>
+            <aside class="curriculum-live" aria-label="Spotkanie na żywo 12 listopada">
+              <div class="curriculum-live__date"><span>LIVE</span><time datetime="2026-11-12">12.11</time><small>czwartek</small></div>
+              <div class="curriculum-live__copy"><p>Spotkanie na żywo</p><strong>LIVE Q&amp;A - Kontekst, pamięć i własne skille</strong><span>Sprawdzamy, czy agent rozumie firmę, źródła prawdy i procedurę. Ulepszamy instrukcje na podstawie błędnych wyników.</span></div>
+            </aside>
+          </article>
+
+          <article class="curriculum-card reveal">
+            <header class="curriculum-card__head">
+              <div class="curriculum-card__week"><small>Tydzień</small><strong>04</strong></div>
+              <div>
+                <h3>Budujesz drugi mózg firmy, który zna dokumenty i decyzje.</h3>
+                <p>Agent odnajduje właściwe informacje, wskazuje ich źródło i potrafi przyznać, że danych brakuje.</p>
+              </div>
+            </header>
+            <div class="curriculum-card__body">
+              <div class="curriculum-card__learn">
+                <span class="curriculum-card__label curriculum-card__label--benefit">Co osiągniesz?</span>
+                <ul>
+                  <li>Zmapujesz dokumenty, decyzje i procedury firmy oraz wybierzesz dla nich właściwą architekturę: RAG, wyszukiwanie lub graf wiedzy.</li>
+                  <li>Agent zacznie odpowiadać na podstawie firmowych dokumentów i cytować konkretny plik, więc łatwo sprawdzisz, skąd wzięła się odpowiedź.</li>
+                  <li>Nauczysz agenta mówić „nie wiem” przy braku danych oraz odróżniać nieaktualny dokument od obowiązującej decyzji.</li>
+                  <li>Zbudujesz pytania kontrolne i reguły aktualizacji, które wyłapią brakujące albo nieaktualne źródło, zanim agent oprze na nim odpowiedź.</li>
+                </ul>
+              </div>
+              <div class="curriculum-card__outcome">
+                <span class="curriculum-card__label">Co stworzysz?</span>
+                <strong>Bazę wiedzy z cytowaniem źródeł, regułą „nie wiem” i zestawem pytań kontrolnych do oceny jakości odpowiedzi.</strong>
+              </div>
+            </div>
+            <aside class="curriculum-live" aria-label="Spotkanie na żywo 19 listopada">
+              <div class="curriculum-live__date"><span>LIVE</span><time datetime="2026-11-19">19.11</time><small>czwartek</small></div>
+              <div class="curriculum-live__copy"><p>Spotkanie na żywo</p><strong>LIVE Q&amp;A - Baza wiedzy, która zna źródła</strong><span>Testujemy cytowanie, aktualność źródeł i reakcję na brak danych. Szukamy pytań, na których baza wiedzy jeszcze się wykłada.</span></div>
+            </aside>
+          </article>
+
+          <article class="curriculum-card curriculum-card--fork reveal">
+            <header class="curriculum-card__head">
+              <div class="curriculum-card__week"><small>Tydzień</small><strong>05</strong></div>
+              <div>
+                <h3>Kończysz z projektem dopasowanym do Twojego doświadczenia.</h3>
+                <p>Nie musisz decydować przy zakupie. W piątym tygodniu wybierasz projekt, który najlepiej pasuje do Twojej roli. Materiały obu ścieżek zostają z Tobą.</p>
+              </div>
+            </header>
+            <div class="curriculum-tracks">
+              <section class="curriculum-track curriculum-track--business" aria-labelledby="business-track-title">
+                <div class="curriculum-track__identity">
+                  <h4>Dla nietechnicznych</h4>
+                  <p>Bez programowania</p>
+                </div>
+                <h5 id="business-track-title">Zamieniasz proces biznesowy w rozwiązanie, które można pokazać klientowi lub zespołowi.</h5>
+                <span class="curriculum-card__label curriculum-card__label--benefit">Co osiągniesz?</span>
+                <ul>
+                  <li>Zmapujesz własny rynek, 3-5 konkurentów i źródła, którym można zaufać, zamiast zbierać przypadkowe linki do kolejnego arkusza.</li>
+                  <li>Zbudujesz Competitive Intelligence Operatora, który zamienia dowody, daty i ocenę pewności w raport z rekomendowanymi działaniami.</li>
+                  <li>Opakujesz najważniejszy rezultat operatora w działający prototyp aplikacji, który da się przetestować z pierwszym użytkownikiem.</li>
+                  <li>Przygotujesz landing page pokazujący wartość projektu klientowi, szefowi albo osobie prowadzącej rekrutację.</li>
+                </ul>
+                <div class="curriculum-track__result">
+                  <span class="curriculum-card__label">Co stworzysz?</span>
+                  <strong>Działającego operatora wybranego procesu, prototyp aplikacji i landing page gotowy do pokazania klientowi lub zespołowi.</strong>
+                </div>
+              </section>
+              <section class="curriculum-track curriculum-track--tech" aria-labelledby="tech-track-title">
+                <div class="curriculum-track__identity">
+                  <h4>Dla technicznych</h4>
+                  <p>Dla inżynierów IT</p>
+                </div>
+                <h5 id="tech-track-title">Dajesz agentowi bezpieczny dostęp do systemów, których nie obsłuży gotowa integracja.</h5>
+                <span class="curriculum-card__label curriculum-card__label--benefit">Co osiągniesz?</span>
+                <ul>
+                  <li>Zbudujesz własny serwer MCP, który daje agentowi kontrolowany dostęp do API, logów, wdrożeń i runbooków firmy.</li>
+                  <li>Uruchomisz operatora w trzech trybach: <code>/status</code>, <code>/debug</code> i <code>/incident</code>, od szybkiego obrazu sytuacji po raport z osią czasu i rekomendowanym działaniem.</li>
+                  <li>Dodasz walidację, minimalne uprawnienia i audyt, a każda operacja zapisu poczeka na jawną zgodę człowieka.</li>
+                  <li>Zamkniesz projekt materiałem do portfolio: serwerem MCP, opisem debugowania, raportem incydentu i przekazaniem pracy kolejnej osobie.</li>
+                </ul>
+                <div class="curriculum-track__result">
+                  <span class="curriculum-card__label">Co stworzysz?</span>
+                  <strong>Firmowy serwer MCP z bezpiecznymi narzędziami oraz operatora, który sprawdza status systemu i pomaga diagnozować incydenty.</strong>
+                </div>
+              </section>
+            </div>
+            <aside class="curriculum-live curriculum-live--final" aria-label="Spotkanie na żywo 26 listopada">
+              <div class="curriculum-live__date"><span>LIVE</span><time datetime="2026-11-26">26.11</time><small>czwartek</small></div>
+              <div class="curriculum-live__copy"><p>Spotkanie na żywo</p><strong>LIVE Q&amp;A - Projekt w wybranej ścieżce</strong><span>Pokazujemy projekty obu ścieżek, zbieramy feedback mentorów i ustalamy ostatnie poprawki przed oddaniem projektu.</span></div>
+            </aside>
+          </article>
+        </div>
+
+        <p class="program-access reveal"><strong>Masz dostęp do obu ścieżek.</strong> Przez 12 miesięcy możesz wrócić do materiałów dla nietechnicznych i technicznych.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-proof" id="portfolio" aria-labelledby="portfolio-proof-title">
+      <div class="wrap portfolio-proof__wrap">
+        <div class="portfolio-proof__layout">
+          <figure class="portfolio-proof__visual reveal" aria-label="Projekt gotowy do portfolio">
+            <img src="assets/portfolio-ai-operator-v1.jpg" alt="Specjalistka prezentująca zespołowi zaprojektowany system AI" loading="lazy" width="1536" height="1024">
+          </figure>
+
+          <div class="portfolio-proof__copy reveal reveal--delay">
+            <p class="eyebrow eyebrow--light"><span></span> Po 5 tygodniach</p>
+            <h2 id="portfolio-proof-title">Masz co <mark>pokazać.</mark></h2>
+            <p class="portfolio-proof__lead">Kończysz z działającym projektem, nie tylko certyfikatem.</p>
+
+            <ul class="portfolio-proof__outcomes">
+              <li><span>Nowa praca</span><strong>Konkretny case w portfolio.</strong></li>
+              <li><span>Awans</span><strong>Dowód, że AI daje wynik.</strong></li>
+              <li><span>W firmie</span><strong>To Ty jesteś osobą od AI.</strong></li>
+            </ul>
+
+            <a class="portfolio-proof__cta" href="#cena">Zbuduj swój projekt <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comparison">
+      <div class="wrap">
+        <header class="section-heading reveal">
+          <p class="eyebrow"><span></span> Głębiej niż codzienny chat</p>
+          <h2>Zobacz, jak zmieni się <mark>Twoja praca z AI.</mark></h2>
+        </header>
+        <div class="comparison-table reveal">
+          <div class="comparison-table__head"><span>Dzisiaj</span><span>Po AI Operators</span></div>
+          <div><p>Każde zadanie zaczynasz od pustego okna.</p><p>Agent zna kontekst firmy i projektu od pierwszego polecenia.</p></div>
+          <div><p>Nie wiesz, co delegować i jak ocenić wynik.</p><p>Wybierasz proces według wartości, ryzyka i jasnego kryterium sukcesu.</p></div>
+          <div><p>Wiedza firmy jest rozproszona po plikach i głowach.</p><p>Agent korzysta z uporządkowanych źródeł i potrafi je wskazać.</p></div>
+          <div><p>AI pomaga tylko Tobie, dorywczo.</p><p>Tworzysz sposób pracy, z którego może korzystać cały zespół.</p></div>
+          <div><p>Gotowa integracja kończy się przed systemem firmy.</p><p>W ścieżce dla technicznych budujesz własne narzędzia MCP.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section--haze" id="opinie">
+      <div class="wrap">
+        <header class="section-heading reveal">
+          <p class="eyebrow"><span></span> Praktyka, która działa po kursie</p>
+          <h2>Opinie uczestników <mark>wcześniejszych programów.</mark></h2>
+          <p>AI Operators startuje po raz pierwszy. Te opinie pochodzą z wcześniejszych programów Damiana i wKontenerach.</p>
+        </header>
+        <div class="testimonial-grid">
+          <figure class="testimonial reveal">
+            <blockquote>Wiedzę zarezerwowaną wcześniej dla programistów przełożyliście na język zrozumiały dla człowieka nie z tej bajki. Nie mam technicznego backgroundu, a dzięki temu sobie radzę.</blockquote>
+            <figcaption><img src="assets/testimonials/katarzyna-kot.jpg" alt="Katarzyna Kot" loading="lazy"><div><strong>Katarzyna Kot</strong><span>Audytor Jakości Produkcji Żywności</span></div></figcaption>
+          </figure>
+          <figure class="testimonial reveal reveal--delay">
+            <blockquote>Dzięki szkoleniu oszczędzam wiele godzin miesięcznie przy tworzeniu treści i zarządzaniu marketingiem strony firmowej. Ten czas mogę przeznaczyć na bardziej kreatywne rzeczy albo regenerację.</blockquote>
+            <figcaption><img src="assets/testimonials/krzysztof-branecki.jpeg" alt="Krzysztof Branecki" loading="lazy"><div><strong>Krzysztof Branecki</strong><span>Marketing i automatyzacja</span></div></figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <blockquote>Wyeliminowaliśmy bezmyślne klikanie i powtarzalne zadania, które kończyły się błędami. Zespół odzyskał czas na ocenę wyników, szukanie rozwiązań i optymalizację procedur.</blockquote>
+            <figcaption><img src="assets/testimonials/michal-skoczynski.jpeg" alt="Michał Skoczyński" loading="lazy"><div><strong>Michał Skoczyński</strong><span>Manager zespołu</span></div></figcaption>
+          </figure>
+          <figure class="testimonial reveal reveal--delay">
+            <blockquote>Wcześniej codziennie ogarniałem różne kalendarze, przypomnienia i listy. Teraz mój agent pomaga mi planować dzień i zadania oraz odpowiednio wcześniej przypomina o wydarzeniach.</blockquote>
+            <figcaption><img src="assets/testimonials/piotr-mosko.jpeg" alt="Piotr Mośko" loading="lazy"><div><strong>Piotr Mośko</strong><span>Specjalista organizacji</span></div></figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <blockquote>Program pomógł mi zautomatyzować zadania, które robiłam manualnie: joby na Jenkinsie, restart serwerów, raporty z testów i ewidencję commitów. Teraz zajmują sekundę.</blockquote>
+            <figcaption><img src="assets/testimonials/monika-fiodorow.jpeg" alt="Monika Fiodorów" loading="lazy"><div><strong>Monika Fiodorów</strong><span>Tester / Release Coordinator</span></div></figcaption>
+          </figure>
+          <figure class="testimonial testimonial--highlight reveal reveal--delay">
+            <blockquote>Zrozumiałem, że automatyzacje i tworzenie agentów AI nie są tak trudne, jak myślałem. Stworzyłem własnego asystenta wykorzystującego system message, RAG i MCP.</blockquote>
+            <figcaption><img src="assets/testimonials/damian-opiola.jpeg" alt="Damian Opioła" loading="lazy"><div><strong>Damian Opioła</strong><span>Specjalista automatyzacji</span></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="before-after">
+      <div class="wrap">
+        <header class="section-heading reveal">
+          <p class="eyebrow"><span></span> Kurs dla osób na etacie</p>
+          <h2>Program dopasowany <mark>do pracy na etacie.</mark></h2>
+        </header>
+        <div class="format-grid">
+          <article><span>WIDEO + TEKST</span><strong>Materiały realizujesz wtedy, kiedy masz czas.</strong><p>Każdy tydzień ma jasny rezultat i zadanie rozwijające Twój projekt.</p></article>
+          <article><span>LIVE Q&amp;A</span><strong>Pytasz mentorów na żywo albo wcześniej tekstowo.</strong><p>Każde spotkanie nagrywamy, więc możesz wrócić do odpowiedzi później.</p></article>
+          <article><span>FEEDBACK</span><strong>Dostajesz pomoc do zadań i projektu.</strong><p>Nie kupujesz katalogu nagrań. Przechodzisz program razem z grupą.</p></article>
+          <article><span>12 MIESIĘCY</span><strong>Wracasz do obu ścieżek po zakończeniu edycji.</strong><p>Materiały, nagrania LIVE i społeczność zostają dostępne przez rok.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="course-calendar" aria-labelledby="course-calendar-title">
+      <div class="wrap">
+        <header class="course-calendar__heading reveal">
+          <p class="eyebrow"><span></span> Plan pierwszej edycji</p>
+          <h2 id="course-calendar-title">Pięć tygodni. <mark>Pięć spotkań na żywo.</mark></h2>
+          <p>Pierwszy LIVE odbędzie się we wtorek 27 października. Od drugiego tygodnia spotykamy się w czwartki na Q&amp;A, a każde nagranie trafia na platformę.</p>
+        </header>
+
+        <div class="course-calendar__grid">
+          <article class="calendar-week reveal">
+            <header><span>Tydzień 01</span><h3>Od zadania do projektu AI</h3></header>
+            <div class="calendar-event calendar-event--lessons"><span aria-hidden="true">04</span><p>4 lekcje tygodniowo</p></div>
+            <div class="calendar-event calendar-event--live"><time datetime="2026-10-27"><strong>27.10</strong><small>wtorek</small></time><p><mark>LIVE otwierający</mark> - Od zadania do projektu AI</p></div>
+          </article>
+
+          <article class="calendar-week reveal reveal--delay">
+            <header><span>Tydzień 02</span><h3>Agent, narzędzia i bezpieczny dostęp</h3></header>
+            <div class="calendar-event calendar-event--lessons"><span aria-hidden="true">04</span><p>4 lekcje tygodniowo</p></div>
+            <div class="calendar-event calendar-event--live"><time datetime="2026-11-05"><strong>05.11</strong><small>czwartek</small></time><p><mark>LIVE Q&amp;A</mark> - Agent, narzędzia i bezpieczny dostęp</p></div>
+          </article>
+
+          <article class="calendar-week reveal reveal--delay-2">
+            <header><span>Tydzień 03</span><h3>Kontekst, pamięć i własne skille</h3></header>
+            <div class="calendar-event calendar-event--lessons"><span aria-hidden="true">04</span><p>4 lekcje tygodniowo</p></div>
+            <div class="calendar-event calendar-event--live"><time datetime="2026-11-12"><strong>12.11</strong><small>czwartek</small></time><p><mark>LIVE Q&amp;A</mark> - Kontekst, pamięć i własne skille</p></div>
+          </article>
+
+          <article class="calendar-week reveal">
+            <header><span>Tydzień 04</span><h3>Baza wiedzy, która zna źródła</h3></header>
+            <div class="calendar-event calendar-event--lessons"><span aria-hidden="true">04</span><p>4 lekcje tygodniowo</p></div>
+            <div class="calendar-event calendar-event--live"><time datetime="2026-11-19"><strong>19.11</strong><small>czwartek</small></time><p><mark>LIVE Q&amp;A</mark> - Baza wiedzy, która zna źródła</p></div>
+          </article>
+
+          <article class="calendar-week reveal reveal--delay">
+            <header><span>Tydzień 05</span><h3>Projekt w wybranej ścieżce</h3></header>
+            <div class="calendar-event calendar-event--lessons"><span aria-hidden="true">04</span><p>4 lekcje tygodniowo</p></div>
+            <div class="calendar-event calendar-event--live"><time datetime="2026-11-26"><strong>26.11</strong><small>czwartek</small></time><p><mark>LIVE Q&amp;A</mark> - Projekt w wybranej ścieżce</p></div>
+          </article>
+        </div>
+
+        <p class="course-calendar__note reveal"><span>↗</span><strong>Nie możesz być na żywo?</strong> Wyślij pytanie wcześniej. Każde spotkanie nagrywamy i udostępniamy na platformie.</p>
+      </div>
+    </section>
+
+    <section class="pricing section--ink" id="cena">
+      <div class="wrap pricing__wrap">
+        <header class="pricing__heading reveal">
+          <p class="eyebrow eyebrow--light"><span></span> Pierwsza edycja</p>
+          <h2>Dołącz do pierwszej edycji za <mark>995 zł netto.</mark></h2>
+          <p>Najniższa cena nie wróci. Przedsprzedaż do 2 września, start 26 października.</p>
+        </header>
+        <div class="pricing__grid">
+          <article class="price-card reveal">
+            <p class="price-card__label">Dostęp indywidualny</p>
+            <div class="price">
+              <strong>995 zł</strong>
+              <div class="price__meta">
+                <span>netto + 23% VAT</span>
+                <small>1223,85 zł brutto</small>
+              </div>
+            </div>
+            <a class="button button--price" href="https://wkontenerach.salescrm.pl/cart/add_product/22251" data-checkout>Dołącz teraz</a>
+            <p class="price-card__proof"><span aria-hidden="true">🔥</span> <strong>5000+</strong> absolwentów naszych szkoleń</p>
+            <a class="installments" href="https://wkontenerach.salescrm.pl/cart/add_product/22251" data-checkout>Nawet do 10 rat 0% z PayU Raty</a>
+            <p class="price-card__deadline">Cena z przedsprzedaży nigdy się nie powtórzy.</p>
+            <div class="price-card__divider"></div>
+            <h3>Otrzymujesz:</h3>
+            <ul>
+              <li>5 intensywnych tygodni programu</li>
+              <li>Dostęp do obu ścieżek: dla nietechnicznych i dla technicznych</li>
+              <li>Cotygodniowe sesje LIVE Q&amp;A z mentorami</li>
+              <li>Feedback do pytań, zadań i projektu</li>
+              <li>12 miesięcy dostępu do materiałów i społeczności</li>
+              <li>Certyfikat po oddaniu projektu końcowego</li>
+              <li>7 dni gwarancji od startu programu</li>
+            </ul>
+            <footer>Przelew · Karta · BLIK · PayU Raty 0% · Faktura VAT 23%</footer>
+          </article>
+          <aside class="team-card reveal reveal--delay">
+            <p class="price-card__label">Dostęp dla zespołu</p>
+            <h3>Chcesz wdrożyć standard pracy z AI w firmie?</h3>
+            <p>Przygotujemy ofertę dla kilku osób, wystawimy proformę i pomożemy przejść przez zakup firmowy.</p>
+            <ul>
+              <li>Dostęp dla wielu uczestników</li>
+              <li>Faktura proforma</li>
+              <li>Możliwość płatności przelewem</li>
+              <li>Kontakt z opiekunem</li>
+            </ul>
+            <button class="button button--team-contact" type="button" data-team-form-open>Zapytaj o ofertę dla zespołu</button>
+            <div class="team-contact">
+              <p>Zapraszamy do kontaktu</p>
+              <div class="team-contact__row">
+                <div class="team-contact__person">
+                  <strong>Karol Paterak</strong>
+                  <span>Customer Support Specialist</span>
+                </div>
+                <a href="mailto:akademia@wkontenerach.pl">akademia@wkontenerach.pl</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <aside class="pricing-flyer reveal" aria-labelledby="pricing-flyer-title">
+          <span class="pricing-flyer__file" aria-hidden="true">PDF</span>
+          <div class="pricing-flyer__copy">
+            <p class="pricing-flyer__eyebrow">Szkolenie z budżetu firmy</p>
+            <h3 id="pricing-flyer-title">Chcesz, żeby szef sfinansował Twój udział?</h3>
+            <p>Podeślij mu gotową ulotkę z programem, terminami i ceną. Ułatwisz mu podjęcie decyzji i rozmowę o budżecie szkoleniowym.</p>
+          </div>
+          <a class="button pricing-flyer__button" href="https://drive.google.com/file/d/11klVoNtgds0CeR4Y-vCuazOsa3AQQEoD/view?usp=drive_link" target="_blank" rel="noopener">Otwórz ulotkę dla szefa</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="wrap faq__grid">
+        <header class="section-heading faq__heading reveal">
+          <p class="eyebrow"><span></span> FAQ</p>
+          <h2>Najczęstsze <mark>pytania.</mark></h2>
+        </header>
+        <div class="faq__list reveal">
+          <details><summary>Czy kurs jest odpowiedni dla osoby nietechnicznej?<span>+</span></summary><div><p>Tak. Ścieżka dla nietechnicznych nie wymaga programowania ani technicznego doświadczenia. Jest przeznaczona dla osób spoza IT, które chcą wejść do branży AI, zbudować projekt do portfolio albo zostać osobą od AI w swojej firmie.</p></div></details>
+          <details><summary>Jakie są wymagania w ścieżce dla technicznych?<span>+</span></summary><div><p>Powinieneś znać podstawy Bash i Gita oraz rozumieć HTTP i API. Potrzebujesz komputera z minimum 8 GB RAM, zalecamy 16 GB. Jeśli masz pierwsze kroki w programowaniu za sobą albo pracujesz jako inżynier IT, jesteś gotowy.</p></div></details>
+          <details><summary>Czy muszę wybrać ścieżkę podczas zakupu?<span>+</span></summary><div><p>Nie. Otrzymujesz dostęp do obu ścieżek. W piątym tygodniu wybierasz projekt, na którym chcesz się skupić, a do materiałów drugiej ścieżki możesz wrócić później.</p></div></details>
+          <details><summary>Czy muszę mieć pomysł na własny projekt?<span>+</span></summary><div><p>Nie. Pomożemy Ci wybrać proces, który warto usprawnić. W ścieżce dla nietechnicznych otrzymasz kompletny przykład agenta do analizy konkurencji. W ścieżce dla technicznych pracujesz na przygotowanym, symulowanym środowisku firmowym.</p></div></details>
+          <details><summary>Ile czasu mam na naukę i co, jeśli opuszczę LIVE?<span>+</span></summary><div><p>Kurs zaprojektowaliśmy dla osób pracujących na pełen etat. Materiały realizujesz w swoim rytmie tygodnia. Wszystkie spotkania nagrywamy, a pytanie możesz wysłać mentorom wcześniej tekstowo.</p></div></details>
+          <details><summary>Jak długo mam dostęp?<span>+</span></summary><div><p>Przez 12 miesięcy masz dostęp do materiałów, nagrań ze spotkań i społeczności.</p></div></details>
+          <details><summary>Czy otrzymam certyfikat?<span>+</span></summary><div><p>Tak. Po ukończeniu programu i oddaniu projektu końcowego otrzymasz certyfikat AI Operators.</p></div></details>
+          <details><summary>Czy firma może opłacić mój udział?<span>+</span></summary><div><p>Tak. Możemy wystawić fakturę proforma. Napisz na akademia@wkontenerach.pl, jeśli potrzebujesz dokumentów albo oferty dla kilku osób.</p></div></details>
+          <details><summary>Jak działa gwarancja?<span>+</span></summary><div><p>Masz 7 dni na spokojne sprawdzenie programu, liczone od jego startu. Jeśli uznasz, że to nie jest dla Ciebie, możesz poprosić o zwrot.</p></div></details>
+          <details><summary>Dlaczego warto dołączyć w przedsprzedaży?<span>+</span></summary><div><p>995 zł netto to najniższa cena, w jakiej AI Operators będzie kiedykolwiek dostępny. Kolejne edycje będą droższe, a ta cena nie wróci.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section--ink">
+      <div class="wrap reveal">
+        <p class="eyebrow eyebrow--light"><span></span> Przedsprzedaż do 2 września</p>
+        <h2>Zostań Operatorem AI <mark>w 5 tygodni.</mark></h2>
+        <div class="final-cta__facts"><span>995 zł netto</span><span>10 rat 0%</span><span>7 dni gwarancji</span></div>
+        <a class="button button--large" href="CHECKOUT_URL" data-checkout>Dołącz do pierwszej edycji</a>
+        <small>Start 26 października 2026 · 12 miesięcy dostępu</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section--ink">
+    <div class="wrap">
+      <div class="footer-trust">
+        <a href="https://wkontenerach.pl" target="_blank" rel="noopener" aria-label="wKontenerach.pl">
+          <img src="assets/wkontenerach-white.png" alt="wKontenerach.pl" width="5379" height="1244">
+        </a>
+        <div>
+          <p>Za <strong>AI Operators</strong> stoi zespół <strong>wKontenerach.pl</strong></p>
+          <span>Twórcy m.in. AI Army · Ewolucja Developera · Docker Maestro · Kubernetes Maestro · Automation Maestro</span>
+        </div>
+      </div>
+
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="wordmark wordmark--light" href="#start" aria-label="AI Operators, wróć na początek"><span class="wordmark__ai">AI</span><span class="wordmark__dot"></span><span>Operators</span></a>
+          <p>Program dla osób, które chcą projektować agentów AI, przekazywać im kontekst firmy i wdrażać ich do prawdziwej pracy.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Nawigacja w stopce">
+          <h3>Nawigacja</h3>
+          <a href="#start">Start</a>
+          <a href="#dla-kogo">Dla kogo</a>
+          <a href="#program">Program</a>
+          <a href="#mentorzy">Mentorzy</a>
+          <a href="#opinie">Opinie</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="footer-contact">
+          <h3>Kontakt</h3>
+          <a href="https://wkontenerach.pl" target="_blank" rel="noopener">wkontenerach.pl</a>
+          <a href="mailto:akademia@wkontenerach.pl">akademia@wkontenerach.pl</a>
+          <a href="https://www.instagram.com/ai.zajaczkowska" target="_blank" rel="noopener">Ola - Instagram</a>
+          <a href="https://www.instagram.com/damian.naprawa/" target="_blank" rel="noopener">Damian - Instagram</a>
+          <a href="https://linkedin.com/in/aleksandra-zajaczkowska" target="_blank" rel="noopener">Ola - LinkedIn</a>
+          <a href="https://linkedin.com/in/dnaprawa/" target="_blank" rel="noopener">Damian - LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 AI Operators · Aleksandra Zajączkowska + Damian Naprawa</p>
+        <a href="https://wkontenerach.pl/privacy-policy/" target="_blank" rel="noopener">Polityka prywatności</a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="team-form-modal" data-team-form-modal aria-labelledby="team-form-title">
+    <div id="mlb2-6134733" class="team-form-modal__panel ml-subscribe-form ml-subscribe-form-6134733">
+      <button class="team-form-modal__close" type="button" data-team-form-close aria-label="Zamknij formularz">×</button>
+
+      <div class="team-form-modal__intro">
+        <p class="eyebrow"><span></span> Oferta dla zespołu</p>
+        <h2 id="team-form-title">Dowiedz się więcej</h2>
+        <p>Wypełnij formularz. Skontaktujemy się z Tobą i omówimy szczegóły programu.</p>
+      </div>
+
+      <form class="team-form ml-block-form" action="https://static.mailerlite.com/webforms/submit/o5j3u2" data-code="o5j3u2" method="post" target="_blank" rel="noopener" data-team-form novalidate>
+        <input type="hidden" name="ml-submit" value="1">
+        <input type="hidden" name="anticsrf" value="true">
+
+        <div class="team-form__field ml-field-name ml-validate-required">
+          <label class="visually-hidden" for="team-name">Imię i nazwisko</label>
+          <input id="team-name" name="fields[name]" type="text" autocomplete="name" placeholder="Imię i nazwisko *" required>
+        </div>
+
+        <div class="team-form__field team-form__field--phone ml-field-phone ml-validate-required">
+          <span class="team-form__prefix" aria-hidden="true">+48</span>
+          <label class="visually-hidden" for="team-phone">Telefon</label>
+          <input id="team-phone" name="fields[phone]" type="text" autocomplete="tel" inputmode="tel" placeholder="Telefon *" required>
+        </div>
+
+        <div class="team-form__field ml-field-email ml-validate-email ml-validate-required">
+          <label class="visually-hidden" for="team-email">Email służbowy</label>
+          <input id="team-email" name="fields[email]" type="email" autocomplete="email" placeholder="Email służbowy *" required>
+        </div>
+
+        <fieldset class="team-form__team-size ml-field-company">
+          <legend>Dla ilu osób?</legend>
+          <div class="team-form__options">
+            <label>
+              <input type="radio" name="fields[company]" value="1-4 osoby" checked>
+              <span>1-4 osoby</span>
+            </label>
+            <label>
+              <input type="radio" name="fields[company]" value="5+ osób">
+              <span>5+ osób</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <label class="team-form__consent ml-field-zgoda ml-validate-required">
+          <input type="checkbox" name="fields[zgoda]" value="1" required>
+          <span>Wyrażam zgodę na otrzymanie maila z ofertą od APAREO Damian Naprawa. zgodnie z <a href="https://wkontenerach.pl/privacy-policy/" target="_blank" rel="noopener">Polityką Prywatności</a>. Dane wykorzystamy wyłącznie do przygotowania i przekazania oferty.</span>
+        </label>
+
+        <button class="button team-form__submit primary" type="submit">Poznaj szczegóły programu</button>
+        <button class="button team-form__submit loading" type="button" disabled style="display:none">Wysyłanie...</button>
+        <p class="team-form__status ml-server-error d-none" data-team-form-status role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="team-form-success" data-team-form-success hidden>
+        <span aria-hidden="true">✓</span>
+        <h3>Dziękujemy za wiadomość.</h3>
+        <p>Karol odezwie się do Ciebie w sprawie oferty dla zespołu.</p>
+        <button class="button" type="button" data-team-form-close>Zamknij</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Cookie Consent -->
+  <div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-banner-content">
+      <p class="cookie-banner-text">
+        <strong>Cenimy Twoją prywatność.</strong>
+        Używamy plików cookie, aby poprawić jakość przeglądania i analizować ruch.
+        <a href="https://wkontenerach.pl/privacy-policy/" target="_blank" rel="noopener">Polityka Cookie</a>
+      </p>
+      <button class="cookie-banner-accept" onclick="acceptCookies()">Akceptuj</button>
+    </div>
+  </div>
+
+  <script src="script.js?v=20260819-mailerlite-v2"></script>
+  <script src="https://static.mailerlite.com/js/w/webforms.min.js?vd4de52e171e8eb9c47c0c20caf367ddf"></script>
+</body>
+</html>

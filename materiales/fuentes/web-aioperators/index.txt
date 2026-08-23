@@ -1,0 +1,389 @@
+AI Operators | Zostań Operatorem AI w 5 tygodni
+Przedsprzedaż do 2 września. Najniższa cena tego programu nie wróci. Dołącz teraz →
+×
+AI Operators
+by
+Dla kogo
+Program
+Mentorzy
+Opinie
+FAQ
+Dołącz teraz
+Dla kogo
+Program
+Mentorzy
+Opinie
+Cena
+FAQ
+Zostań Operatorem AI. Deleguj AI realne zadania.
+W 5 tygodni nauczysz się wybierać procesy, przekazywać agentom kontekst firmy i wdrażać ich do pracy według jasnych zasad.
+Jesteś osobą nietechniczną?
+Wejdź do branży AI albo zostań osobą od AI w swojej firmie.
+Bez programowania. Z konkretnym projektem do portfolio.
+Jesteś Inżynierem IT?
+Buduj własne narzędzia AI, by optymalizować swoją pracę i zespołu.
+Połącz agenta z systemami firmy przez MCP i API.
+Zobacz tematy programu
+Dołącz w przedsprzedaży →
+Aleksandra Zajączkowska
+Damian Naprawa
+Zostań Operatorem AI. Deleguj AI realne zadania.
+Start 26 października
+Format 5 intensywnych tygodni
+Co tydzień Spotkania na żywo
+Kim jest AI Operator?
+Od chaosu do procesu
+01 Dzisiaj AI pomaga Ci dorywczo.
+02 Każde zadanie zaczynasz od początku.
+03 Jako Operator AI łączysz kontekst, wiedzę i narzędzia.
+04 Następnie wyznaczasz granice i zatwierdzasz efekt.
+05 Chaos zamienia się w proces gotowy do pracy.
+01 / 05
+Przewiń, aby uruchomić proces
+Klaudia Szewczuk Prawniczka / Zarządzanie Projektami
+“
+Nie miałam wcześniejszego doświadczenia ani w pracy z AI, ani z kodowaniem. Zbudowałam agenta, który zaoszczędził 30 godzin pracy miesięcznie jednemu pracownikowi.
+Opinia klientki jednego z naszych szkoleń
+Uczestnicy naszych programów pracują między innymi w:
+WIDEO / IDEA PROGRAMU
+AI OPERATORS
+Kim jest AI Operator ?
+Zobacz, dlaczego samo korzystanie z czatu to za mało, jak wygląda przejście od pojedynczych poleceń do działającego procesu
+Poznaj pełny program ↓
+PLAY
+AI Operators Idea programu
+FORMAT / 01
+Projekt edukacyjny, nie kurs online
+Jak będzie wyglądać nauka?
+Jak pracujesz
+5 tygodni wspólnej pracy
+Własny projekt zamiast samej teorii
+Stały feedback od mentorów i grupy
+01 Przed spotkaniem
+Lekcje i zadania
+Uczysz się we własnym tempie. Co tydzień rozwijasz ten sam projekt.
+02 Co tydzień
+Spotkania na żywo
+Przynosisz pytania i wersję roboczą. Jeśli Cię nie ma, wracasz do nagrania.
+03 Między sesjami
+Społeczność
+Wymieniasz się rozwiązaniami i widzisz, jak nad projektami pracują inni.
+04 Przez cały projekt
+Wsparcie mentorów
+Dostajesz feedback do pytań, zadań i projektu, kiedy utkniesz.
+Od użytkownika do Operatora AI
+Od pojedynczego czatu do działającego procesu.
+Poznasz sposób pracy, który możesz przenieść do dowolnej firmy.
+01
+Wybiera
+Wiesz, co przekazać AI i kiedy użyć czatu, workflow albo agenta.
+02
+Uczy kontekstu
+Agent zna zasady firmy, wiedzę i granice działania.
+03
+Dowozi
+Jako Operator AI budujesz rozwiązanie, testujesz wynik i kontrolujesz jego dostęp.
+Kontekst firmy
+Agent zna kontekst firmy od pierwszego polecenia.
+Porządkujesz procesy, decyzje i dokumenty. Agent wie, gdzie szukać odpowiedzi.
+Plik kontekstowy dla firmy i projektu
+Pamięć, która zachowuje właściwe ustalenia
+Skill zapisujący powtarzalną procedurę
+Baza wiedzy oparta na dokumentach firmy
+company-context/ aktualny
+C CONTEXT.md cele, zasady, ograniczenia
+źródło #1
+P procesy/ procedury zespołu
+12 plików
+W wiedza/ dokumenty i decyzje
+graf
+Agent odpowiada na podstawie firmy, nie domysłów.
+Agent uruchomiony
+01 Wejście Powtarzalne zadanie
+kontekst + wiedza
+AI Agent AI Działa według procedury
+● online
+test + weryfikacja
+✓ Rezultat Gotowy do użycia
+Delegowanie z kontrolą
+Oddajesz część procesu agentowi i zachowujesz kontrolę.
+Określasz rolę, dostęp i kryteria sukcesu. Potem testujesz wynik.
+Jasny cel i rezultat pracy agenta
+Minimalne uprawnienia i bezpieczne granice
+Przypadki poprawne, brzegowe i błędne
+Człowiek zatwierdza działania wymagające zapisu
+Dla nietechnicznych i technicznych
+Pierwsze 4 tygodnie dają wspólny fundament. W 5. tygodniu realizujesz projekt dopasowany do swojej roli i doświadczenia.
+Wspólny start / tygodnie 1-4
+Nie musisz wybierać ścieżki przy zakupie.
+Najpierw uczysz się wybierać procesy, budować agentów, przekazywać im kontekst i pracować z bazą wiedzy.
+W 5. tygodniu wybierasz projekt ↓
+ścieżka dla nietechnicznych
+05A Dla osób spoza IT
+Ścieżka dla nietechnicznych
+Usprawnij proces biznesowy z AI.
+Pracujesz na własnym procesie albo korzystasz z kompletnego przykładu analizy konkurencji.
+Dowolny proces z Twojej pracy
+Prototyp rozwiązania biznesowego
+Projekt gotowy do portfolio
+Kończysz z: agentem dla własnego procesu + działającym prototypem
+ścieżka dla inżynierów
+05B Dla inżynierów
+Ścieżka dla technicznych
+Połącz agenta z systemami firmy.
+Budujesz serwer MCP i agenta do sprawdzania statusu, debugowania oraz obsługi incydentów.
+Własne narzędzia MCP
+Kontrolowany dostęp do API i dokumentacji
+Projekt gotowy do pokazania zespołowi
+Kończysz z: serwerem MCP + agentem diagnostycznym
+✓ Niezależnie od wyboru zachowujesz dostęp do obu ścieżek przez 12 miesięcy.
+Narzędzia są środkiem
+Ten proces działa w różnych narzędziach.
+Claude Code OpenAI Codex ChatGPT Gemini Obsidian MCP Lovable API Git RAG
+Mentorzy
+Uczą Cię praktycy, którzy budują z AI.
+01 Aleksandra Zajączkowska
+AI Engineer z 7+ lat doświadczenia. Pracowała z AI zanim to stało się modne. Przeszła od zera całą ścieżkę kariery w AI, a teraz pomaga osobom, które chcą wejść do branży AI. Trenerka Eskadry Bielika, polskiego modelu AI.
+7 lat doświadczenia w AI 25k+ obserwujących na Instagramie
+02 Damian Naprawa
+Architekt Systemów. Rozwija z agentami AI zarówno procesy biznesowe, jak też aplikacje SaaS. Zbudował między innymi agenta do treści SEO (zdobywając klientów z USA czy Australii), a także firmowy kontekst, pozwalający bardzo szybko uruchamiać nowe linie biznesowe.
+5000+ absolwentów szkoleń 3 kontynenty klienci aplikacji SaaS
+Program, który prowadzi do gotowego projektu
+Co tydzień potrafisz zrobić z AI więcej.
+Nie kolekcjonujesz przypadkowych lekcji. Krok po kroku budujesz system, który przejmuje prawdziwy proces z Twojej pracy.
+Tygodnie 1-4 wspólny fundament / Tydzień 5 wybór ścieżki dla nietechnicznych lub dla technicznych
+Tydzień 01
+Wiesz jak wybierać modele AI do zadań i przechodzisz z okna czatu do projektu.
+Przestajesz wybierać narzędzia na wyczucie. Oceniasz zadanie przez wartość, ryzyko i oczekiwany rezultat.
+Co osiągniesz?
+Przestaniesz przepalać czas i tokeny na zbyt mocne modele. Dobierzesz GPT, Claude'a albo Gemini do jakości, ryzyka i budżetu zadania.
+Z niejasnego polecenia ułożysz specyfikację z celem, kontekstem, ograniczeniami i formatem wyniku, który da się od razu ocenić.
+Przeniesiesz powtarzalne zadanie z okna czatu do projektu, który zna pliki, kontekst i zasady Twojej firmy.
+Rozłożysz własny proces na część dla człowieka, workflow i agenta, z jasnym momentem akceptacji przed ważną decyzją.
+Co stworzysz?
+Audyt jednego procesu z Twojej pracy: ocenę wartości, ryzyka i kosztu oraz decyzję, czy użyć czatu, workflow czy agenta.
+LIVE 27.10 wtorek
+Otwarcie programu
+LIVE otwierający - Od zadania do projektu AI Poznajemy zasady programu, narzędzia i sposób pracy. Ustawiamy projekty, dobieramy pierwsze zadania i odpowiadamy na pytania organizacyjne.
+Tydzień 02
+Budujesz agenta, któremu możesz powierzyć powtarzalne zadanie.
+Agent dostaje jasną rolę, dostęp tylko do potrzebnych narzędzi i kryterium, po którym poznasz dobrą pracę.
+Co osiągniesz?
+Wybierzesz powtarzalne zadanie, którego przejęcie naprawdę zwalnia czas, i zapiszesz dla agenta mierzalne kryterium dobrej pracy.
+Podłączysz agenta przez MCP do realnego źródła danych lub narzędzia, bez oddawania mu dostępu do całej firmy.
+Zaprojektujesz rolę, granice i warunki zatrzymania, dzięki którym agent wie, kiedy działać, a kiedy poprosić Cię o decyzję.
+Przetestujesz jego pracę na co najmniej pięciu przypadkach poprawnych, brzegowych i błędnych, zanim powierzysz mu prawdziwy proces.
+Co stworzysz?
+Działającego agenta podłączonego do jednego źródła lub narzędzia, z ograniczonym dostępem i scenariuszami testowymi.
+LIVE 05.11 czwartek
+Spotkanie na żywo
+LIVE Q&A - Agent, narzędzia i bezpieczny dostęp Rozbieramy projekty na rolę, narzędzia, uprawnienia i testy. Poprawiamy miejsca, w których agent może utknąć albo przekroczyć granice.
+Tydzień 03
+Agent poznaje zasady firmy i pracuje według Twojego standardu.
+Zapisujesz wiedzę, wymagania i procedury tak, aby wynik nie zależał od ciągłego tłumaczenia tych samych rzeczy.
+Co osiągniesz?
+Zbudujesz plik kontekstowy, po którym agent od pierwszej sesji zna firmę, projekt, zasady pracy i oczekiwany rezultat.
+Ułożysz hierarchię źródeł prawdy, dzięki której sprzeczne instrukcje nie kończą się przypadkową decyzją modelu.
+Nadasz agentowi kontrolowaną pamięć: zachowa decyzje i preferencje, ale nie utrwali danych wrażliwych ani nieaktualnych ustaleń.
+Zamienisz powtarzalną procedurę w skill z warunkami uruchomienia, wymaganym wejściem, granicami działania i stałym formatem wyniku.
+Co stworzysz?
+Pakiet kontekstu firmy i projektu oraz skill, który odtwarza wybraną procedurę bez ponownego tłumaczenia zasad.
+LIVE 12.11 czwartek
+Spotkanie na żywo
+LIVE Q&A - Kontekst, pamięć i własne skille Sprawdzamy, czy agent rozumie firmę, źródła prawdy i procedurę. Ulepszamy instrukcje na podstawie błędnych wyników.
+Tydzień 04
+Budujesz drugi mózg firmy, który zna dokumenty i decyzje.
+Agent odnajduje właściwe informacje, wskazuje ich źródło i potrafi przyznać, że danych brakuje.
+Co osiągniesz?
+Zmapujesz dokumenty, decyzje i procedury firmy oraz wybierzesz dla nich właściwą architekturę: RAG, wyszukiwanie lub graf wiedzy.
+Agent zacznie odpowiadać na podstawie firmowych dokumentów i cytować konkretny plik, więc łatwo sprawdzisz, skąd wzięła się odpowiedź.
+Nauczysz agenta mówić „nie wiem” przy braku danych oraz odróżniać nieaktualny dokument od obowiązującej decyzji.
+Zbudujesz pytania kontrolne i reguły aktualizacji, które wyłapią brakujące albo nieaktualne źródło, zanim agent oprze na nim odpowiedź.
+Co stworzysz?
+Bazę wiedzy z cytowaniem źródeł, regułą „nie wiem” i zestawem pytań kontrolnych do oceny jakości odpowiedzi.
+LIVE 19.11 czwartek
+Spotkanie na żywo
+LIVE Q&A - Baza wiedzy, która zna źródła Testujemy cytowanie, aktualność źródeł i reakcję na brak danych. Szukamy pytań, na których baza wiedzy jeszcze się wykłada.
+Tydzień 05
+Kończysz z projektem dopasowanym do Twojego doświadczenia.
+Nie musisz decydować przy zakupie. W piątym tygodniu wybierasz projekt, który najlepiej pasuje do Twojej roli. Materiały obu ścieżek zostają z Tobą.
+Dla nietechnicznych
+Bez programowania
+Zamieniasz proces biznesowy w rozwiązanie, które można pokazać klientowi lub zespołowi.
+Co osiągniesz?
+Zmapujesz własny rynek, 3-5 konkurentów i źródła, którym można zaufać, zamiast zbierać przypadkowe linki do kolejnego arkusza.
+Zbudujesz Competitive Intelligence Operatora, który zamienia dowody, daty i ocenę pewności w raport z rekomendowanymi działaniami.
+Opakujesz najważniejszy rezultat operatora w działający prototyp aplikacji, który da się przetestować z pierwszym użytkownikiem.
+Przygotujesz landing page pokazujący wartość projektu klientowi, szefowi albo osobie prowadzącej rekrutację.
+Co stworzysz?
+Działającego operatora wybranego procesu, prototyp aplikacji i landing page gotowy do pokazania klientowi lub zespołowi.
+Dla technicznych
+Dla inżynierów IT
+Dajesz agentowi bezpieczny dostęp do systemów, których nie obsłuży gotowa integracja.
+Co osiągniesz?
+Zbudujesz własny serwer MCP, który daje agentowi kontrolowany dostęp do API, logów, wdrożeń i runbooków firmy.
+Uruchomisz operatora w trzech trybach: /status , /debug i /incident , od szybkiego obrazu sytuacji po raport z osią czasu i rekomendowanym działaniem.
+Dodasz walidację, minimalne uprawnienia i audyt, a każda operacja zapisu poczeka na jawną zgodę człowieka.
+Zamkniesz projekt materiałem do portfolio: serwerem MCP, opisem debugowania, raportem incydentu i przekazaniem pracy kolejnej osobie.
+Co stworzysz?
+Firmowy serwer MCP z bezpiecznymi narzędziami oraz operatora, który sprawdza status systemu i pomaga diagnozować incydenty.
+LIVE 26.11 czwartek
+Spotkanie na żywo
+LIVE Q&A - Projekt w wybranej ścieżce Pokazujemy projekty obu ścieżek, zbieramy feedback mentorów i ustalamy ostatnie poprawki przed oddaniem projektu.
+Masz dostęp do obu ścieżek. Przez 12 miesięcy możesz wrócić do materiałów dla nietechnicznych i technicznych.
+Po 5 tygodniach
+Masz co pokazać.
+Kończysz z działającym projektem, nie tylko certyfikatem.
+Nowa praca Konkretny case w portfolio.
+Awans Dowód, że AI daje wynik.
+W firmie To Ty jesteś osobą od AI.
+Zbuduj swój projekt →
+Głębiej niż codzienny chat
+Zobacz, jak zmieni się Twoja praca z AI.
+Dzisiaj Po AI Operators
+Każde zadanie zaczynasz od pustego okna.
+Agent zna kontekst firmy i projektu od pierwszego polecenia.
+Nie wiesz, co delegować i jak ocenić wynik.
+Wybierasz proces według wartości, ryzyka i jasnego kryterium sukcesu.
+Wiedza firmy jest rozproszona po plikach i głowach.
+Agent korzysta z uporządkowanych źródeł i potrafi je wskazać.
+AI pomaga tylko Tobie, dorywczo.
+Tworzysz sposób pracy, z którego może korzystać cały zespół.
+Gotowa integracja kończy się przed systemem firmy.
+W ścieżce dla technicznych budujesz własne narzędzia MCP.
+Praktyka, która działa po kursie
+Opinie uczestników wcześniejszych programów.
+AI Operators startuje po raz pierwszy. Te opinie pochodzą z wcześniejszych programów Damiana i wKontenerach.
+Wiedzę zarezerwowaną wcześniej dla programistów przełożyliście na język zrozumiały dla człowieka nie z tej bajki. Nie mam technicznego backgroundu, a dzięki temu sobie radzę.
+Katarzyna Kot Audytor Jakości Produkcji Żywności
+Dzięki szkoleniu oszczędzam wiele godzin miesięcznie przy tworzeniu treści i zarządzaniu marketingiem strony firmowej. Ten czas mogę przeznaczyć na bardziej kreatywne rzeczy albo regenerację.
+Krzysztof Branecki Marketing i automatyzacja
+Wyeliminowaliśmy bezmyślne klikanie i powtarzalne zadania, które kończyły się błędami. Zespół odzyskał czas na ocenę wyników, szukanie rozwiązań i optymalizację procedur.
+Michał Skoczyński Manager zespołu
+Wcześniej codziennie ogarniałem różne kalendarze, przypomnienia i listy. Teraz mój agent pomaga mi planować dzień i zadania oraz odpowiednio wcześniej przypomina o wydarzeniach.
+Piotr Mośko Specjalista organizacji
+Program pomógł mi zautomatyzować zadania, które robiłam manualnie: joby na Jenkinsie, restart serwerów, raporty z testów i ewidencję commitów. Teraz zajmują sekundę.
+Monika Fiodorów Tester / Release Coordinator
+Zrozumiałem, że automatyzacje i tworzenie agentów AI nie są tak trudne, jak myślałem. Stworzyłem własnego asystenta wykorzystującego system message, RAG i MCP.
+Damian Opioła Specjalista automatyzacji
+Kurs dla osób na etacie
+Program dopasowany do pracy na etacie.
+WIDEO + TEKST Materiały realizujesz wtedy, kiedy masz czas. Każdy tydzień ma jasny rezultat i zadanie rozwijające Twój projekt.
+LIVE Q&A Pytasz mentorów na żywo albo wcześniej tekstowo. Każde spotkanie nagrywamy, więc możesz wrócić do odpowiedzi później.
+FEEDBACK Dostajesz pomoc do zadań i projektu. Nie kupujesz katalogu nagrań. Przechodzisz program razem z grupą.
+12 MIESIĘCY Wracasz do obu ścieżek po zakończeniu edycji. Materiały, nagrania LIVE i społeczność zostają dostępne przez rok.
+Plan pierwszej edycji
+Pięć tygodni. Pięć spotkań na żywo.
+Pierwszy LIVE odbędzie się we wtorek 27 października. Od drugiego tygodnia spotykamy się w czwartki na Q&A, a każde nagranie trafia na platformę.
+Tydzień 01 Od zadania do projektu AI
+04 4 lekcje tygodniowo
+27.10 wtorek LIVE otwierający - Od zadania do projektu AI
+Tydzień 02 Agent, narzędzia i bezpieczny dostęp
+04 4 lekcje tygodniowo
+05.11 czwartek LIVE Q&A - Agent, narzędzia i bezpieczny dostęp
+Tydzień 03 Kontekst, pamięć i własne skille
+04 4 lekcje tygodniowo
+12.11 czwartek LIVE Q&A - Kontekst, pamięć i własne skille
+Tydzień 04 Baza wiedzy, która zna źródła
+04 4 lekcje tygodniowo
+19.11 czwartek LIVE Q&A - Baza wiedzy, która zna źródła
+Tydzień 05 Projekt w wybranej ścieżce
+04 4 lekcje tygodniowo
+26.11 czwartek LIVE Q&A - Projekt w wybranej ścieżce
+↗ Nie możesz być na żywo? Wyślij pytanie wcześniej. Każde spotkanie nagrywamy i udostępniamy na platformie.
+Pierwsza edycja
+Dołącz do pierwszej edycji za 995 zł netto.
+Najniższa cena nie wróci. Przedsprzedaż do 2 września, start 26 października.
+Dostęp indywidualny
+995 zł
+netto + 23% VAT
+1223,85 zł brutto
+Dołącz teraz
+🔥 5000+ absolwentów naszych szkoleń
+Nawet do 10 rat 0% z PayU Raty
+Cena z przedsprzedaży nigdy się nie powtórzy.
+Otrzymujesz:
+5 intensywnych tygodni programu
+Dostęp do obu ścieżek: dla nietechnicznych i dla technicznych
+Cotygodniowe sesje LIVE Q&A z mentorami
+Feedback do pytań, zadań i projektu
+12 miesięcy dostępu do materiałów i społeczności
+Certyfikat po oddaniu projektu końcowego
+7 dni gwarancji od startu programu
+Przelew · Karta · BLIK · PayU Raty 0% · Faktura VAT 23%
+Dostęp dla zespołu
+Chcesz wdrożyć standard pracy z AI w firmie?
+Przygotujemy ofertę dla kilku osób, wystawimy proformę i pomożemy przejść przez zakup firmowy.
+Dostęp dla wielu uczestników
+Faktura proforma
+Możliwość płatności przelewem
+Kontakt z opiekunem
+Zapytaj o ofertę dla zespołu
+Zapraszamy do kontaktu
+Karol Paterak
+Customer Support Specialist
+akademia@wkontenerach.pl
+PDF
+Szkolenie z budżetu firmy
+Chcesz, żeby szef sfinansował Twój udział?
+Podeślij mu gotową ulotkę z programem, terminami i ceną. Ułatwisz mu podjęcie decyzji i rozmowę o budżecie szkoleniowym.
+Otwórz ulotkę dla szefa
+FAQ
+Najczęstsze pytania.
+Czy kurs jest odpowiedni dla osoby nietechnicznej? + Tak. Ścieżka dla nietechnicznych nie wymaga programowania ani technicznego doświadczenia. Jest przeznaczona dla osób spoza IT, które chcą wejść do branży AI, zbudować projekt do portfolio albo zostać osobą od AI w swojej firmie.
+Jakie są wymagania w ścieżce dla technicznych? + Powinieneś znać podstawy Bash i Gita oraz rozumieć HTTP i API. Potrzebujesz komputera z minimum 8 GB RAM, zalecamy 16 GB. Jeśli masz pierwsze kroki w programowaniu za sobą albo pracujesz jako inżynier IT, jesteś gotowy.
+Czy muszę wybrać ścieżkę podczas zakupu? + Nie. Otrzymujesz dostęp do obu ścieżek. W piątym tygodniu wybierasz projekt, na którym chcesz się skupić, a do materiałów drugiej ścieżki możesz wrócić później.
+Czy muszę mieć pomysł na własny projekt? + Nie. Pomożemy Ci wybrać proces, który warto usprawnić. W ścieżce dla nietechnicznych otrzymasz kompletny przykład agenta do analizy konkurencji. W ścieżce dla technicznych pracujesz na przygotowanym, symulowanym środowisku firmowym.
+Ile czasu mam na naukę i co, jeśli opuszczę LIVE? + Kurs zaprojektowaliśmy dla osób pracujących na pełen etat. Materiały realizujesz w swoim rytmie tygodnia. Wszystkie spotkania nagrywamy, a pytanie możesz wysłać mentorom wcześniej tekstowo.
+Jak długo mam dostęp? + Przez 12 miesięcy masz dostęp do materiałów, nagrań ze spotkań i społeczności.
+Czy otrzymam certyfikat? + Tak. Po ukończeniu programu i oddaniu projektu końcowego otrzymasz certyfikat AI Operators.
+Czy firma może opłacić mój udział? + Tak. Możemy wystawić fakturę proforma. Napisz na akademia@wkontenerach.pl, jeśli potrzebujesz dokumentów albo oferty dla kilku osób.
+Jak działa gwarancja? + Masz 7 dni na spokojne sprawdzenie programu, liczone od jego startu. Jeśli uznasz, że to nie jest dla Ciebie, możesz poprosić o zwrot.
+Dlaczego warto dołączyć w przedsprzedaży? + 995 zł netto to najniższa cena, w jakiej AI Operators będzie kiedykolwiek dostępny. Kolejne edycje będą droższe, a ta cena nie wróci.
+Przedsprzedaż do 2 września
+Zostań Operatorem AI w 5 tygodni.
+995 zł netto 10 rat 0% 7 dni gwarancji
+Dołącz do pierwszej edycji
+Start 26 października 2026 · 12 miesięcy dostępu
+Za AI Operators stoi zespół wKontenerach.pl
+Twórcy m.in. AI Army · Ewolucja Developera · Docker Maestro · Kubernetes Maestro · Automation Maestro
+AI Operators
+Program dla osób, które chcą projektować agentów AI, przekazywać im kontekst firmy i wdrażać ich do prawdziwej pracy.
+Nawigacja
+Start
+Dla kogo
+Program
+Mentorzy
+Opinie
+FAQ
+Kontakt
+wkontenerach.pl
+akademia@wkontenerach.pl
+Ola - Instagram
+Damian - Instagram
+Ola - LinkedIn
+Damian - LinkedIn
+© 2026 AI Operators · Aleksandra Zajączkowska + Damian Naprawa
+Polityka prywatności
+×
+Oferta dla zespołu
+Dowiedz się więcej
+Wypełnij formularz. Skontaktujemy się z Tobą i omówimy szczegóły programu.
+Imię i nazwisko
++48
+Telefon
+Email służbowy
+Dla ilu osób?
+1-4 osoby
+5+ osób
+Wyrażam zgodę na otrzymanie maila z ofertą od APAREO Damian Naprawa. zgodnie z Polityką Prywatności . Dane wykorzystamy wyłącznie do przygotowania i przekazania oferty.
+Poznaj szczegóły programu
+Wysyłanie...
+✓
+Dziękujemy za wiadomość.
+Karol odezwie się do Ciebie w sprawie oferty dla zespołu.
+Zamknij
+Cenimy Twoją prywatność.
+Używamy plików cookie, aby poprawić jakość przeglądania i analizować ruch.
+Polityka Cookie
+Akceptuj
