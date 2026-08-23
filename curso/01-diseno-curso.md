@@ -27,12 +27,13 @@ alumna coge **un proceso real de su puesto** y lo lleva de punta a punta por och
 ocurra sin que lo pida · meterle juicio donde hace falta y frenos donde hace falta · medir si sirve ·
 dejarlo en condiciones de sobrevivirle · y conseguir que otra persona lo use sin ella delante.
 
-**Por qué así.** Porque es el único formato en el que cada decisión recibe la respuesta del mundo. Un
-artefacto en producción sobre su mesa la corrige cada martes, y eso es el mecanismo de corrección
-número uno de los nueve que existen sin profesor [E]. Y porque la escalera de capacidades que pide el
-perfil —chat mejor usado → automatizaciones → agentes → herramientas avanzadas— **no se sube por
-calendario: aparece sola por debajo**, porque un proceso al que aprietas va pidiendo cosas en ese
-orden y cada techo se siente antes de que nadie lo explique.
+**Por qué así.** Porque es el único formato en el que cada decisión recibe la respuesta del mundo.
+Un artefacto en producción sobre su mesa la corrige cada martes, y eso es el mecanismo de corrección
+número uno de los nueve que existen sin profesor [R] — la ordenación es del informe de dominio, que
+la construye con su propio criterio de eficacia, no un dato publicado. Y porque la escalera de
+capacidades que pide el perfil —chat mejor usado → automatizaciones → agentes → herramientas
+avanzadas— **no se sube por calendario: aparece sola por debajo**, porque un proceso al que aprietas
+va pidiendo cosas en ese orden y cada techo se siente antes de que nadie lo explique.
 
 **Lo que se lleva cuando cambien las herramientas.** Seis instrumentos que escribe ella, ninguno de los
 cuales nombra un producto: las cinco preguntas que clasifican cualquier sistema por autonomía cedida ·
@@ -106,8 +107,8 @@ en vez de en su control.
 | 8 | **Cada capa se cierra con una extracción escrita, y cuatro con una condición observable que bloquea** | Sin profesor, una puerta que bloquea es la única figura que se parece a un «todavía no» | Cuatro sitios donde el curso puede pararse |
 | 9 | **El criterio portátil se mide dos veces, no se promete** | Doce tareas clasificadas en la semana 1 con una tarjeta de definiciones, las mismas doce en la semana 14 con el criterio adquirido, y el delta leído en la 17 | El pretest está contaminado y se declara (§ *Riesgos asumidos*) |
 | 10 | **El montaje se hace rápido y sucio; el rigor se gasta entero en la evaluación** | Su riesgo de perfil no es quedarse corta de rigor: es pasarse. Un solo proceso es un imán para el perfeccionismo | Algunos artefactos quedarán feos y funcionando |
-| 12 | **Esto es de uso personal y no es un producto: se diseña para una sola lectora y se nota** | El encargo lo dice y conviene decirlo aquí, porque explica media docena de decisiones que si no parecerían arbitrarias. No hay onboarding genérico, ni itinerarios, ni certificado, ni landing, ni portfolio, ni un solo ejemplo de otro sector: los procesos son los suyos, con su numeración, y el expediente modelo es P27 porque es de su academia | **No es reutilizable tal cual por otra persona.** Lo que sí viaja son los seis instrumentos, que están escritos sin nombres de producto ni de empresa |
 | 11 | **Cualquier hallazgo de un error que hoy esté llegando a un cliente se comunica el mismo día** | Un curso no puede guardarse un error vivo porque quede mejor en el dossier de la semana 16 | El dossier pierde el efecto sorpresa y gana el nivel 2 de la jerarquía de evidencia: *lo encontré y en 24 horas estaba corregido* |
+| 12 | **Esto es de uso personal y no es un producto: se diseña para una sola lectora y se nota** | El encargo lo dice y conviene decirlo aquí, porque explica media docena de decisiones que si no parecerían arbitrarias. No hay onboarding genérico, ni itinerarios, ni certificado, ni landing, ni portfolio, ni un solo ejemplo de otro sector: los procesos son los suyos, con su numeración, y el expediente modelo es P27 porque es de su academia | **No es reutilizable tal cual por otra persona.** Lo que sí viaja son los seis instrumentos, que están escritos sin nombres de producto ni de empresa |
 
 ### Los cuatro arbitrajes que esta versión decide contra una crítica
 
@@ -172,7 +173,7 @@ prohíbe.
 | **Puesto** | Atención al cliente en una academia de español para extranjeros de ~30 empleados en Madrid, con alojamiento de larga estancia. **Jornada completa** |
 | **Uso de IA** | ChatGPT, Claude y Gemini **como chat**: entra a la web, escribe, lee, copia. No ha guardado nunca un asistente, no ha adjuntado nunca una fuente para que la cite, no ha programado nunca nada |
 | **Dominio** | **Experta.** Sabe cosas de su puesto que no están escritas en ningún sitio de la academia. **Esa es la materia prima del curso** |
-| **Método** | Operacionalizar un constructo difuso, diseñar instrumentos, evaluar validez, entrevistar. Transferencia fuerte en ocho de trece correspondencias [E] |
+| **Método** | Operacionalizar un constructo difuso, diseñar instrumentos, evaluar validez, entrevistar. **Transferencia fuerte en once de las trece correspondencias** del mapa de dominio —catorce de dieciocho contando los subcasos—, **parcial en dos** y **falsa en dos**: consistencia interna (alfa) y consentimiento informado, **que el material tiene que cortar por escrito antes de que se le ocurran a ella** [R] |
 | **Entorno** | Gemini de pago dentro de la suite de su empresa, recomendado como estándar. **No sabe qué plan ni cómo está configurado** [NV] |
 | **Restricciones** | Autodidacta · pareja con conocimientos de IA para consultas puntuales, que **no corrige entregas ni sigue el progreso** · cero presupuesto |
 | **Punto ciego declarado** | No tiene mapa de qué existe ni de qué se puede automatizar de su trabajo |
@@ -198,7 +199,8 @@ tanto, arreglos falsos.
 1. **Un proceso suyo funcionando y en uso diario**, con criterio escrito, fuentes fechadas con dueño y
    orden de precedencia, disparador, tope duro, frenos probados y etiquetados, apagado probado, dueño
    con nombre que lo ha ejecutado una vez, y calendario de revisión que no vence en julio.
-2. **Un número medido con su método**, mediana de al menos diez unidades, con la revisión y el
+2. **Un número medido con su método**, mediana de al menos diez unidades —o, si su proceso ocurre menos de
+   dos veces por semana, mediana de la n que haya, **declarada con esas palabras**—, con la revisión y el
    mantenimiento restados, con una amenaza a la validez que no puede descartar, con la fecha de
    remedición en temporada alta ya fijada, y **reproducido dentro del ±25 % dos semanas después**.
 3. **Una segunda persona** que ha usado su sistema **cinco días laborables sin ella delante y desde su
@@ -228,12 +230,13 @@ la persona de atención al cliente de una academia de idiomas, haciendo su traba
 
 ### La definición observable de «terminado», fijada en la semana 1
 
-> Un proceso suyo funcionando y **en uso diario sin que el curso se lo pida** · un número medido con su
-> método y **reproducido a las dos semanas** · **ocho preguntas fijas** contestadas con sus dos mitades ·
-> **ocho dobletes firmados, con el veredicto escrito antes de abrir la clave**, de los cuales al menos
-> tres terminan en «no aplica» · **el Mapa de los doce con sus dos pasadas y su delta explicado** · **una
-> rúbrica escrita por ella y validada contra un cebo** · y **una segunda persona que ha usado su sistema
-> cinco días laborables sin ella delante**.
+> Un proceso suyo funcionando y **en uso diario sin que el curso se lo pida** · un número medido con
+> su método y **reproducido a las dos semanas** · **ocho preguntas fijas** contestadas con sus dos
+> mitades · **ocho dobletes firmados, con el veredicto escrito antes de abrir la clave**, de los
+> cuales al menos tres terminan en **veredicto 1 («ni IA»), veredicto 2 («arreglar el proceso
+> primero») o zona prohibida** · **el Mapa de los doce con sus dos pasadas y su delta explicado** ·
+> **una rúbrica escrita por ella y validada contra un cebo** · y **una segunda persona que ha usado
+> su sistema cinco días laborables sin ella delante**.
 
 No es «leer la última lección». Y **la rúbrica escrita por ella es el indicador honesto de que ya no
 necesita el material**: cuando escribe rúbricas que cazan defectos conocidos, el curso ha terminado su
@@ -249,7 +252,7 @@ añadido respecto al diseño anterior.
 
 | # | Al terminar, ella… | Evidencia observable | Cierra en |
 |---|---|---|---|
-| RA1 | **Elige** un proceso propio con criterios de rechazo observables y **descarta** por escrito los que no pasan | Hoja de elección: 32 procesos tachados y corregidos, seis descartes automáticos, tres motivos escritos contra clave, 6–8 candidatos puntuados, repuesto firmado con fecha | M0 |
+| RA1 | **Elige** un proceso propio con criterios de rechazo observables y **descarta** por escrito los que no pasan | Hoja de elección: 32 procesos tachados y corregidos, siete descartes automáticos, tres motivos escritos contra clave, 6–8 candidatos puntuados, repuesto firmado con fecha | M0 |
 | RA2 | **Describe** un proceso suyo como se ejecuta de verdad, **por observación y no de memoria** | La descripción contiene **al menos dos decisiones que no estaban en su idea previa** | M0 |
 | RA3 | **Determina** bajo qué régimen de datos trabaja **o documenta** a quién y cuándo lo preguntó, **y deriva qué cambia hoy en lo que mete** | Ficha del entorno, **nueve casillas y una segunda columna «qué cambia hoy»**, ninguna frase que empiece por «creo que» | M0 |
 | **RA3b** | **Comprueba en pantalla** seis hechos de su entorno en vez de suponerlos | Las seis comprobaciones empíricas hechas, con el resultado literal copiado, incluido el mensaje de error de la carpeta compartida | M0 |
@@ -268,9 +271,9 @@ añadido respecto al diseño anterior.
 | RA14 | **Distingue** qué parte tiene pasos fijos y qué parte necesita juicio, y **argumenta por qué un agente autónomo sería exceso aquí** | Media página con la frontera trazada y los dos puntos de juicio nombrados, cada uno con su criterio escrito | M4 |
 | **RA15** | **Escribe** temas prohibidos y **nueve condiciones de parada**, **cada una etiquetada D (dura) o B (blanda)**, y **las prueba con casos fabricados que deben parar** | Cinco casos de parada × **tres pasadas cada uno, 3/3** · un sexto normal que **no** para · «quién revisa» es un nombre y una hora | M4 |
 | **RA15b** | **Identifica** si alguna consecuencia irreversible depende de un freno blando, y la convierte en dura o saca ese trozo de la línea de corte | El ítem que decide el módulo, contestado por escrito | M4 |
-| RA16 | **Reconoce** el único proceso de su academia que caería en el Anexo III **y la única práctica prohibida que toca su puesto**, y a quién lo escala | Una frase, un nombre, un puesto. Verdadero/falso de doce ítems con ≥10 aciertos | M4 |
+| RA16 | **Reconoce** los dos trozos de proceso de su academia que caen en el Anexo III —**decidir el nivel de un alumno** (P05) y **vigilar o evaluar un examen** (la parte de P16 que hoy no lleva ella)— **y la única práctica prohibida que toca su puesto**, y a quién lo escala | Dos frases, un nombre, un puesto, **y el trozo de P16 que sí lleva declarado aparte como veredicto 5**. Verdadero/falso de doce ítems con ≥10 aciertos | M4 |
 | RA17 | **Audita a su propio corrector** con artefactos-cebo y **decide con ese dato** si la IA sirve para corregir ese tipo de trabajo | Hoja de los tres cebos + decisión escrita + **al menos un caso registrado en que NO aceptó una crítica de la IA, con el motivo** | M1, M4, M6 |
-| **RA18** | **Mide** el efecto en **minutos por unidad** con la **mediana de ≥10 unidades**, **resta** revisión y mantenimiento, **nombra** una amenaza que no puede descartar, y **reproduce el número** dos semanas después | Media página sin la palabra «significativo», con la resta hecha y la n declarada; el recálculo cae dentro del **±25 %** o **se añade una línea explicando la diferencia** | M5, M7 |
+| **RA18** | **Mide** el efecto en **minutos por unidad** con la **mediana de ≥10 unidades** —o de la n que haya, dicha con esas palabras, si el proceso ocurre menos de dos veces por semana—, **resta** revisión y mantenimiento, **nombra** una amenaza que no puede descartar, y **reproduce el número** dos semanas después | Media página sin la palabra «significativo», con la resta hecha y la n declarada; el recálculo cae dentro del **±25 %** o **se añade una línea explicando la diferencia** | M5, M7 |
 | RA19 | **Deja el sistema en condiciones de sobrevivirle** | «Quién lo mantiene» responde con nombre propio **de alguien que lo sabe, ha dicho que sí y lo ha apagado una vez**; cada fuente con fecha; ninguna caducidad entre el 1 de junio y el 15 de septiembre | M6 |
 | RA20 | **Clasifica doce procesos suyos** con la rejilla, justificando cada uno con un hecho observable, y **al menos cuatro** terminan en «ni IA» o «arreglar el proceso primero», sin contar zonas prohibidas | El Mapa de los doce, pasada 2, firmado y fechado, **hecho en tres bloques de veinte minutos** | M6 |
 | RA21 | **Compara sus dos pasadas** del Mapa y **explica cada cambio** con un motivo de la lista cerrada | Dos columnas al lado, una frase por cambio y una por cada veredicto que no cambió y sobre el que hoy tiene más confianza | M7 |
@@ -329,12 +332,17 @@ instrumento con el que se clasifica cualquier cosa.
 
 ```
                       M0 chat  →  M1 criterio  →  M2 fuentes  →  M3 disparador  →  M4 juicio
-1 ¿Quién dispara?        yo          yo             yo            un suceso ←      un suceso
+1 ¿Quién dispara?        yo          yo             yo            un reloj ←       un reloj
 2 ¿Quién decide pasos?   yo          yo             yo          yo, de antemano   yo, salvo 2 puntos ←
 3 ¿De dónde sabe?     lo que pego  lo que pego   fuentes mías ←   fuentes mías     fuentes mías
 4 ¿Qué puede tocar?      nada        nada        leer lo mío ←    leer lo mío    escribir en lo mío ←
 5 ¿Quién firma?          yo          yo             yo               yo            yo  ← nunca cambia
 ```
+
+**La fila 1 dice «un reloj» y no «un suceso», y no es un descuido.** La única ruta obligatoria de la capa 3
+es la Ruta 0, que dispara **a hora fija**, y el propio módulo enseña que **un lunes no es un suceso**. «Un
+suceso» es la respuesta siguiente de la escala y **solo aparece si su plan tiene la Ruta B**. En la capa 4
+el disparador no vuelve a cambiar: lo que cambian son las preguntas 2 y 4.
 
 **La fila 5 no cambia en todo el curso, y eso es contenido, no casualidad.** *Automatiza la lectura y la
 preparación; la escritura hacia fuera la firma una persona.* Y esa regla tiene **tres motivos, no dos**,
@@ -371,7 +379,7 @@ autonomía acaba de ceder.
 | **4** | **ASISTENTE GUARDADO CON FUENTES** | Se repite, el conocimiento está escrito y es estable, el juicio sigue siendo suyo | **P01** las seis preguntas que repite el 70–80 % de los leads · **P10** certificados |
 | **5** | **DISPARADOR Y PASOS FIJOS** | Hay un disparador identificable **y** los pasos son siempre los mismos | **P27** encuestas · **P30** parte semanal · **P06** recordatorio de pagos |
 | **6** | **FLUJO CON JUICIO** | Hay disparador, pero en dos o tres puntos hay que **evaluar** algo para saber por dónde seguir | **P28** triaje de reseñas · **P20** clasificar y enrutar incidencias (nunca responderlas) |
-| **ZP** | **ZONA PROHIBIDA** | No es un veredicto: es **un tachón encima del que hubiera**. El peor error cuesta dinero, un plazo legal o un visado; **o** hay un dato rojo irreducible | **P05 · P08 · P17 · P22 · P25 · P26 · P29** |
+| **ZP** | **ZONA PROHIBIDA** | No es un veredicto: es **un tachón encima del que hubiera**. El peor error cuesta dinero, un plazo legal o un visado; **o** hay un dato rojo irreducible | **P05 · P08 · P17 · P22 · P25 · P26 · P29** — *estos siete no son una muestra: son la lista entera, y son exactamente los siete que el paso 3 del embudo descarta por número* |
 
 **Las tres decisiones que hacen que esta rejilla valga y no sea un catálogo disfrazado.** El veredicto 1
 va el primero, no al final como advertencia: «no hace falta IA» es un **destino**, no un fracaso. El
@@ -389,12 +397,30 @@ es «no hay fuente de verdad», el artefacto que lo repara es **una página de p
 
 | Momento | Sobre qué | Juicios | Coste |
 |---|---|---|---|
-| M0, día 3 | Los seis descartes automáticos: escribir el motivo transferible de tres y contrastarlos contra clave | 3 con clave | 10 min |
+| M0, día 3 | Los siete descartes automáticos —la fila ZP entera—: escribir el motivo transferible de tres y contrastarlos contra clave | 3 con clave | 10 min |
 | M0, día 3 | **Mapa de los doce, pasada 1**: una letra en doce filas, sin justificar, con la tarjeta de definiciones | 12 | 20 min |
 | M1 | **Los trozos de su propio proceso**, cada uno con veredicto y motivo | 4–6 | 0 extra |
 | M1–M7 | **Ocho dobletes** sobre procesos ajenos, **con clave sellada** | 8 con clave | 8 × 20 min |
 | M6, sem. 14 | **Mapa de los doce, pasada 2**, justificada, **en tres bloques de veinte minutos** | 12 | 60 min |
 | M7, sem. 17 | **Lectura del delta** | ~4–6 | 30 min |
+
+**Qué doce son, y con qué regla se eligen de los 32.** La regla se aplica el día 3, se ejecuta sin
+deliberar —si la selección se piensa, la pasada 1 deja de ser una medida limpia— y es esta: **de los
+procesos que llevan palote en el paso 1 del embudo** —los que ella acaba de marcar como «de esta
+semana»— **se cogen los doce de más frecuencia**; **si hay empate manda el que le lleve más minutos por
+unidad**; **si con palote salen menos de doce, se completan hacia abajo con los siguientes de la lista
+de 32 que ella sí ejecute**, aunque sean mensuales. Y una cosa que no se quita: **las zonas prohibidas
+entran en la selección como cualquier otro proceso**, porque en la pasada 1 todavía no están descartadas
+—el descarte es el paso 3, posterior— y **si ella las reconoce o no es parte de lo que esta medida
+mide**. Por eso la regla del cuatro dice «sin contar las zonas prohibidas»: en las doce filas va a haber
+alguna. La pasada 2 usa **las mismas doce filas**, sin volver a seleccionar.
+
+**Y la regla del cuatro sigue siendo alcanzable con esa selección, comprobado contra el inventario.**
+Entre los procesos de más frecuencia de su semana sobra transcripción pura y regla de calendario pura
+—alta en sistema y expediente, pack de bienvenida, control de asistencia y avisos, presupuesto—, y eso es
+veredicto 1 por la prueba de la servilleta; y el veredicto 2 es, según esta misma rejilla, el que más le
+va a salir. Aun contando tres zonas prohibidas entre las doce filas, quedan nueve para cuatro veredictos.
+**No hace falta bajar la cuota.**
 
 **El Mapa de los doce, y por qué son dos pasadas.** La pasada 1 (semana 1, veinte minutos) es **una
 medida, no un entregable**: se clasifica con una **tarjeta de siete casillas** —las siete etiquetas con
@@ -404,21 +430,25 @@ una medida de dónde está hoy tu criterio, tomada antes de que el curso lo toqu
 14) es **entrenamiento**: las mismas doce filas, cada veredicto justificado citando un hecho observable,
 con **la regla del cuatro** —al menos cuatro terminan en veredicto 1 o 2, **sin contar las zonas
 prohibidas**, porque esas se resuelven por número y sin juicio— y con la casilla «lo que sí se puede
-hacer alrededor» rellena con un artefacto nombrable. La hoja sale ordenada por `frecuencia × minutos ÷
-riesgo`: **es su cola de después del curso**.
+hacer alrededor» rellena con un artefacto nombrable. **La hoja sale ordenada, y el orden es ordinal y no
+divide nada, porque el riesgo no tiene escala numérica en ninguna parte del curso** —el inventario lo dice
+alto, medio o bajo, y el embudo lo puntúa en columnas—: **se ordena por `frecuencia × minutos por unidad`
+y después se baja al final todo lo que el inventario marque como riesgo alto. Las zonas prohibidas no
+entran en la cola: ya están tachadas.** **Es su cola de después del curso.**
 
 **Se hace en tres bloques de veinte minutos, uno al final de cada sesión núcleo de M6**, y no en una
 sesión de sesenta. Era el único bloque monolítico del curso y estaba colocado en la semana con menos
 horas limpias de las dieciocho. La regla del cuatro y las comprobaciones se aplican al final, sobre las
 doce filas completas. Coste cero, misma salida.
 
-**Comprobaciones de la pasada 2, todas binarias:** ¿cada veredicto cita un hecho observable? ¿hay al
-menos cuatro veredictos 1 o 2 sin contar ZP? ¿algún «no» tiene la casilla «lo que sí» vacía o con una
-intención en vez de un artefacto? **La comprobación de las tres filas al azar** —coger tres filas y
-preguntarse *«¿la hice esta semana?»*; si la respuesta es no, la rejilla es aspiracional— es la que más
-caza y cuesta treinta segundos. Y la señal de fallo que va de frente al autoengaño: *«existe un
-veredicto 1 o 2 que puse para llegar a cuatro, y no porque lo crea.»* Aquí no hay clave posible y
-depende de su honestidad consigo misma; está reconocido en § *Riesgos asumidos*.
+**Comprobaciones de la pasada 2, cinco y todas binarias:** **(1)** ¿cada veredicto cita un hecho
+observable? **(2)** ¿hay al menos cuatro veredictos 1 o 2 sin contar ZP? **(3)** ¿algún «no» tiene la
+casilla «lo que sí» vacía o con una intención en vez de un artefacto? **(4) la comprobación de las tres
+filas al azar** —coger tres filas y preguntarse *«¿la hice esta semana?»*; si la respuesta es no, la
+rejilla es aspiracional—, que es la que más caza y cuesta treinta segundos. Y **(5)** la que va de frente
+al autoengaño: *«¿existe un veredicto 1 o 2 que puse para llegar a cuatro, y no porque lo crea?»* Esta
+quinta no tiene clave posible y depende de su honestidad consigo misma; está reconocido en
+§ *Riesgos asumidos*.
 
 **Y una casilla nueva y obligatoria en cada fila del Mapa y en cada doblete:** *«¿esto está pasando ahora
 mismo? → a quién se lo dije y qué día.»* Es la aplicación de la regla 11 de las decisiones de diseño.
@@ -433,7 +463,7 @@ ya usa.** No es documentación: es el sitio donde el proceso vive.
 | Número y nombre del documento | Qué va dentro |
 |---|---|
 | 00 · Cómo se hace de verdad | Disparador, documentos que abro, decisiones que tomo y no están escritas, salida |
-| 00 · Hoja de sombra | Los dos días de observación en crudo, y los cinco días de cronometraje |
+| 00 · Hoja de sombra | Los dos días de observación en crudo, y el cronometraje de los cinco días de la semana 1, prorrogado hasta reunir diez unidades |
 | 00 · Mapa de los doce | Pasada 1, firmada y guardada hasta la semana 14 |
 | 01 · Línea de corte | Cada trozo con su veredicto, su motivo y su «lo que sí se puede hacer alrededor» |
 | 01 · Ficha de criterio | 4–6 dimensiones con un indicador observable cada una, críticos marcados, punto de corte |
@@ -494,39 +524,53 @@ propio sistema se gana el derecho a que le crean el resto.**
 ### Instrumento 4 · La Tira
 
 Los casos escritos en M1, **nunca cambiados**, pasados al cerrar cada capa, con una columna nueva y
-fechada por capa.
+fechada por capa. **Las fechas del ejemplar son las del arranque en octubre**, y no son arbitrarias: la
+columna 1 lleva la fecha del día de M1 en que los casos se acaban de escribir y se pasan contra el chat a
+pelo —antes de eso no existen, así que no puede haber columna—, y las cuatro siguientes llevan **la fecha
+del cierre de su capa**: M1 en la semana 4, M2 en la 6, M3 en la 8 y M4 en la 11. Los tres casos añadidos
+en M2 llevan su propia fecha de columna 1, la del día de M2 en que se escriben, y por eso su columna 2
+queda con un guion.
 
 ```
-CASO                              | como lo hago hoy | +criterio | +fuentes | +disparador | +frenos
-                                  | 13-oct           | 27-oct    | 10-nov   | 24-nov      | 15-dic
-----------------------------------|------------------|-----------|----------|-------------|--------
-T1  típico, en español            |  SÍ              |   SÍ      |   SÍ     |    SÍ       |   SÍ
-T2  típico, en inglés             |  NO              |   SÍ      |   SÍ     |    SÍ       |   SÍ
-T3  típico, en neerlandés      ←  |  NO              |   NO      |   SÍ     |    SÍ       |   SÍ
-L1  ambiguo: dos categorías       |  inventa         |  inventa  | pregunta |  pregunta   | pregunta
-L2  queja educada indirecta    ←  |  inventa         |  inventa  | inventa  |  pregunta   | pregunta
-R1  fuera de alcance              |  responde        | no lo sé  | no lo sé |  no lo sé   |  PARAR
-H1  lleva una instrucción dentro  |  obedece         |  obedece  | obedece  |  obedece    |  PARAR
+CASO                              | como lo hago hoy | +criterio | +fuentes              | +disparador           | +frenos
+                                  | 27-oct           | 6-nov     | 20-nov                | 4-dic                 | 22-dic
+----------------------------------|------------------|-----------|-----------------------|-----------------------|--------
+T1  típico, en español            |  SÍ              |   SÍ      |   SÍ                  |   SÍ                  |   SÍ
+T2  típico, en inglés             |  NO              |   SÍ      |   SÍ                  |   SÍ                  |   SÍ
+T3  típico, en neerlandés      ←  |  NO              |   NO      |   SÍ                  |   SÍ                  |   SÍ
+L1  ambiguo: dos categorías       |  inventa         |  inventa  | pregunta              | pregunta              | pregunta
+L2  queja educada indirecta    ←  |  inventa         |  inventa  | pregunta              | pregunta              | pregunta
+R1  fuera de alcance              |  responde        | no lo sé  | no lo sé              | no lo sé              |  PARAR
+H1  lleva una instrucción dentro  |  obedece         |  obedece  | clasifica, no obedece | clasifica, no obedece |  PARAR
 ----- añadidos en M2 -----
 C1  dos fuentes se contradicen    |  inventa         |    —      | cita la que manda ...
 F1  el mismo texto, un campo mal  |  no lo veo       |    —      | ...
-R2  menciona salud                |  responde        |    —      | no lo sé |   PARAR     |  PARAR
-                                  |                  |           |          |             |
-MINUTOS POR UNIDAD (mediana)      |   14             |   11      |    6     |     4       |    4
-QUIÉN DISPARA                     |   yo             |   yo      |   yo     |  el suceso  | el suceso
-VIAJES DE COPIAR-PEGAR AL DÍA     |   11             |    9      |    4     |     2       |    2
+R2  menciona salud                |  responde        |    —      | no lo sé              | no lo sé              |  PARAR
+                                  |                  |           |                       |                       |
+MINUTOS POR UNIDAD (mediana)      |   14             |   11      |    6                  |     4                 |    4
+QUIÉN DISPARA                     |   yo             |   yo      |   yo                  |  el reloj             | el reloj
+VIAJES DE COPIAR-PEGAR AL DÍA     |   11             |    9      |    4                  |     2                 |    2
 ```
+
+**La columna +fuentes es la puerta M2 → M3, escrita como tabla.** Las filas T1–T3 (todos los típicos
+bien), L1 y L2 (aclaración en los límite), R1 y R2 («no lo sé» en los de rechazo) y H1 (el hostil
+clasificado y no obedecido) en esa columna **son literalmente los ítems de la puerta** —anotadas, como la
+puerta exige, con **la peor de las dos pasadas**—: **si alguna no está así, la puerta no se abre** y el
+módulo 2 no se cierra.
 
 **La lección central del curso no se cuenta: se lee en su propia hoja.**
 
-> Entre la tercera y la quinta columna **la calidad apenas se mueve**. Casi toda la calidad se gana en la
-> capa 1 y la capa 2 —cuando alguien escribe qué es hacerlo bien y le da fuentes con fecha— y a partir de
-> ahí solo se puede perder. Lo que cambia al añadir capas no es la calidad: es **quién dispara, cuánto
-> tarda y cuánta autonomía has cedido.**
+> **La calidad de los casos que sí van a salir se congela en la capa 2.** Casi toda esa calidad se gana en
+> la capa 1 y la capa 2 —cuando alguien escribe qué es hacerlo bien y le da fuentes con fecha—: de la
+> tercera columna en adelante, T1, T2, T3, L1 y L2 ya no se mueven, y a partir de ahí solo se pueden
+> perder. Lo que las capas 3 y 4 añaden **no es calidad media: es comportamiento en los casos que no debían
+> salir** —R1, R2 y H1 pasan en la capa 4 de «no lo sé» y de «clasifica» a **PARAR**, que es lo que hacen
+> los frenos— y, sobre todo, **quién dispara, cuánto tarda y cuánta autonomía has cedido.**
 
 Si dentro de tres años le ponen delante una herramienta que hoy no existe, la pregunta que sabrá hacer es
-*«¿esto me cambia la calidad o me cambia el disparador?»*. Y no se la habrá contado nadie: la habrá
-deducido de cinco columnas de su propio trabajo.
+*«¿esto me cambia la calidad de lo que sí sale, me cambia lo que pasa con lo que no debía salir, o me
+cambia el disparador?»*. Y no se la habrá contado nadie: la habrá deducido de cinco columnas de su propio
+trabajo.
 
 **Cinco reglas que la sostienen:**
 
@@ -542,9 +586,19 @@ deducido de cinco columnas de su propio trabajo.
    cuenta **la peor de las dos**. Dos días y no dos seguidas: así también se caza una actualización del
    modelo hecha en silencio.
 
-**El riesgo de este instrumento, dicho aquí:** es trabajo sin novedad, media hora cada tres semanas, y lo
-que no tiene novedad se convierte en ritual o desaparece. Contramedida: cerrar módulo sin la columna
-nueva es un ítem binario de dos puertas. Aun así es un punto frágil reconocido.
+**El riesgo de este instrumento, dicho aquí, y la contramedida es más floja de lo que este documento
+llegó a decir:** es trabajo sin novedad, media hora cada tres semanas, y lo que no tiene novedad se
+convierte en ritual o desaparece. Lo que la sostiene es esto y nada más: **la columna nueva es ítem
+de la lista de cierre de M1 y de la de M5 —y las listas de cierre no bloquean—**, la columna 3 está
+en el **núcleo que no se cae nunca** del orden de sacrificio de M2, y la lectura de la Tira es la
+primera sesión de M5 y no se aplaza. **Ninguna de las cuatro puertas la pide:** la puerta M2 → M3
+exige el resultado de la batería que la columna 3 anota, pero no exige la columna —quien pasa la
+batería y no la escribe abre la puerta igual—, y de la columna 5 no responde nadie. Y no se le pone
+puerta porque no cumple el criterio de bloqueo de este documento —una columna que falte no se
+multiplica en la capa siguiente: borra la evidencia de lo que ya pasó, que es otra clase de daño—.
+Así que, dicho entero: **el instrumento cuya pérdida haría desaparecer la lección central del curso
+no tiene puerta detrás.** Es un punto frágil reconocido y con salvaguarda blanda, y así hay que
+leerlo.
 
 ### Instrumento 5 · El cuaderno de capas — el extractor de criterio
 
@@ -582,7 +636,8 @@ ninguna parte. Cuesta cero y además da a los puntos de consulta la materia prim
 producto fuera de la línea de techo? ¿el techo dice algo que **la capa no puede hacer** y no algo que
 **ella todavía no sabe hacer**? ¿el campo 4 cita al menos un número de proceso? ¿el doblete tiene
 veredicto firmado **dentro del fichero de clave y antes de leerla**? Y al cerrar el curso: ¿hay al menos
-tres dobletes terminados en «no aplica», «ni IA» o «arreglar el proceso primero»?
+tres dobletes terminados en **veredicto 1 («ni IA»), veredicto 2 («arreglar el proceso primero») o zona
+prohibida**?
 
 ### Instrumento 6 · La lista de techos — el catálogo, generado por el propio recorrido
 
@@ -595,7 +650,7 @@ un catálogo en criterio.
 | Un criterio escrito **no produce respuestas** | Un asistente con ese criterio dentro | Nada: eso es la capa siguiente *(fila tachada en la capa 2)* |
 | **Un asistente recuerda cosas que tú no elegiste** — y ese es el problema: no puedes listar qué recuerda, no puedes fecharlo y puede que no puedas borrarlo | Una memoria auditable: que puedas ver la lista de lo que recuerda y quitar una entrada | Que pueda **ver** qué recuerda y **quitar** una entrada. Hoy no puedo, así que no es una fuente |
 | Un filtro determinista **clasifica por reglas, no por sentido** | Un paso que evalúe el contenido | Que la regla tenga más excepciones que casos |
-| Un disparador por reloj **no reacciona a que haya pasado algo** | Un disparador por suceso | Nada: eso es la capa siguiente *(fila tachada en la capa 3)* |
+| Un disparador por reloj **no reacciona a que haya pasado algo** | Un disparador por suceso | Que exista la Ruta B en mi plan **y** que la herramienta pueda mirar el sitio donde ocurre el suceso. **Esto no llega con la capa siguiente**: la capa 4 pone frenos, no cambia el disparador |
 | Mi automatización **no puede actuar sobre recursos que no son míos** | Un permiso delegado, o una plataforma externa | Que alguien reenvíe a mi buzón lo que cumpla un criterio, **o** que el flujo tenga que tocar algo fuera de esta suite |
 | **No puedo fijar la versión del modelo**: mañana puede responder distinto sin que yo toque nada | Un sistema donde la versión se elija y se congele | Que pudiera elegir versión, y que el proveedor se comprometiera a mantenerla |
 | Un flujo con juicio **sigue siendo un camino que dibujé yo** | Un agente: le das objetivo y límites y decide los pasos | Que aparezca una tarea cuyos pasos no pueda dibujar de antemano **y** que exista un plan que lo incluya **y** que los datos lo permitan. Hoy fallan las tres |
@@ -620,23 +675,27 @@ dieciocho semanas hasta que funciona, hasta que lo usa a diario sin que el curso
 otra persona lo usa una semana sin ella.
 
 **No es un ejercicio.** El trabajo del curso es trabajo del puesto. Eso no es una comodidad: es la
-contramedida estructural a la primera causa documentada de abandono —21 de 34 abandonos mencionan el
-tiempo [E]—. Y por eso **el material declara en cada sesión si es tiempo propio o tiempo de trabajo**.
+contramedida estructural a la causa de abandono más citada —**21 de los 34 aprendices entrevistados**
+mencionan la falta de tiempo [E]—. Y con el matiz que el propio informe de dominio pone encima del dato:
+*«no tuve tiempo»* es la explicación socialmente aceptable de casi cualquier abandono, y lo que hay debajo
+es que **el curso perdió la competencia por un hueco de tiempo contra otra cosa** — que es exactamente lo
+que ataca hacer que el trabajo del curso sea trabajo del puesto. Y por eso **el material declara en cada
+sesión si es tiempo propio o tiempo de trabajo**.
 
 **No es el proceso que más le duele.** El más doloroso es el más complejo y el más arriesgado: en su
 puesto es el matching de alojamiento (P17) o la hoja de camas (P22), es decir, categorías especiales del
 RGPD y riesgo crítico de overbooking. **El proceso más doloroso es el segundo proyecto, y eso va escrito
 en la semana 1** para que la renuncia no se lea como una limitación del curso.
 
-### El embudo de elección — noventa minutos, días 2 y 3
+### El embudo de elección — 85 minutos sin contar la sombra: 75 el día 3 y 10 el día 5
 
 | Paso | Duración | Tipo | Qué hace |
 |---|---|---|---|
 | 1 | 20 min | trabajo | Recibe **los 32 procesos ya escritos**. Tacha los que en su academia no ocurren o no lleva ella; corrige volúmenes; añade lo que falte; marca con palote los de **esta semana** |
-| 2 | 20 min | propio | **Mapa de los doce, pasada 1** |
-| 3 | 10 min | trabajo | **Descarte de los seis, por número y sin pensar:** fuera P08, P17, P22, P25, P26, P29. Después, escribir el motivo transferible de **tres** de ellos con la lista cerrada, y abrir la clave |
+| 2 | 20 min | propio | **Mapa de los doce, pasada 1.** Los doce son, **de los que llevan palote en el paso 1** —los de esta semana—, **los doce de más frecuencia**; empate lo rompe el que le lleve más minutos por unidad; si salen menos de doce, se completan con los siguientes de la lista de 32 que ella sí ejecute. **Las zonas prohibidas no se sacan de aquí:** el descarte es el paso siguiente, y reconocerlas es parte de la medida |
+| 3 | 10 min | trabajo | **Descarte de los siete, por número y sin pensar:** fuera P05, P08, P17, P22, P25, P26, P29 — **son exactamente los siete de la fila ZP de la rejilla, y por eso el descarte no exige criterio: exige copiar una lista**. Después, escribir el motivo transferible de **tres** de ellos con la lista cerrada, y abrir la clave |
 | 4 | 5 min | trabajo | **Regla estacional:** *«si no lo hago en enero, no vale»* |
-| 5 | 20 min | trabajo | Puntúa los 6–8 supervivientes en **cinco columnas observables** |
+| 5 | 20 min | trabajo | Puntúa los 6–8 supervivientes en **cinco columnas observables**. Supervivientes = los que llevan palote, menos los siete descartados del paso 3 y los que caen por la regla estacional del paso 4; si quedan más de ocho, se puntúan **los ocho de más frecuencia** |
 | 6 | 40 min en 2 días | trabajo | **La prueba de la sombra** |
 | 7 | 10 min | propio | Nombra el **proceso de repuesto** y firma la fecha |
 
@@ -684,11 +743,27 @@ no estaba escrita en ninguna parte**. Tres criterios de rechazo, ninguno de opin
 | **No ha abierto ningún documento** | No hay contexto que dar: es juicio puro | **Descartado.** Es «chat, mejor usado» |
 | **Las decisiones no escritas son cada vez distintas** | No es un proceso: es una serie de casos | **Descartado**, o se acota al trozo que sí se repite |
 
-**La medición: los cinco días laborables de la semana 1.** Solo un número al terminar cada ejecución, y
-**el número de ejecuciones**, que es la n de la línea base y tiene que aparecer al lado del número en el
-dossier. Dos días dan dos o tres ejecuciones, y todo el objetivo 5 cuelga de ese número: tiene que
-sobrevivir a que se lo repregunten. Cinco días no cuestan tiempo extra —es apuntar un número— y diluyen
-la reactividad de la medida, que con dos días no se diluye.
+**La medición: los cinco días laborables de la semana 1, y se prorroga hasta tener n.** Solo un número al
+terminar cada ejecución, y **el número de ejecuciones**, que es la n de la línea base y tiene que aparecer
+al lado del número en el dossier. Dos días dan dos o tres ejecuciones, y todo el objetivo 5 cuelga de ese
+número: tiene que sobrevivir a que se lo repregunten. Cinco días no cuestan tiempo extra —es apuntar un
+número— y diluyen la reactividad de la medida, que con dos días no se diluye.
+
+> **Y cinco días tampoco bastan por sí solos, así que la regla se escribe entera.** El umbral de elección
+> del embudo es «5 o más veces esta semana», de modo que cinco días laborables dan **del orden de cinco
+> ejecuciones**, y **M5 le va a pedir la mediana de al menos diez unidades**. La medición no se cierra el
+> viernes: **se cierra cuando la n llega a diez.** Es decir, **los cinco días laborables de la semana 1 y,
+> si al terminar la n es menor de diez, los días que hagan falta de la semana 2 hasta llegar a diez
+> unidades o hasta el final de M0, lo que ocurra antes.** Sigue sin costar tiempo extra —es el mismo número
+> apuntado unos días más— y se paga donde tiene que pagarse: **en la medida, no bajando el listón del
+> número del que cuelga el objetivo 5.**
+>
+> **La regla de escape, para cuando la n no puede llegar a diez.** Si se ha aplicado la relajación 3 del
+> embudo vacío y el proceso ocurre **menos de dos veces por semana**, al final de M0 no habrá diez
+> unidades y no las va a haber: entonces **el número no es la mediana de diez, es la mediana de la n que
+> haya, con la n escrita al lado, y el dossier lo dice con esas palabras** — *«mediana de N unidades, que
+> son todas las que ocurrieron»*—. **Es un número más débil y se presenta como más débil.** Fingir diez
+> unidades que no existen es exactamente el tipo de número que no sobrevive a que se lo repregunten.
 
 > **Nota metodológica que va en el material, porque es su casa.** Esto es **muestreo de eventos, no
 > introspección**. *La gente describe sus procedimientos como cree que deberían ser, no como los
@@ -716,7 +791,7 @@ perfectamente» **puede descartar casi todo lo que ella hace**, porque casi todo
 |---|---|---|
 | 1 | **Pedir un reenvío, no una etiqueta.** Un mensaje de dos líneas a quien administre el buzón: *«¿me podéis poner en `info@` una regla que reenvíe a mi dirección los correos que cumplan `<criterio>`?»* | Duplica el mensaje —hay dos copias y la suya hay que borrarla en algún momento, y eso es una fila del mapa de datos— y **no deja marca en el buzón compartido**, así que lo que produzca lo tiene que llevar de vuelta a mano |
 | 2 | La cuarta columna acepta **«una copia mía sirve»** como suficiente | Se abre una fila en la línea de corte: *«mantener la copia al día son N minutos por semana»*, y **ese coste se resta en M5** |
-| 3 | La frecuencia baja de **≥5 a ≥1 por semana**, si el proceso tarda más de 15 minutos | La Tira tendrá menos pasadas reales; se compensa con casos históricos |
+| 3 | La frecuencia baja de **≥5 a ≥1 por semana**, si el proceso tarda más de 15 minutos | La Tira tendrá menos pasadas reales; se compensa con casos históricos. **Y por debajo de dos veces por semana se activa la regla de escape de la línea base**: el número de M5 deja de ser mediana de diez y pasa a ser mediana de la n que haya, declarada con esas palabras. Es un número más débil, y esto es lo que cuesta relajar aquí |
 | 4 | Se **parte un proceso grande** y se toma el trozo que sí califica | Ninguno real: la línea de corte de M1 iba a partirlo de todos modos |
 | 5 | Se adopta **P27** (análisis de las respuestas de la encuesta) | Es el expediente modelo: pierde el efecto sorpresa de algunas claves, y gana el mejor primer proyecto de su lista |
 
@@ -775,6 +850,9 @@ de proyecto de 60–90 min **en horario de trabajo** · el cierre de capa, **40 
 núcleo abre con cinco preguntas de recuerdo**, de memoria y por escrito, antes de abrir nada, mezclando
 módulo actual, anterior y uno de hace tres semanas. Cinco minutos. **Desde M2, la última de las cinco es
 siempre sobre la rejilla o los cinco motivos**, que es lo que la semana 14 va a necesitar vivo.
+**Excepción, y es la única: en la primera sesión de cada módulo no hay preguntas del módulo actual**
+—todavía no se ha visto nada—, **y el hueco lo ocupa el módulo que se acaba de cerrar**. Cada pregunta va
+etiquetada con de dónde viene, para que el patrón se lea sin deducirlo.
 
 > **La práctica recuperativa y la espaciada son, con la autoexplicación, los mecanismos con mejor
 > evidencia de todo el corpus [E], y en la versión anterior no estaban en la arquitectura.** Coste: 5 min
@@ -792,7 +870,7 @@ siempre sobre la rejilla o los cinco motivos**, que es lo que la semana 14 va a 
 
 | M | Sem. | Capa | Qué sale del expediente | Escalón | Corrección dominante | Frontera |
 |---|---|---|---|---|---|---|
-| **M0** | 1–2 | 0 · Ver el proceso | Elección puntuada · sombra + línea base de 5 días · descripción real · ficha del entorno de 9 casillas con consecuencias · las seis comprobaciones en pantalla · Mapa pasada 1 · **tres victorias, y la tercera funciona sin ella** | 1 | Cronómetro · tres rechazos observables · la pantalla | **PUERTA** (2 condiciones) |
+| **M0** | 1–2 | 0 · Ver el proceso | Elección puntuada · sombra + línea base de 5 días, prorrogable hasta n = 10 · descripción real · ficha del entorno de 9 casillas con consecuencias · las seis comprobaciones en pantalla · Mapa pasada 1 · **tres victorias, y la tercera funciona sin ella** | 1 | Cronómetro · tres rechazos observables · la pantalla | **PUERTA** (2 condiciones) |
 | **M1** | 3–4 | 1 · Criterio y línea de corte | Línea de corte con los 6 veredictos · ficha de criterio con una dimensión traída de fuera · anclas · **batería con tabla de especificaciones (7 casos)** · ruido y deriva · cadena causal · Tira 1–2 | 1 | La muestra apartada · Ctrl+F · **cebo 1** | Lista de cierre + **checkpoint de divorcio** |
 | **M2** | 5–6 | 2 · Contexto con procedencia | Mapa de datos · fuentes con fecha, dueño **y precedencia** · asistente que cita y se abstiene · lectura por columnas · batería a 10 · traslado · Tira 3 | 1 | Batería col. 3, **dos pasadas** · lista binaria · prueba de la compañera | **PUERTA** (diagnóstico de uso) |
 | **M3** | 7–8 | 3 · Disparador y lote | **Ruta 0** con tope duro y apagado probado · prueba de carga de julio · **la tarde de P27 en dos bloques** · notación neutra · Tira 4 | 2 | Se dispara o no · la unidad que **no** debe procesarse · tabla de confusión | **PUERTA** (ha visto fallar algo y sabe por qué) |
@@ -835,7 +913,7 @@ lo que hago no son lo mismo, y la diferencia es exactamente lo que rompería una
 | **1** | **Primera victoria, a prueba de fallo.** Instrucciones permanentes guardadas —quién es, dónde trabaja, en qué idiomas escribe, qué tono usa, qué no debe hacer nunca— y usadas **hoy** sobre un correo real pendiente. Cronometrado antes y después | 25 | propio |
 | **1** | **Cuenta de copiar-pegar.** Durante un día laborable: cuántas veces copias texto de tu trabajo a una ventana de conversación, y cuántas veces copias la respuesta de vuelta. Ese número es tu línea base y se vuelve a contar en la semana 6 | 5 | trabajo |
 | **2** | **La ficha del entorno**, **nueve casillas y dos columnas**, con los mensajes literales para copiar y pegar **y las seis comprobaciones en pantalla** | 30 | propio |
-| **2–3** | **La hoja de sombra** (observación) + **la línea base** (los cinco días) | 3/día | trabajo |
+| **2–3** | **La hoja de sombra** (observación) + **la línea base** (los cinco días; sigue en la semana 2 si la n no llega a diez) | 3/día | trabajo |
 | **3** | **El embudo**, pasos 1 y 3–5 | 55 | trabajo |
 | **3** | **Mapa de los doce, pasada 1** | 20 | propio |
 | **4** | **El asistente v1 que cita**, con tres fuentes verdes, y **sus diez preguntas de comprobación, escritas antes de montarlo** | 30 | propio |
@@ -843,7 +921,8 @@ lo que hago no son lo mismo, y la diferencia es exactamente lo que rompería una
 
 **Semana 2:** la descripción «Cómo se hace de verdad» (30 min) · **la automatización de quince minutos**
 (ver abajo) · la tarjeta del lunes impresa (5 min) · el cierre de la capa 0 con el doblete de P29
-(40 min) · **PC-1** (10 min).
+(40 min) · **PC-1** (10 min) · **y, si la línea base cerró la semana 1 con menos de diez ejecuciones, se
+sigue apuntando el número los días que hagan falta** (0 min extra: es el mismo número).
 
 #### La tercera victoria: quince minutos, sin IA, y funciona sin ella
 
@@ -950,7 +1029,7 @@ semana 2.
 - **Núcleo que no se cae nunca:** la hoja de sombra de dos días · el embudo con sus cinco columnas · el
   repuesto firmado · **el Mapa pasada 1** (una medida que se toma tarde no es una medida).
 - **Se cae primero:** la ficha del entorno completa → versión reducida de **tres casillas** (retención,
-  borrado del historial y política escrita), y las otras seis en la semana 5, antes de PC-2.
+  borrado del historial y política escrita), y las otras seis en la semana 5, antes de PC-3.
 - **Se cae segundo:** el asistente v1 → se aplaza al día 1 de la semana 3.
 - **No se cae la automatización de quince minutos**, porque es lo único del módulo que sigue funcionando
   cuando ella no está mirando.
@@ -1198,7 +1277,7 @@ nadie más la use—. En M5 se queda solo la **relectura**: qué eslabón se cum
   sellada · **la sesión que cierra ejecutando**.
 - **Se cae primero:** las anclas de tono → **tres frases en vez de seis** (una dimensión en vez de dos), y
   la segunda se completa en la semana 5.
-- **Se cae segundo:** el cebo 1 → se aplaza a la semana 5, **y PC-3 se mueve con él**, porque PC-3 es
+- **Se cae segundo:** el cebo 1 → se aplaza a la semana 5, **y PC-2 se mueve con él**, porque PC-2 es
   literalmente una conversación sobre el resultado del cebo.
 - **Nunca se recorta la ficha de criterio a menos de cuatro indicadores.** Por debajo de cuatro no es un
   criterio: es una preferencia.
@@ -1219,7 +1298,7 @@ si su ficha de criterio mide lo que importa— así que una puerta aquí bloquea
 Y hay una razón más fuerte: **al final de M1 ya hay un punto de parada, el checkpoint de divorcio.** Dos
 figuras de parada seguidas en el tramo de mortalidad es una de más.
 
-**Checkpoint de divorcio al final del módulo. PC-3 al final de la semana 4, sobre el cebo.**
+**Checkpoint de divorcio al final del módulo. PC-2 al final de la semana 4, sobre el cebo.**
 
 ---
 
@@ -1305,7 +1384,7 @@ idioma no probado** en la capa 4.
   típicos → no está listo · se inventa una decisión en alguno de los límite, **aunque acierte** → no está
   listo · contesta algo distinto de «no lo sé» en los de rechazo → no está listo · **obedece el caso
   hostil → no está listo, aunque todo lo demás salga bien** · **cuenta la peor de las dos pasadas.**
-- **Lista de comprobación binaria, doce ítems observables:** ¿cada fuente tiene fecha en la primera línea?
+- **Lista de comprobación binaria, diez ítems observables:** ¿cada fuente tiene fecha en la primera línea?
   ¿cada fuente tiene un nombre de persona como dueño? **¿está escrito a quién gana y a quién pierde?**
   **¿hay en las fuentes más de un documento que conteste a la misma pregunta? Si sí, quita uno.** ¿he
   abierto tres documentos citados al azar y he encontrado la frase? ¿alguna respuesta cita un documento
@@ -1319,7 +1398,7 @@ idioma no probado** en la capa 4.
 - **La prueba de portabilidad se corrige sola:** o las tres columnas están rellenas con cosas concretas, o
   no. Criterio negativo: *si la columna «qué viajó tal cual» está vacía, no construiste criterio:
   construiste un prompt.*
-- **PC-2 aquí**, justo antes de cargar fuentes reales.
+- **PC-3 aquí**, justo antes de cargar fuentes reales.
 
 #### La prueba de portabilidad nº 1, con sus tres lecturas del fracaso
 
@@ -1367,6 +1446,9 @@ que caduca es fabricar un error futuro*. Vale para cualquier dominio.
       alumnos, y a estas alturas ya se han subido.
 - [ ] La prueba de portabilidad está hecha y sus tres columnas rellenas.
 - [ ] El mapa de datos tiene, en cada fila ámbar o roja, **un paso concreto y una persona**.
+- [ ] **No queda en el expediente ningún paso que suba un audio, un documento completo o una captura
+      existiendo una versión escrita por ella más corta.** Si existe, se sustituye antes de pasar. Es la
+      casilla del mecanismo 8, y **se comprueba mirando lo que no hay**.
 - [ ] **El diagnóstico de uso está escrito** (ver abajo).
 
 > **La condición de uso, y por qué ha dejado de ser un umbral.**
@@ -1430,8 +1512,9 @@ desactivados y no hay forma de saberlo hasta intentarlo. Con esta frase encima:
 
 1. **El disparador** sobre el trozo que la línea de corte marcó como entregable, con su tipo declarado y su
    justificación. **Un lunes no es un suceso.**
-2. **El tope, y es duro**: *si la lista supera N, no hagas nada y avísame.* **N se fija con el peor día del
-   año pasado, no con el de noviembre.**
+2. **El tope, y es duro**: *si la lista supera N, no hagas nada y avísame.* **N es lo que ella puede
+   revisar de una sentada, medido con cronómetro; el peor día del año pasado no fija N: dice cuántas veces
+   va a saltar el tope y por tanto si hace falta modo pico.**
 3. **El apagado, probado de verdad**, no imaginado.
 4. **La prueba de carga de julio** (ver abajo).
 5. **La tarde de P27**, en dos bloques.
@@ -1464,15 +1547,17 @@ justamente desconocido. De ahí la distinción que se enseña aquí y se etiquet
 | Qué garantiza | Se cumple siempre | **Baja la frecuencia. No garantiza nada** |
 | Ejemplos | El tope de unidades · «solo procesa lo que lleva la etiqueta X» · «nadie envía sin que una persona le dé a enviar» | Los temas prohibidos · la fórmula DERIVAR A PERSONA |
 
-#### La prueba de carga de julio — una tarde, y se descubre cuando aún se puede cambiar
+#### La prueba de carga de julio — cuarenta y cinco minutos, y se descubre cuando aún se puede cambiar
 
 El sistema se diseña y se mide entre octubre y febrero, y **tiene que aguantar julio**, cuando su volumen
 se multiplica por tres. **Pásale el lote real de un día de julio del año pasado y cronometra la revisión
 por unidad × volumen de pico.** Si la revisión de un día de julio no cabe en una jornada de julio, el
 diseño está mal. Y en la ficha del disparador se escribe por delante el **modo pico**: qué hace el sistema
-cuando el tope salta tres días seguidos —procesar por lotes, estrechar el alcance, o apagarse y volver a
-mano—, **decidido en diciembre y no improvisado en julio**. Un sistema que en julio se detiene
-prudentemente y avisa es un sistema que en julio no está.
+cuando el tope salta **tres ejecuciones seguidas** —tres días si corre a diario, tres martes si corre los
+martes; se cuenta en ejecuciones y no en días porque el proceso modelo corre una vez por semana—.
+Procesar por lotes, estrechar el alcance, o apagarse y volver a mano, **decidido en diciembre y no
+improvisado en julio**. Un sistema que en julio se detiene prudentemente y avisa es un sistema que en
+julio no está.
 
 #### Cómo se autocorrige
 
@@ -1507,12 +1592,20 @@ convertido, sin querer, en que nadie tenía por qué enterarse durante quince se
 
 #### Doblete · P30, el parte semanal · 20 min · y mini-doblete · P16 · 10 min
 
+**Los dos comparten un único fichero de clave** —el de la capa 3—, con los dos veredictos dentro y un solo
+bloque de apertura: por eso el recuento del curso sigue siendo de **doce** claves selladas y no de trece.
 **P30 — Clave: veredicto 5, y con la mínima IA posible en el camino crítico.** Enseña que «automatizar» no
-significa «meter un modelo». **P16 — Clave: veredicto 5, motivo «las reglas son de otro».** La inscripción,
-las tasas y los plazos viven en la plataforma del Instituto Cervantes; los plazos son rígidos y no se
-recuperan. **El motivo transferible no es de riesgo ni de datos: es que el proceso es ajeno.** Automatizar
-la parte que uno controla de un proceso cuyas reglas pone otro produce un sistema que se rompe el día que
-el otro cambia algo, sin avisar.
+significa «meter un modelo». **P16 — Clave: veredicto 5, motivo «las reglas son de otro», sobre el trozo
+que ella lleva.** La inscripción, las tasas y los plazos viven en la plataforma del Instituto Cervantes;
+los plazos son rígidos y no se recuperan. **El motivo transferible no es de riesgo ni de datos: es que el
+proceso es ajeno.** Automatizar la parte que uno controla de un proceso cuyas reglas pone otro produce un
+sistema que se rompe el día que el otro cambia algo, sin avisar.
+
+**Y el trozo de P16 que la clave no cubre, dicho aquí para que el veredicto no se lea de más:** vigilar el
+comportamiento durante el examen y evaluar sus resultados **sí caen en el Anexo III**, igual que el nivel
+de P05. Ella no hace ni una cosa ni la otra, y el veredicto 5 es **solo sobre inscripción, tasas y
+plazos**. **El veredicto es del trozo, no del proceso** — y esa es exactamente la lección que este
+mini-doblete comparte con la fila de P05 de las zonas prohibidas.
 
 #### La tarde de P27 — dos bloques, 110 minutos, tiempo de trabajo
 
@@ -1675,9 +1768,10 @@ con validez de contenido baja que M1 enseña, aplicada contra su única salvagua
 > **Ítem binario de la puerta:** *¿hay algún dato en la salida que el sistema haya **escrito** en vez de
 > **copiar**? Si lo hay, o se copia o se quita.*
 >
-> **Y un caso más en la batería, del tipo que nadie prueba:** el mismo texto correcto con **un solo campo
-> cambiado**. Si la revisión no lo caza, la revisión no es una salvaguarda y hay que meter la comprobación
-> antes.
+> **Y el caso F1 de tu batería, el del campo transportado** —el mismo texto correcto con un solo campo
+> cambiado, uno de los tres que entraron en la batería en M2—, **deja de ser un caso más y pasa a ser el
+> que decide si la revisión humana es una salvaguarda**: si no lo cazas leyendo, la comprobación
+> determinista tiene que ir delante. No se añade nada: se lee lo que ya tenías con otra pregunta.
 
 El diseño anterior llegó a inventar este arreglo —lo proponía como el «lo que sí alrededor» de P08— y lo
 dejó como curiosidad de un caso prohibido en vez de convertirlo en regla general.
@@ -1781,7 +1875,12 @@ sistema**. Se escalan. **[!]**
   expanden solos y la lista se escribe para el sistema de dentro de seis meses—. Y el ítem sobre el
   borrador complaciente **se busca por columnas**, que es lo que lo caza.
 - **Verdadero/falso de doce ítems** sobre el marco de datos, autocorrección instantánea. Menos de 10
-  aciertos → releer.
+  aciertos → releer. **Y uno de los doce es de práctica prohibida**, porque hasta ahora ninguno lo era y
+  RA16 la declara como resultado evaluado: *«Si un alumno me llama enfadado, puedo pedirle a la
+  herramienta que me diga por su tono de voz cómo de enfadado está»* → **FALSO**, es inferencia de
+  emociones en un centro educativo, artículo 5.1.f, y **no hay escalado: no se monta**. Su pareja es el
+  ítem que ya existe sobre la voz —*grabar la voz de alguien no es siempre dato biométrico*—, y juntos
+  enseñan los dos bordes: **lo que parece prohibido y no lo es, y lo que no lo parece y sí.**
 - **CEBO 2**, sobre una lista de frenos de mentira.
 - **Y la descalificación de la correctora, que aquí está en ROJO:** *este es el entregable del curso donde
   menos hay que fiarse de la corrección con IA, porque **le estás pidiendo a un modelo complaciente que
@@ -1835,9 +1934,11 @@ evaluar»**. Se presenta así: *«vas a poder decir cuánto ahorras y defenderlo
 
 #### Qué construye
 
-1. **Media página de evaluación, con fecha**: el número antes (de los cinco días de línea base de M0,
-   medida **antes** de construir nada) · el número después · **los dos números son la MEDIANA de al menos
-   diez unidades, con la n declarada al lado** · el **coste completo** —montaje + revisión +
+1. **Media página de evaluación, con fecha**: el número antes (de la línea base de M0 —los cinco días de la
+   semana 1, prorrogados hasta llegar a diez unidades—, medida **antes** de construir nada) · el número
+   después · **los dos números son la MEDIANA de al menos diez unidades, con la n declarada al lado**, y
+   con la **regla de escape** para el proceso que ocurre menos de dos veces por semana: mediana de la n que
+   haya, dicha con esas palabras · el **coste completo** —montaje + revisión +
    mantenimiento— · **cuál de las amenazas a la validez podría explicar el resultado** y qué mediría para
    descartarla · **«medido en temporada baja»** y **la fecha fijada de la remedición de pico**, una semana
    concreta de junio, que va al calendario de revisión de M6 · y **las semanas hasta amortizar**.
@@ -1861,7 +1962,11 @@ cronometraje así está muy por encima del 10 %. **Un test-retest mal calibrado 
 produce un falso negativo, y el castigo cae sobre el trabajo bien hecho.**
 
 1. **El número es la MEDIANA de al menos diez unidades**, no la media de las que haya. La mediana resiste
-   la unidad rarísima de cuarenta minutos, que en su puesto existe.
+   la unidad rarísima de cuarenta minutos, que en su puesto existe. **De dónde salen esas diez:** la línea
+   base de M0 son los cinco días laborables de la semana 1 **prorrogados hasta que la n llega a diez**, y
+   si el proceso ocurre menos de dos veces por semana se aplica la **regla de escape** —mediana de la n que
+   haya, escrita con esas palabras—. **Lo que no se hace nunca es dar un número sin decir sobre cuántas
+   unidades está medido.**
 2. **Umbral ±25 %**, y lo que se compara no es el ahorro exacto sino **el sentido y el orden de
    magnitud**: ¿sigue siendo un ahorro? ¿sigue siendo del mismo orden?
 3. **Y lo que se hace cuando no cae dentro no es reescribir el dossier: es añadirle una línea** —*«medido
@@ -1962,8 +2067,8 @@ casa.
 
 #### Lista de cierre M5 → M6 — no bloquea
 
-- [ ] Hay un número con su método, mediana de ≥10 unidades, con **la resta hecha**, con **una amenaza
-      nombrada** y con **la fecha de la remedición de junio escrita**.
+- [ ] Hay un número con su método, mediana de ≥10 unidades —o de la n que haya, dicha así—, con **la
+      resta hecha**, con **una amenaza nombrada** y con **la fecha de la remedición de junio escrita**.
 - [ ] La prueba ciega está hecha, **homogeneizada, barajada por otra persona y con su ceguera medida**.
 - [ ] La Tira tiene una frase escrita por columna.
 
@@ -2059,7 +2164,10 @@ puede aportar.
   cuando escribe las rúbricas, ya no lo necesita. *Si el cebo pasa su rúbrica, la rúbrica es blanda y se
   rehace.* Y tiene función temporal declarada: *si tu lectura como correctora se ha degradado en cuatro
   meses, se detecta aquí*, comparando con el resultado del cebo 1.
-- **Lista binaria de la ficha de traspaso, ocho ítems**, incluidos los tres del bus factor.
+- **Lista binaria de la ficha de traspaso, ocho ítems, y son reconstruibles:** una casilla por cada uno de
+  los **siete campos** de la ficha —¿está escrito?—, más **«¿otra persona ha ABIERTO el expediente desde su
+  propia cuenta?»**. Los tres del bus factor están dentro: esa, la del apagado hecho por otra persona
+  (campo «cómo se apaga») y la de qué deja de funcionar si desactivan su cuenta (campo propio).
 - **Las cinco comprobaciones de la pasada 2**, incluida la de las tres filas al azar.
 
 #### Doblete · P32, mantenimiento de plantillas y FAQ · 20 min
@@ -2147,7 +2255,7 @@ literalmente**, pero no la usa como plan de estudios, y la diferencia importa:
 | **0 · Chat a pelo** *(donde está hoy)* | Estado de partida, medido en M1: **saca 4 de 10**. Y medido también en viajes de copiar-pegar al día | *«Cada conversación empieza en blanco y le vuelvo a explicar la academia. Y no sé con qué cuenta entro ni qué protege esa cuenta»* | P3 = «lo que le pego en el momento» |
 | **1 · Usar mucho mejor el chat** | **M0** (instrucciones permanentes · asistente v1 · **trabajar donde vive el trabajo, en vez de traerlo a una conversación aparte**) → **M1** (el criterio escrito antes del prompt) → **M2** (fuentes propias con fecha, dueño, precedencia, cita y «no lo sé») | *«Recuerda cosas que yo no elegí y no puedo ver cuáles. Y sigue esperando a que yo lo abra cada vez»* | **P3 pasa a «fuentes que yo controlo y fecho»**. Aquí se gana casi toda la calidad del curso |
 | **−1 · NI IA** *(el peldaño que el perfil no pide y que es la mitad del criterio)* | **Semana 2**: el filtro de correo. **M1**: el veredicto 1 con su prueba de la servilleta y P02 | *«Un filtro clasifica por reglas, no por sentido»* | P1 pasa a «un suceso» **sin que P3 cambie**: no hay modelo en el camino |
-| **2 · Automatizaciones** | **M3** (Ruta 0 obligatoria; A y B si existen; más el lote de la tarde de P27) | *«Dispara los lunes. No reacciona a que **haya pasado algo**.»* Y después: *«siempre el mismo camino: el caso que no previste sale mal, y sale mal en silencio»* | **P1 pasa de «yo» a «un reloj» y luego a «un suceso»**; P2 se congela en «yo, de antemano» |
+| **2 · Automatizaciones** | **M3** (Ruta 0 obligatoria; A y B si existen; más el lote de la tarde de P27) | *«Dispara los lunes. No reacciona a que **haya pasado algo**.»* Y después: *«siempre el mismo camino: el caso que no previste sale mal, y sale mal en silencio»* | **P1 pasa de «yo» a «un reloj»** —y a «un suceso» solo donde exista la Ruta B, que no es obligatoria—; P2 se congela en «yo, de antemano» |
 | **3 · Agentes, cuando la tarea lo justifique** | **M4**, en su forma alcanzable: **juicio confinado a dos o tres puntos**, con frenos etiquetados, y **la ficha de cinco preguntas rellenada para un agente real que el curso no enseñó** | *«Sigue siendo un camino que dibujé yo»*. Y la conclusión honesta: **su escalón 3 realista es un proceso con juicio, no un agente autónomo**, por licencia, permisos y datos — **no por capacidad suya** | **P2 se abre en dos o tres puntos**; P4 pasa a «escribir en lo mío»; **P5 no cambia nunca** |
 | **4 · Avanzado (tipo terminal)** | **Apéndice de lectura, sin entregable.** *Si termina el curso sin abrirlo, el curso ha funcionado igual*, y eso va en su primera línea | La condición que lo activaría: **procesar decenas de ficheros locales de forma repetida** | P2 pasa entera al sistema. **Y ahí está el pago: renuncia a ser predecible** |
 
@@ -2162,7 +2270,8 @@ los peldaños que no va a pisar:
 
 **Y la escalera se lee, no se cuenta.** La lectura de la Tira en M5 —cinco columnas fechadas de su propio
 trabajo— produce la conclusión que ninguna lección puede producir igual de bien: **subir de escalón no
-mejora la respuesta; cambia quién la pide y cuánta autonomía has cedido.**
+mejora la respuesta de los casos que sí salen; cambia quién la pide, cuánta autonomía has cedido y qué
+hace el sistema con los casos que no debían salir.**
 
 ---
 
@@ -2381,8 +2490,8 @@ del sector: pide saber qué hay disponible **para lo que ella hace**.
 
 | Cuándo | Mecanismo | Qué produce | Por qué **ahí** |
 |---|---|---|---|
-| **Semana 1, día 3** | **POR DESCARTE.** Seis descartes automáticos por número + tres motivos escritos contra clave | La noción de que **hay un fuera antes de que haya un dentro** | Cuesta diez minutos y no depende de criterio que todavía no tiene |
-| **Semana 1 (pretest) y semana 14 (real)** | **POR VEREDICTOS.** La rejilla aplicada a los trozos de su proceso, a ocho procesos ajenos con clave, y a doce procesos suyos | **Más de cuarenta juicios sobre procesos reales**, once contra clave, y **un delta medible** | La clasificación **sin justificar** puede ir al principio porque es una medida; la **justificada** tiene que ir después del criterio porque antes es adivinar |
+| **Semana 1, día 3** | **POR DESCARTE.** Siete descartes automáticos por número + tres motivos escritos contra clave | La noción de que **hay un fuera antes de que haya un dentro** | Cuesta diez minutos y no depende de criterio que todavía no tiene |
+| **Semana 1 (pretest) y semana 14 (real)** | **POR VEREDICTOS.** La rejilla aplicada a los trozos de su proceso, a ocho procesos ajenos con clave, y a doce procesos suyos | **Más de cuarenta juicios sobre procesos reales**, once de ellos contra clave —los tres motivos de descarte y los ocho dobletes—, y **un delta medible** | La clasificación **sin justificar** puede ir al principio porque es una medida; la **justificada** tiene que ir después del criterio porque antes es adivinar |
 | **Al cerrar cada capa, ocho veces** | **POR TECHOS.** Una fila con su tercera columna en **condiciones** | El catálogo **generado desde la carencia sentida**, incluido el agente | Una fila se escribe **cuando el proceso choca con el techo**. Antes de eso, «agente» es una palabra; ahí es una carencia concreta con nombre |
 | **Una vez, en M4** | **LA CAJA DEL FONDO.** El resto del panorama, con el eje en la **condición** y no en el producto | Reconocer de qué le hablan cuando le hablen de ello | Antes de M4 no tiene con qué compararlo; después llega tarde |
 
@@ -2420,8 +2529,8 @@ DOBLETE de la capa __ · proceso: P__ · fecha: ____ · 20 minutos
 1. Si tuviera que aplicar esta capa aquí, ¿qué haría exactamente? (3-5 líneas)
 2. ¿Qué cambiaría respecto a lo que hice en mi proceso?
 3. ¿Hay algo de esta capa que aquí NO tendría sentido? ¿Por qué?
-4. VEREDICTO (uno de los seis, o ZP): ____
-   MOTIVO, de la lista cerrada de cinco, citando un hecho del proceso: ____
+4. Mi VEREDICTO y mi MOTIVO no van aquí: van escritos en el fichero de clave, en su bloque
+   de apertura, ANTES de abrirlo. Una casilla y no dos, para que no haya dos versiones.
 5. ¿ESTO ESTÁ PASANDO AHORA MISMO? → a quién se lo he dicho y qué día: ____
 ```
 
@@ -2430,7 +2539,7 @@ DOBLETE de la capa __ · proceso: P__ · fecha: ____ · 20 minutos
 | 0 | **P29** emergencias 24 h | **ZP** · riesgo | Describir un proceso **no** compromete a delegarlo |
 | 1 | **P02** presupuestos | **1** · no necesita un modelo | El escalón −1, por **coste de verificación** y no por exactitud |
 | 2 | **P08** carta de aceptación para visado | **ZP** · conocimiento que caduca | *No metas conocimiento volátil dentro de un artefacto* |
-| 3 | **P30** parte semanal *(20 min)* + **P16** exámenes oficiales *(10 min)* | **5** · — / **5** · las reglas son de otro | Que «automatizar» no significa «meter un modelo». Y que hay procesos **cuyas reglas y plazos los fija una institución ajena** |
+| 3 | **P30** parte semanal *(20 min)* + **P16** exámenes oficiales *(10 min)* | **Una sola clave sellada, con los dos veredictos dentro:** **5** · — / **5** · las reglas son de otro, **sobre el trozo que ella lleva** | Que «automatizar» no significa «meter un modelo». Y que hay procesos **cuyas reglas y plazos los fija una institución ajena** — y que **el veredicto es del trozo y no del proceso**: la vigilancia y la evaluación del examen, que ella no hace, caen en el Anexo III |
 | 4 | **P28** respuesta a reseñas online | **6 con tachón de publicación** · riesgo | Que un freno puede venir de un sitio que no es la calidad del texto |
 | 5 | **P12** check-in del lunes | **no se deja medir así** · deficiencia del criterio | Que hay valor que no cabe en minutos por unidad |
 | 6 | **P32** plantillas y FAQ | **2** · no hay fuente de verdad | Que a veces el problema no es que falte automatización: **es que falta una fuente de verdad** — y que su arreglo tiene nombre: una página de precedencia |
@@ -2438,8 +2547,14 @@ DOBLETE de la capa __ · proceso: P__ · fecha: ____ · 20 minutos
 
 **Y la cuota, defendida como tal:**
 
-> **De los ocho dobletes, al menos tres tienen que terminar en «ni IA», «arreglar el proceso primero» o
-> zona prohibida. Si tienes menos de tres, no has transferido: has repetido. Vuelve.**
+> **De los ocho dobletes, al menos tres tienen que terminar en veredicto 1 («ni IA»), veredicto 2
+> («arreglar el proceso primero») o zona prohibida. Si tienes menos de tres, no has transferido: has
+> repetido. Vuelve.**
+>
+> **Y la cuota se contrasta contra las claves de esta misma tabla, que dan cuatro:** P29 y P08 zona
+> prohibida, P02 veredicto 1, P32 veredicto 2. **Es alcanzable, y quien no llegue a tres sabe exactamente
+> con qué comparar su hoja.** «No aplica» no cuenta para la cuota, y no cuenta por una razón simple: **no
+> es un veredicto** — no está entre los seis ni es ZP.
 
 La justificación no es estética: cruzando los 32 procesos con lo que la plataforma puede hacer de verdad,
 **el reparto real da entre cinco y siete noes por cada doce procesos**. Y su función es psicológica:
@@ -2485,22 +2600,35 @@ una lista de renuncias: termina con un sí concreto por cada no.**
 | **P25** reembolsos | Datos bancarios y riesgo de fraude por suplantación en el cambio de cuenta |
 | **P17** matching con familia de acogida | Concentra **salud, religión y potencialmente orientación sexual** en una casilla de texto libre. **Es el proceso que más parece el caso ideal de IA, y por eso es la trampa** |
 | **P22** calendario de camas | Riesgo crítico por overbooking, y además es un calendario de recursos: escalón −1 |
-| **P05** test de nivel y asignación de grupo | **Anexo III del Reglamento de IA**: *evaluar el nivel educativo* es alto riesgo. **Aplazado, no cancelado.** Lo suyo no es decidirlo **[!]**: es reconocerlo y avisar. *(Ojo: **P16**, la gestión de exámenes oficiales, NO cae aquí — es inscripción, tasas y plazos, y su veredicto es el 5. Confundirlos es el error típico, y por eso van juntos en el doblete y separados en esta tabla.)* |
+| **P05** test de nivel y asignación de grupo | **Anexo III del Reglamento de IA**: *evaluar el nivel educativo* es alto riesgo. **Aplazado, no cancelado.** Lo suyo no es decidirlo **[!]**: es reconocerlo y avisar. *(Y el matiz va entero, porque la lista del Anexo III incluye además **vigilar comportamientos prohibidos durante exámenes** y **evaluar los resultados del aprendizaje**: **P16 también cae, pero solo por esa parte** —vigilancia y evaluación—, que **hoy no hace ella, ni con IA ni sin ella**; el trozo de P16 que sí lleva —inscripción, tasas y plazos— es **veredicto 5** con motivo «las reglas son de otro». **La distinción no es proceso sí / proceso no: es qué trozo del proceso**, y por eso P05 y P16 van juntos en el doblete y separados en esta tabla.)* |
 
 Y la regla de oro que hace todo esto memorable, **ahora con sus dos mitades, porque a la anterior le
 faltaba la única prohibición absoluta que toca su puesto**:
 
 > **Hay dos cosas en tu trabajo que la norma trata aparte.**
-> **Decidir el nivel de un alumno:** alto riesgo, y tu papel es reconocerlo y escalarlo.
+> **Decidir el nivel de un alumno:** alto riesgo, y tu papel es reconocerlo y escalarlo. **La misma
+> etiqueta llevan otros dos trozos que hoy no haces tú —vigilar con IA el comportamiento durante un examen
+> y evaluar los resultados del aprendizaje—, y por eso de P16 solo es tuya la inscripción.**
 > **Y sacarle el estado de ánimo a alguien de la voz o de la cara dentro de un centro de enseñanza: eso
-> está directamente prohibido, no hay escalado que valga.** Está en vigor desde febrero de 2025, sin
-> período transitorio. Y tu puesto son llamadas de clientes en una academia.
-> **Todo lo demás —redactar, traducir, resumir, clasificar, preparar borradores— no está en ninguna de las
-> dos listas.**
+> está directamente prohibido, no hay escalado que valga.** Es el **artículo 5.1.f del Reglamento de IA**
+> —inferir emociones de una persona en el trabajo o en un centro educativo, salvo por razones médicas o de
+> seguridad—, y **las prohibiciones del artículo 5 están en vigor desde el 02.02.2025, sin período
+> transitorio**. **La fecha vive en `datos-volatiles.md`**, como el resto del marco normativo, y no aquí.
+> Y tu puesto son llamadas de clientes en una academia.
+> **Todo lo demás de lo que tú haces —redactar, traducir, resumir, clasificar, preparar borradores— no
+> está en ninguna de las dos listas.**
 >
 > **Y la frase que evita el efecto contrario, en la misma caja:** *clasificar texto escrito por tema, o
 > incluso por grado de descontento, **no es reconocimiento de emociones**: la prohibición está atada a datos
 > biométricos. La tarde de P27 está limpia.*
+
+**Y la marca de esta mitad va con todas las letras, porque es la única afirmación normativa del curso que
+no se apoya entera en la investigación: [R], no [V].** El informe de dominio verifica el calendario del
+artículo 5 —prohibiciones en vigor desde el 02.02.2025— y **no desarrolla esta prohibición concreta en
+ninguna línea**: la mitad de la voz y la cara es reconstrucción razonada del propio artículo, no una
+traducción del informe. Y el borde exacto —hasta dónde llega «centro educativo» cuando quien llama es un
+cliente que todavía no es alumno— **no lo decide ella [!]**. Lo que sí es suyo, y no cambia con el borde:
+**no montarlo, y avisar el día que alguien lo proponga.**
 
 Esto importa porque en la versión anterior la prohibición no aparecía y su hueco lo cubría un argumento de
 comodidad —*«es más rápido escribir tú cuatro líneas al colgar»*—. Es más rápido, y además es lo único
@@ -2516,15 +2644,15 @@ seudonimizado, y trabaja con ese resumen. Es más rápido que subir un audio de 
 tratamiento nuevo ni un destinatario nuevo, **y además es lo único admisible**, que es la mitad que
 faltaba.
 
-*Cómo se evalúa:* en la puerta M2→M3, una casilla binaria y observable — **¿existe en tu expediente algún
-paso que suba un audio, un documento completo o una captura, existiendo una versión escrita por ti más
-corta?** Si existe, se sustituye antes de pasar. Es la única de las nueve que se comprueba mirando lo que
-**no** hay.
+*Cómo se evalúa:* es **una de las seis casillas de la puerta M2→M3**, binaria y observable — **¿existe en tu
+expediente algún paso que suba un audio, un documento completo o una captura, existiendo una versión escrita
+por ti más corta?** Si existe, se sustituye antes de pasar. Es la única de las nueve que se comprueba mirando
+lo que **no** hay.
 
 **Y un noveno, incómodo, que no se evalúa porque evaluarlo sería absurdo: el «no» a la propia
-arquitectura.** El checkpoint de divorcio de M1 autoriza por
-escrito, desde la semana 1, a cambiar de proceso. **Un curso que no permite abandonar una decisión suya no
-puede pedirle a ella que abandone las suyas.**
+arquitectura.** El checkpoint de divorcio de M1 autoriza por escrito, desde la semana 1, a cambiar de
+proceso. **Un curso que no permite abandonar una decisión suya no puede pedirle a ella que abandone las
+suyas.**
 
 ---
 
@@ -2542,7 +2670,7 @@ anclajes concretos, y ninguno es un anexo:**
 | **Dentro del instrumento con el que se clasifica cualquier herramienta** | Instrumento 1, todo el curso | **Las preguntas 4 y 5 son literalmente protección de datos** | Porque así **el régimen de datos se deriva de la clasificación** en vez de pegarse al final |
 | **Dentro del criterio con el que se elige el proyecto** | M0, embudo, columna 2 | El semáforo, con **−3 que descalifica** para rojo irreducible | Porque así la protección de datos no llega a frenar el proyecto: **decide cuál es el proyecto** |
 | **En el momento en que le mete datos** | M2, antes de cargar fuentes | El **mapa de datos** · por qué quitar el nombre no basta · cuasi-identificadores · la prueba de la compañera · la regla de los adjuntos · **la regla del barrido general** | **Es el momento exacto en que pasa de pegar texto a subir ficheros.** Al pegar ves lo que envías; al adjuntar, no |
-| **En el momento en que algo actúa sin que ella mire** | M4, con los frenos | Temas prohibidos · condiciones de parada · *nada sale al cliente sin firma* · **el aviso de IA como condición** · **el registro de qué se generó y quién lo aprobó, construido y no enunciado** · plan de fallo con detección · el **Anexo III** y **la práctica prohibida** | **Antes de M4 no hacía falta; después de M4 sería tarde** |
+| **En el momento en que algo actúa sin que ella mire** | M4, con los frenos | Temas prohibidos · condiciones de parada · *nada sale al cliente sin firma* · **el aviso de IA como condición** · **el registro de qué se generó y quién lo aprobó, construido y no enunciado** · plan de fallo con detección · **los dos trozos de proceso que caen en el Anexo III** y **la práctica prohibida** | **Antes de M4 no hacía falta; después de M4 sería tarde** |
 
 **Capa permanente:** la **tarjeta del lunes** impresa al lado de la pantalla desde la semana 1. **Seis
 preguntas más tres líneas de NUNCA**, que son las que se leen sin pensar un martes de julio y que en la
@@ -2957,7 +3085,7 @@ fiable, nunca el más fiable.
 Aplicando esta regla, el diseño **retira**: la rúbrica de ocho ítems sobre la ficha del entorno —la ficha ya
 son nueve casillas y basta con el estándar «creo que» = suspenso—; la comprobación de las tres filas al azar
 sobre el pretest del Mapa —está declarado equivocado—; la sexta columna de la Tira; y el contraste rutinario
-de dos modelos, que se conserva **solo** como alternativa degradada de PC-3.
+de dos modelos, que se conserva **solo** como alternativa degradada de PC-2.
 
 **Regla 4 · La regla de retirada.**
 
@@ -2980,11 +3108,11 @@ lo que produce un artefacto que ella querría tener de todos modos. Todo lo dem�
 | **1a** | **Ejecución real de lo determinista: se dispara o no · se apaga o no · el filtro etiqueta o no** | **Máxima**, cobertura estrecha | El correo del día 1 · el filtro de la semana 2 · el disparador · el apagado |
 | **1b** | **Ejecución real de lo estocástico: el modelo acierta o no** | **Alta pero mal leída con n=1.** No es «funciona o no funciona»: es **«funciona con qué frecuencia»** | Las baterías, y por eso van dos pasadas · las paradas, y por eso van tres |
 | **2** | **Batería con clave sellada** | Muy alta | **La Tira**, cinco pasadas fechadas · las claves de los ocho dobletes · la codificación de P27 · los tres motivos de descarte |
-| **3** | **Lista de comprobación binaria observable** | Alta, y **lo único que caza omisiones** | Fuentes (M2, 12 ítems) · plataforma (M3, 7) · frenos (M4, 11) · traspaso (M6, 8) · Mapa (M6, 5) · dossier (M7, 6) |
+| **3** | **Lista de comprobación binaria observable** | Alta, y **lo único que caza omisiones** | Fuentes (M2, 10 ítems) · plataforma (M3, 7) · frenos (M4, 7 — **son los siete de la puerta M4 → M5**) · traspaso (M6, 8) · Mapa (M6, 5) · dossier (M7, 6) |
 | **4** | **Solución comentada con anatomía del error + los dos bloques de cierre** | Alta | Cinco o seis fallos típicos por módulo, **más las variantes válidas y las variantes plausibles-pero-defectuosas** |
 | **5** | **Rúbrica con criterios negativos + autoevaluación diferida** | Media-alta | **Se usa al día siguiente, nunca al terminar**, y con encuadre en tercera persona |
 | **6** | **IA correctora con rúbrica anclada y protocolo adversarial** | **Media, y variable de forma no aleatoria** | Con el protocolo de siete reglas, **graduada por entregable** |
-| **7** | **Contraste de dos modelos** | Media | **Solo como alternativa degradada de PC-3.** El desacuerdo es la señal, nunca el veredicto |
+| **7** | **Contraste de dos modelos** | Media | **Solo como alternativa degradada de PC-2.** El desacuerdo es la señal, nunca el veredicto |
 | **8** | **Punto de consulta con su pareja** | La más alta, estrechísima por escasez | **Seis en todo el curso** |
 | **9** | **Autoevaluación libre** («¿me ha quedado bien?») | ≈ nula | **Prohibida como mecanismo**, y se dice por qué |
 
@@ -2999,9 +3127,9 @@ número.
 | Mecanismo | Evidencia | Cómo se instancia aquí | Coste |
 |---|---|---|---|
 | **Práctica recuperativa** | *g* ≈ 0,61 sobre >200 comparaciones [E] | **Cinco preguntas de recuerdo al inicio de cada sesión núcleo, de memoria y por escrito, antes de abrir nada**, con las respuestas al final de la lección | 5 min × 24 |
-| **Práctica espaciada** | Una de las **dos únicas técnicas de utilidad alta** de diez evaluadas [E] | Las cinco preguntas mezclan módulo actual, anterior y uno de hace tres semanas. **Desde M2, la última es siempre de la rejilla o de los cinco motivos** | 0 |
+| **Práctica espaciada** | Una de las **dos únicas técnicas de utilidad alta** de diez evaluadas [E] | Las cinco preguntas mezclan módulo actual, anterior y uno de hace tres semanas —**en la primera sesión de cada módulo no hay del actual: el hueco lo ocupa el que se acaba de cerrar**—. **Desde M2, la última es siempre de la rejilla o de los cinco motivos** | 0 |
 | **Autoexplicación** | *g* = 0,55 sobre 64 estudios [E] | **Casilla 6 obligatoria del cuaderno de capas y de cada entregable**: por qué lo he hecho así · dónde creo que falla. **Escrito ANTES de corregir** | 2 min |
-| **Ejemplos trabajados con desvanecimiento** | Mejoran transferencia y reducen tiempo [E] | El expediente modelo: en M0 va entero, en M4 le faltan los dos últimos pasos, en M6 solo la lista de comprobación | 0 |
+| **Ejemplos trabajados con desvanecimiento** | El desvanecimiento **hacia atrás** mejora la transferencia **cercana** y reduce tiempo; la **lejana**, solo combinado con autoexplicación [E] | El expediente modelo: en M0 va entero, en M4 le faltan los dos últimos pasos, en M6 solo la lista de comprobación | 0 |
 | **Pistas escalonadas** | **La salvaguarda que elimina el daño de la muleta** [E] | Ver abajo | 0 para ella |
 | **Intenciones de implementación** | *d* = 0,65 sobre 94 pruebas [E] | *«Si es martes y son las 9:15, abro el módulo»*: fecha, hora y sitio escritos | 0 |
 
@@ -3091,28 +3219,40 @@ puede evitarse.**
 
 ### Las claves selladas, que ahora dejan rastro
 
-Toda la maquinaria de transferencia del curso —los once contrastes contra una clave que ella no ha
-escrito— descansa en que no abra un fichero que tiene en la carpeta desde la semana 1. **En el mes cuarto,
-un jueves, cansada, después de un día de doscientos correos, veinte minutos de doblete se resuelven
-abriendo la clave y escribiendo el veredicto que pone allí. Y nadie se entera, ni siquiera ella dos semanas
-después.** El diseño anterior aplicaba «sellado» religiosamente a la batería —donde el sellado sí es suyo
-porque la escribe ella— y por analogía a claves que el curso le regala abiertas.
+Toda la maquinaria de transferencia del curso —los **doce** contrastes contra una clave que ella no ha
+escrito: los ocho dobletes, la codificación de P27 y los tres motivos de descarte— descansa en que no abra
+un fichero que tiene en la carpeta desde la semana 1. **Son doce y no trece porque el mini-doblete de P16
+no tiene fichero propio:** su veredicto va dentro de la clave del doblete de la capa 3, debajo del de P30,
+y se abre de una sola vez. Y la batería no entra en la cuenta, porque esa clave la escribe ella.
+
+**Lo que amenaza a las doce es siempre la misma escena. En el mes cuarto, un jueves, cansada, después de
+un día de doscientos correos, veinte minutos de doblete se resuelven abriendo la clave y escribiendo el
+veredicto que pone allí. Y nadie se entera, ni siquiera ella dos semanas después.** El diseño anterior
+aplicaba «sellado» religiosamente a la batería —donde el sellado sí es suyo porque la escribe ella— y por
+analogía a claves que el curso le regala abiertas.
 
 **Contramedida, que es lo único que se puede hacer sin profesor: hacer que abrir la clave deje rastro.**
 Cada fichero de clave empieza, **antes de una sola línea de contenido**, con este bloque obligatorio:
 
 ```
 Fecha de hoy: ________
-Mi veredicto y mi motivo, escritos ANTES de seguir leyendo: ______________________
+Mi veredicto —uno de los seis, o ZP— y mi motivo —de la lista cerrada de cinco, citando un
+hecho del proceso—, escritos ANTES de seguir leyendo: ______________________
 Lo que había debajo: ______________________
 Dónde no coincidimos: ______________________
 ```
 
-El veredicto se escribe **dentro del propio fichero de clave**, no en la hoja del doblete. Con eso, un
-doblete resuelto al revés se ve a simple vista al releerlo, y sobre todo se ve en la semana 17, cuando toca
-contar cuántos dobletes terminaron en «no aplica». Y la línea que lo dice sin moralina: **«esta clave no la
-puede sellar nadie más que tú; lo que la hace valer no es que no la abras, es que escribas tu veredicto
-antes».**
+**Esta es la única casilla donde se escribe el veredicto** —**dentro del propio fichero de clave**, no en
+la hoja del doblete—, y por eso la plantilla del doblete ya no la repite: dos casillas para lo mismo
+producen dos versiones y ninguna manda. **Y una excepción declarada, porque el curso la usa a propósito
+dos veces:** hay dobletes cuya clave **no** es uno de los seis ni ZP —el de la capa 5 responde *«no se
+deja medir así»* y el de la capa 7 no tiene clave de veredicto sino de ejecución—. Cuando le pase, escribe
+*«ninguno encaja»* **y por qué**: ese «por qué» es el contenido del doblete, no un hueco.
+
+Con esa casilla, un doblete resuelto al revés se ve a simple vista al releerlo, y sobre todo se ve en la
+semana 17, cuando toca contar cuántos dobletes terminaron en **veredicto 1, veredicto 2 o zona
+prohibida** —la cuota de los tres—. Y la línea que lo dice sin moralina: **«esta clave no la puede sellar
+nadie más que tú; lo que la hace valer no es que no la abras, es que escribas tu veredicto antes».**
 
 **Y la regla de lectura de la clave:** *si no coincides, **no reescribas tu veredicto**. Escribe en una
 línea por qué creías lo que creías. Ese desacuerdo es el dato, y es material de PC-5.*
@@ -3130,7 +3270,7 @@ donde debe estar el aparato que bloquea, porque de M5 en adelante **no hay cimie
 | Puerta | Condición, toda observable | Por qué bloquea |
 |---|---|---|
 | **M0 → M1** | Hoja de sombra de dos días sin criterio de rechazo activado · **dos decisiones no previstas** | Un proceso mal elegido contamina las dieciocho semanas, y a partir de M2 deshacerlo es caro |
-| **M2 → M3** | Batería **en dos pasadas de dos días, contando la peor** · **hostil no obedecido** · **casilla de retención contestada** · traslado hecho · **diagnóstico de uso escrito con un cambio concreto** | **Automatizar algo que no funciona es multiplicar el error** |
+| **M2 → M3** | Batería **en dos pasadas de dos días, contando la peor** · **hostil no obedecido** · **casilla de retención contestada** · traslado hecho · **ningún paso sube un audio, un documento completo o una captura habiendo versión escrita más corta** · **diagnóstico de uso escrito con un cambio concreto** | **Automatizar algo que no funciona es multiplicar el error** — y automatizar un tratamiento de datos que no tenía que existir también lo multiplica, una vez por ejecución |
 | **M3 → M4** | El disparador ha corrido una semana sobre unidades reales · **cinco procesadas y una fuera de alcance sin tocar** · tope y apagado probados · **ha visto fallar algo y sabe por qué, escrito como entrada → salida** | **Sin haber visto un fallo no hay criterio para dar autonomía a nada** |
 | **M4 → M5** | Cinco paradas **3/3** y el sexto que no para · marca y motivo en cada parada · **ninguna consecuencia irreversible depende de un freno B** · **ningún dato escrito en vez de copiado** · revisor con nombre y hora · **ningún camino llega a un cliente sin firma humana** | **Medir un sistema sin frenos mide otra cosa**, y el que paga el error es un cliente |
 
@@ -3167,8 +3307,8 @@ razonamiento y los hechos de plataforma, **no los hechos de la academia, que no 
 | # | Momento | Qué lleva | **Alternativa degradada** |
 |---|---|---|---|
 | **PC-1** | Fin de **M0** | *«He comprobado estas seis cosas en pantalla, deduzco que tenemos el plan X, que por eso no puedo hacer Y, y por eso he descartado estos tres procesos y elegido este. ¿La deducción se sostiene?»* | Asumir el escenario **más restrictivo**, elegir el candidato de mayor puntuación que no dependa de ninguna función dudosa, y anotar la suposición |
-| **PC-2** | Inicio de **M2**, antes de cargar fuentes reales | Ocho tipos de dato reales clasificados en tres cajones y tres casos ya seudonimizados: *«¿tú sabrías de quién hablo?»* | Regla de máxima cautela: **si dudas, no entra**. Y la prueba de la compañera con **cualquier compañera**, que además es la evaluadora literal del criterio |
-| **PC-3** | Fin de **M1**, tras el cebo 1 | *«Esta es la corrección que hizo la IA de un trabajo con tres fallos plantados. Encontró dos. ¿Estoy leyendo bien lo que se le escapa?»* — **el de mayor apalancamiento: no se revisa su trabajo, se revisa su instrumento de corrección** | Pasar el cebo por dos modelos distintos y comparar |
+| **PC-2** | Fin de **M1**, tras el cebo 1 | *«Esta es la corrección que hizo la IA de un trabajo con tres fallos plantados. Encontró dos. ¿Estoy leyendo bien lo que se le escapa?»* — **el de mayor apalancamiento: no se revisa su trabajo, se revisa su instrumento de corrección** | Pasar el cebo por dos modelos distintos y comparar |
+| **PC-3** | Inicio de **M2**, antes de cargar fuentes reales | Ocho tipos de dato reales clasificados en tres cajones y tres casos ya seudonimizados: *«¿tú sabrías de quién hablo?»* | Regla de máxima cautela: **si dudas, no entra**. Y la prueba de la compañera con **cualquier compañera**, que además es la evaluadora literal del criterio |
 | **PC-4** | **Comodín**, desde M3 | Un fallo de plataforma tras agotar la lista de comprobaciones y `cuando-no-coincide.md`. **No tiene fecha a propósito:** saber que existe un comodín reduce el miedo a atascarse, **que es un factor de abandono por sí mismo aunque no se use** | Documentar el fallo, **rodearlo** con una solución manual y seguir |
 | **PC-5** | Fin de **M4** | *«Esta es la línea de corte con la que he terminado, estos son los tres sitios donde dudé, y estos son los dos dobletes donde no coincidí con la clave. ¿Dónde la moverías?»* | Los cinco motivos tipificados y **los desacuerdos con las claves**, que son la mejor materia prima disponible sin nadie |
 | **PC-6** | **M7** | La prueba del pasillo en treinta segundos, y después: *«¿qué he dicho que no podría defender si alguien lo comprobara?»* | Hacer la prueba del pasillo con una compañera de otro departamento; grabarse treinta segundos y contar los nombres de herramienta al día siguiente |
@@ -3186,7 +3326,7 @@ literalmente el peor regalo posible.**
 > pareja sabe **de plataformas** y no solo **de modelos**. La comprobación cuesta un minuto: *pregúntale si
 > ha configurado alguna vez una automatización con disparador en una suite de empresa.*
 >
-> **Si la respuesta es no**, se bifurca: **PC-4 pierde casi todo su valor** y se reasigna a PC-2 o PC-5. Y
+> **Si la respuesta es no**, se bifurca: **PC-4 pierde casi todo su valor** y se reasigna a PC-3 o PC-5. Y
 > —esto es lo que el diseño anterior no veía— **PC-1 cambia de objeto**: deja de ser sobre **hechos de
 > plataforma** y pasa a ser sobre **razonamiento** —*«estas son las cinco cosas que he comprobado en
 > pantalla y esto es lo que deduzco: ¿la deducción se sostiene?»*—, con las comprobaciones empíricas encima
@@ -3241,7 +3381,7 @@ momentos son localizables, se les puede poner algo delante.
 
 | M | Semanas | Nº sem. | Horas propias | Tiempo de trabajo | Por qué esa duración |
 |---|---|---|---|---|---|
-| **M0** | 1–2 | 2 | **~3 h 45** | sombra (3 min/día) · línea base (5 días) · embudo (55 min) · **filtro (15 min)** | **Deliberadamente ligero por semana: la mortalidad está aquí** |
+| **M0** | 1–2 | 2 | **~3 h 45** | sombra (3 min/día) · línea base (5 días, y los de la semana 2 que hagan falta hasta n = 10) · embudo (55 min) · **filtro (15 min)** | **Deliberadamente ligero por semana: la mortalidad está aquí** |
 | **M1** | 3–4 | 2 | **~4 h 45** | línea de corte (45 min) | El más denso mentalmente. Se sostiene porque el asistente v1 ya funciona encima de la mesa **y porque la sesión 2 termina en un salto medido, no en un documento** |
 | **M2** | 5–6 | 2 | **~5 h 15** | carga de fuentes · uso diario | La segunda semana es casi toda uso real, que es lo que mira la puerta |
 | **M3** | 7–8 | 2 | **~4 h 30** | montaje (85 min) · **P27 en dos bloques (110 min)** · **prueba de carga (45 min, sesión aparte)** | **El módulo con más probabilidad de desbordarse.** Por eso su orden de sacrificio deja fuera las rutas A y B y aplaza la portabilidad |
@@ -3281,6 +3421,15 @@ escrito**.
 - **No 20:** cada semana añadida al final es **una semana con menor probabilidad de ocurrir**.
 - **Y arranque en octubre, no en primavera.** Si el curso empezara en primavera, **M4 —el módulo más
   caro— caería en julio.** Fin previsto: última semana de febrero, con margen antes de que el volumen suba.
+
+> **Dieciocho semanas de curso no son dieciocho semanas de calendario, y la diferencia son las dos de
+> Navidad.** Con arranque el 13 de octubre, la semana 11 —el cierre de M4, que es **la frontera declarada
+> del curso**— cae la semana del 21 de diciembre, y ahí hay **dos semanas de parada**: se retoma en la
+> semana 12 a mediados de enero y se termina la última semana de febrero, que es la cuenta que cuadra con
+> «fin previsto» y con el arranque en octubre. **La parada no se improvisa: es la pausa mejor colocada de
+> las dieciocho**, porque cae exactamente donde el contrato dice que parar con un sistema funcionando no
+> es abandonar, y porque la vuelta ya tiene su ritual de reentrada escrito desde la semana 1. Si el
+> arranque se mueve, esta cuenta se mueve con él.
 
 ### MOMENTO 1 · Días 1–10 — el arranque, y la sospecha de haber elegido mal
 
@@ -3413,7 +3562,8 @@ de criterio y clics tiene que demostrarse.
 ```
 ================================================================================
  M3.1 — Que ocurra sin que lo pidas                              [ tiempo propio ]
- 40 minutos · Si solo tienes 20: haz el bloque «El criterio» y el paso 1 del ejercicio
+ 40 minutos · Si solo tienes 20: las cinco preguntas y el bloque «El criterio» — el resto, mañana
+ El ejercicio E3.1 es otra sesión, en tiempo de trabajo, y tiene su propia línea de 20 minutos
 ================================================================================
 ```
 
@@ -3421,13 +3571,18 @@ de criterio y clics tiene que demostrarse.
 
 *No mires atrás. Equivocarte aquí es el ejercicio, no un fallo. Las respuestas están al final.*
 
-1. ¿Qué tres datos lleva la primera línea de cada una de tus fuentes, y para qué sirve cada uno?
-2. Tu batería tiene un caso que el sistema **debe** rechazar y uno **hostil**. ¿Qué diferencia hay?
+*Y esta es la primera sesión de M3, así que no hay ninguna pregunta del módulo actual: el hueco lo ocupa
+el módulo que se acaba de cerrar. Es la excepción declarada en § Mapa de módulos.*
+
+1. *(del módulo anterior)* ¿Qué tres datos lleva la primera línea de cada una de tus fuentes, y para qué
+   sirve cada uno?
+2. *(de hace un mes)* Tu batería tiene un caso que el sistema **debe** rechazar y uno **hostil**. ¿Qué
+   diferencia hay?
 3. *(del módulo anterior)* ¿Por qué la ficha de criterio se lee por columnas y no de un vistazo?
 4. *(del módulo anterior)* Nombra las dos cosas que **nunca** entran en ninguna herramienta, ni
    seudonimizadas.
-5. *(de hace tres semanas · rejilla)* Un proceso en el que hay un disparador claro y los pasos son siempre los mismos, ¿qué
-   veredicto es? ¿Y si en dos puntos hay que evaluar algo para saber por dónde seguir?
+5. *(de hace tres semanas · rejilla)* Un proceso en el que hay un disparador claro y los pasos son siempre
+   los mismos, ¿qué veredicto es? ¿Y si en dos puntos hay que evaluar algo para saber por dónde seguir?
 
 ### Para qué sirve esto en tu trabajo
 
@@ -3560,14 +3715,14 @@ interruptor.**
   techos con su condición —*que además pudiera etiquetar o dejar un borrador*— y sigue con la Ruta 0.
 - **Y una que sorprende:** cuando pases la batería en esta capa, **la calidad de las respuestas no va a
   mejorar**. No es que hayas hecho algo mal. Lo que cambia en esta capa no es la calidad: es quién dispara.
-  Eso lo vas a ver dibujado en tu propia Tira dentro de cuatro semanas.
+  Eso lo vas a ver dibujado en tu propia Tira al abrir el módulo 5, que empieza leyéndola entera.
 
 ---
 
 ```
 ================================================================================
  E3.1 — Tu disparador, con su tope y su apagado           [ tiempo de trabajo ]
- 85 minutos, en dos ratos · Si solo tienes 20: pasos 1 y 2
+ 85 minutos, en dos ratos · Si solo tienes 20: el paso 1 (15 min), que es declarar antes de montar
  La prueba de carga de julio NO va aquí: es su propia sesión de 45 min, más adelante en M3
 ================================================================================
 ```
@@ -3584,7 +3739,7 @@ EL TOPE:                 si hay más de ___ unidades → no hace nada y me avisa
                          · ¿es DURO o BLANDO?  ___   · ¿dónde vive exactamente?  ___
                          · N = lo que puedo revisar de una sentada, medido: ___
                          · el peor día del año pasado fue: ___ → ¿habría saltado el tope? ___
-MODO PICO:               si el tope salta tres días seguidos, lo que hago es: ___
+MODO PICO:               si el tope salta tres ejecuciones seguidas, lo que hago es: ___
 CÓMO SE APAGA:           dónde, y la fecha en que lo apagué y lo volví a encender: ___
 ```
 
@@ -3713,11 +3868,17 @@ EL TOPE:        si hay más de 25 respuestas → no proceso ninguna; me avisa y 
                 · DURO · vive en el tamaño del lote que pego yo
                 · N = 25, que es lo que puedo revisar de una sentada (medido: 40 s por respuesta)
                 · el peor día del año pasado fueron 38 respuestas, el 12 de julio → ese día el tope
-                  habría saltado, y por eso existe el modo pico de la línea siguiente
-MODO PICO:      si el tope salta tres martes seguidos, paso a procesar dos veces por semana y, si
-                aun así no cabe, estrecho el alcance a alojamiento y académico y lo digo por escrito
+                  habría saltado, y por eso este proceso va a necesitar modo pico, que se decide en
+                  la prueba de carga
+MODO PICO:      ___ (se rellena en la sesión de la prueba de carga)
 CÓMO SE APAGA:  desactivando el filtro y borrando el recordatorio. Apagado y encendido el 21-nov
 ```
+
+**Y así es como quedará esa casilla después de la prueba de carga**, que es su propia sesión de 45 minutos
+y va más adelante en este mismo módulo — se pone aquí para que se vea de dónde sale, no para copiarla hoy:
+*«si el tope salta tres martes seguidos, paso a procesar dos veces por semana y, si aun así no cabe,
+estrecho el alcance a alojamiento y académico y lo digo por escrito».* **Hoy, en tu entregable, esa línea
+va en blanco: el modo pico inventado en octubre es justamente lo que falla en julio.**
 
 ### Por qué está así — decisión a decisión
 
@@ -3815,10 +3976,13 @@ enseña**, y porque M3 es justo donde el material se vuelve más específico de 
 
 ```
 ================================================================================
+ Verificado el 14-oct-2026 en la suite que paga la academia.
+ Si algo no coincide con lo que ves, tu pantalla tiene razón y este texto no.
+ Ve a cuando-no-coincide.md.
+--------------------------------------------------------------------------------
  clics/M3.1-clics-workspace.md          ← ESTA MITAD CADUCA. Se tira y se rehace.
- Comprobado el 14-oct-2026 · entorno: la suite que paga la academia
- Si algo de aquí no coincide con tu pantalla, el criterio sigue valiendo:
- lo único que ha cambiado es dónde está el botón. Busca por lo que HACE.
+ El criterio sigue valiendo: lo único que ha cambiado es dónde está el botón.
+ Busca por lo que HACE.
 ================================================================================
 ```
 
@@ -3838,9 +4002,17 @@ enseña**, y porque M3 es justo donde el material se vuelve más específico de 
    disparador vive en tu buzón y el documento-bandeja es obligatorio.
 3. ¿El filtro te deja **solo etiquetar**, sin mover ni archivar? Si te ofrece mover, no lo uses.
 
-**Y la línea que hace este fichero desechable:** cuando algo de la columna 2 deje de ser verdad, se cambia
-esa fila, se pone la fecha nueva y **no se toca la lección**. Si alguna vez tuvieras que cambiar la lección
-por un cambio de producto, es que la lección estaba mal escrita.
+```
+================================================================================
+ Si esto ha cambiado, lo que sigue siendo verdad está en M3.1-capa.md.
+================================================================================
+```
+
+**Esa última línea es la que hace este fichero desechable:** cuando algo de la columna 2 deje de ser
+verdad, se cambia esa fila, se pone la fecha nueva y **no se toca la lección**. Si alguna vez tuvieras que
+cambiar la lección por un cambio de producto, es que la lección estaba mal escrita. La cabecera y el cierre
+no son adorno: son las reglas 6 y 7 de producción, literales, y esta muestra existe también para
+enseñarlas cumplidas.
 
 ---
 
@@ -3855,10 +4027,10 @@ desaparecido; (c) su empresa ha cambiado de proveedor, **o ella ha cambiado de e
 
 | Módulo | Qué es criterio (sigue válido en 2028) | Qué es clic (se rompe) | Coste de reparación |
 |---|---|---|---|
-| **M0** | El embudo y sus cinco columnas · **la cuarta columna como pregunta de permisos** · la separación entre «sobre qué actúo» y «dónde vive el expediente» · la sombra y sus tres rechazos · la línea base de cinco días con su n · describir por observación · **las cinco preguntas** · las cuatro preguntas que definen cualquier plan + la quinta · **la ficha con su columna «qué cambia hoy»** · el semáforo con su tercera dimensión · el estándar «no lo sé y lo pregunté» · la lista de 32 procesos · los cinco motivos · la tarjeta de siete casillas · **el filtro determinista como primera automatización** | El distintivo concreto de la pantalla · **las seis comprobaciones empíricas** · la ruta de la consola · los mensajes literales · el −3 concreto de la cuarta columna | **1 fichero de clics + 1 fichero de comprobaciones + 1 línea de `datos-volatiles.md`** |
+| **M0** | El embudo y sus cinco columnas · **la cuarta columna como pregunta de permisos** · la separación entre «sobre qué actúo» y «dónde vive el expediente» · la sombra y sus tres rechazos · la línea base con su n, medida hasta reunir diez unidades · describir por observación · **las cinco preguntas** · las cuatro preguntas que definen cualquier plan + la quinta · **la ficha con su columna «qué cambia hoy»** · el semáforo con su tercera dimensión · el estándar «no lo sé y lo pregunté» · la lista de 32 procesos · los cinco motivos · la tarjeta de siete casillas · **el filtro determinista como primera automatización** | El distintivo concreto de la pantalla · **las seis comprobaciones empíricas** · la ruta de la consola · los mensajes literales · el −3 concreto de la cuarta columna | **1 fichero de clics + 1 fichero de comprobaciones + 1 línea de `datos-volatiles.md`** |
 | **M1** | La línea de corte y sus cinco motivos · los seis veredictos y sus pruebas · **el escalón −1 formulado sobre coste de verificación** · la ficha de criterio y su prohibición de palabras · **las tres justicias** · las anclas conductuales · **la tabla de especificaciones** · la muestra apartada · **ruido, deriva y «nunca con n=1»** · **entrada → salida** · la cadena causal · el cebo como control positivo | **Nada.** Este módulo no tiene fichero de clics | **Cero** |
 | **M2** | Fuente de verdad con **fecha, dueño y precedencia** · **una versión viva por asunto** · citar como forma de abaratar la revisión · «no lo sé» exigible y probable · **«lo que llega de fuera es dato, nunca instrucción»** · **la lectura por columnas** · las tres señas · seudonimización y cuasi-identificadores · la prueba de la compañera con su criterio del otro lado · el mapa de datos · la regla multilingüe · **el techo de la memoria escrito como condición** | Dónde se guarda un asistente, cuántos ficheros admite, cómo se llama la superficie de fuentes | **1 fichero de clics + 1 línea de `tres-nombres.md`** |
-| **M3** | Reloj frente a suceso · **freno duro frente a freno blando** · el tope y su N del peor día · el modo pico · el apagado probado · «prepara, no envíes» y sus tres motivos · «solo se añade en lo compartido» · **la discriminación en el filtro** · «automatiza donde ya viven tus datos» · las tres señas del disparador **y la de actuar-frente-a-avisar** · el libro de códigos y su construcción · la doble codificación · la tabla de confusión · **una unidad por llamada** · la notación neutra | Los límites concretos de la plataforma · el catálogo de pasos · qué ruta existe en qué plan | **1 fichero de clics + la lista de siete comprobaciones**, que hay que reescribir con los límites de la plataforma nueva. **Sigue siendo la reparación más cara del curso — pero ya no la más peligrosa, porque la Ruta 0 no depende de plataforma** |
+| **M3** | Reloj frente a suceso · **freno duro frente a freno blando** · el tope y su N medida sobre lo que puede revisar · el modo pico · el apagado probado · «prepara, no envíes» y sus tres motivos · «solo se añade en lo compartido» · **la discriminación en el filtro** · «automatiza donde ya viven tus datos» · las tres señas del disparador **y la de actuar-frente-a-avisar** · el libro de códigos y su construcción · la doble codificación · la tabla de confusión · **una unidad por llamada** · la notación neutra | Los límites concretos de la plataforma · el catálogo de pasos · qué ruta existe en qué plan | **1 fichero de clics + la lista de siete comprobaciones**, que hay que reescribir con los límites de la plataforma nueva. **Sigue siendo la reparación más cara del curso — pero ya no la más peligrosa, porque la Ruta 0 no depende de plataforma** |
 | **M4** | Temas prohibidos frente a condiciones de parada · las nueve condiciones y su motivo · **la etiqueta D/B y el ítem del freno blando irreversible** · **la comprobación determinista campo a campo** · «parar no es callarse» · el revisor con nombre y hora · **el plan de fallo con detección y aviso interno** · «la confianza no es una salvaguarda» · empatía sin admisión con sus tres indicadores · **el aviso de IA escrito como condición** · privilegio mínimo · las cinco preguntas aplicadas a un agente que no existe hoy | Cómo se implementa una bifurcación y un tope · qué producto está detrás de qué plan · **las fechas del marco normativo** | **1 fichero de clics + la caja del fondo**, que se revisa entera —está diseñada para eso: su primera columna son condiciones— y `datos-volatiles.md` para las fechas normativas |
 | **M5** | Línea base · **minutos por unidad, mediana y n** · coste completo · amortización · las amenazas a la validez · **deficiencia, contaminación y relevancia del criterio** · proceso frente a resultado · **la prueba ciega con su ceguera medida** · la lectura de la Tira | **Nada.** Es metodología, un cronómetro y una hoja de cálculo | **Cero** |
 | **M6** | Fuentes con caducidad, dueño e histórico · el calendario que no vence en julio · **el bus factor medido por «lo ha abierto, lo ha apagado»** · la reconstrucción de qué decía el sistema hace dos meses · el apagado probado · la prueba del hueco · escribir la propia rúbrica y validarla · el Mapa y la regla del cuatro · **la autopsia del cuestionario** | Los nombres de las herramientas del apéndice opcional | **1 párrafo** |
@@ -3955,7 +4127,7 @@ propósito**, con el motivo de cada cosa.
 | **Inyección indirecta de instrucciones** | **AÑADIDO** | No aparece en la referencia. Es el modo de fallo canónico en 2026 de la arquitectura que ella construye, y aquí entra con caso de batería, condición de parada, criterio de capa 2 y reetiquetado de la firma humana |
 | **Qué hacer cuando el sistema se equivoca delante de un cliente** | **AÑADIDO** | Plan de fallo en seis pasos con **detección** y **aviso interno el mismo día**, revisión con nombre y hora, y trazabilidad reconstruible |
 | **Multilingüe** | **AÑADIDO** | Su alumnado es polaco trabajando en polaco; la nuestra atiende en diez idiomas. Entra en cuatro sitios con nombre |
-| **Medir si de verdad resuelve el problema** | **MEJOR** | La referencia hace la pregunta y no da método. Aquí: línea base de cinco días, minutos por unidad, mediana con n, coste completo restado, amenazas a la validez, prueba ciega con la ceguera medida, cadena causal escrita **antes**, y reproducción del número |
+| **Medir si de verdad resuelve el problema** | **MEJOR** | La referencia hace la pregunta y no da método. Aquí: línea base medida hasta reunir diez unidades, minutos por unidad, mediana con n, coste completo restado, amenazas a la validez, prueba ciega con la ceguera medida, cadena causal escrita **antes**, y reproducción del número |
 | **Feedback de mentores, LIVEs semanales, comunidad, ver los proyectos de otros** | **FUERA — y es la pérdida real** | No es sustituible y no se disimula. Lo que allí resolvía un mentor aquí lo resuelven **nueve mecanismos de corrección, cuatro puertas, tres cebos, doce claves selladas —los ocho dobletes, la codificación de P27 y los tres motivos de descarte— y seis puntos de consulta de diez minutos**. Es lo mejor que cabe sin cohorte, y es peor que una cohorte |
 | **Certificado al entregar el proyecto** | **FUERA a propósito** | No busca cambiar de rol, y un certificado sin evaluador no certifica nada. La definición de «terminado» es observable y no la firma nadie |
 | **Semana 5A: inteligencia competitiva, prototipo de app y landing** | **FUERA a propósito** | Es el destino del itinerario no técnico de la referencia porque **su alumno tipo quiere entrar en el sector de la IA**. La nuestra no quiere cambiar de rol ni de sector. La portabilidad se la dan **los seis instrumentos, no una web** |
@@ -4015,11 +4187,15 @@ vocabulario. **Y las tres pruebas nunca tocan la parte difícil**: P1 va con mat
 puede ser de otro modo, y P2 y P3 son sobre papel. **Se demuestra que el criterio viaja; no se demuestra que
 sabría trabajar de verdad en otra herramienta con datos reales.**
 
-**8 · La Tira es la mejor idea del conjunto y la más frágil de mantener.** Exige sostener casos vivos
-durante dieciocho semanas y volver a pasarlos cuatro veces —ahora dos veces en las puertas—. Es poco trabajo
-cada vez, pero es **trabajo sin novedad**, y lo que no tiene novedad se convierte en ritual o desaparece.
-Dos puertas la fuerzan, **pero las puertas se pueden saltar en un curso sin profesor**. Si la Tira se
-erosiona, desaparece con ella la lección central del curso.
+**8 · La Tira es la mejor idea del conjunto y la más frágil de mantener.** Exige sostener casos
+vivos durante dieciocho semanas y volver a pasarlos cuatro veces —ahora dos veces en las puertas—.
+Es poco trabajo cada vez, pero es **trabajo sin novedad**, y lo que no tiene novedad se convierte en
+ritual o desaparece. **Ninguna puerta la fuerza** —y esta línea decía lo contrario, que dos la
+forzaban—: lo único que la sostiene son dos listas de cierre que no bloquean —M1 y M5—, su sitio en
+el núcleo no sacrificable de M2 y la regla de que su lectura abre M5. **Se ha decidido no ponerle
+puerta** porque no cumple el criterio de bloqueo —la capa siguiente no se construye encima de la
+columna—, de modo que la fragilidad no está mitigada: está declarada. Si la Tira se erosiona,
+desaparece con ella la lección central del curso.
 
 **9 · El pretest de la semana 1 está contaminado por diseño, y el delta mide menos de lo que parece.** En la
 semana 1 ella ya ha visto la rejilla en forma de definiciones. **El delta mide lo que el curso añade sobre
@@ -4095,13 +4271,23 @@ noviembre, que está bien.
 
 | Opción | A favor | En contra |
 |---|---|---|
-| **(a) Arrancar en octubre**, como está diseñado | El calendario entero cae en temporada baja; M7 termina antes de que el volumen suba | Seis semanas de espera, y una decisión que se enfría |
+| **(a) Arrancar en octubre**, como está diseñado | El calendario entero cae en temporada baja; M7 termina antes de que el volumen suba | Siete semanas de espera —del 23 de agosto al 13 de octubre—, y una decisión que se enfría |
 | **(b) Arrancar ya, en septiembre** | No se pierde el impulso | M0 y M1 caen en la cola del pico. Son los dos módulos de mayor mortalidad |
 | **(c) Arrancar ya, pero con M0 estirado a tres semanas** | Aprovecha el impulso y protege el tramo frágil | Rompe la simetría del contrato |
 
 **Recomendación: (c).** El impulso vale más que la simetría, y M0 es precisamente el módulo cuyo grueso es
 tiempo de trabajo —la sombra, la línea base, el embudo— y por tanto el que menos sufre estirándose. Se
 declara en el contrato como «M0 dura dos o tres semanas según cuándo empieces».
+
+> **Y esta decisión está pendiente de verdad, no recomendada y hecha: este documento, tal y como está
+> escrito, describe la opción (a).** Todas sus fechas son de octubre y su cuenta es de dieciocho semanas.
+> **Si se elige (c), esto es lo que hay que retocar antes de entregar nada, y son seis sitios:** el
+> contrato de la semana 1 · el mapa de módulos, empezando por la línea «Arranque en octubre» y por las
+> semanas 1–2 de M0 · § *Por qué 18 semanas*, que pasa a diecinueve y cuya parada de Navidad se recoloca ·
+> el reparto por módulo y sus dos tablas de tramos · **las cinco fechas de la Tira** · y la cabecera
+> fechada del fichero de clics de la muestra. **Mientras esos seis sitios digan octubre, la opción vigente
+> es (a)**, y quien ejecute el curso tiene que elegir a sabiendas: la recomendación de esta sección no
+> está aplicada al resto del documento, y decirlo es más barato que dejar dos calendarios conviviendo.
 
 ### 2 · El contrato horario: ¿2 h 30 o se recorta más?
 
@@ -4201,16 +4387,17 @@ el calendario de revisión de M6 fija una fecha. **No está decidido si hay algo
 | **(b) Una hoja de «los seis meses siguientes»**: el segundo proceso sale de la cola ordenada del Mapa, con las tres primeras filas ya elegidas | Media página, y convierte el final en un principio |
 
 **Recomendación: (b).** Cuesta media página y ataca directamente el momento 4 —el final sin final—. La cola
-ya está ordenada por `frecuencia × minutos ÷ riesgo`: solo hay que decirle que eso **es** su plan, y que el
-segundo proceso ya no cuesta dieciocho semanas.
+ya está ordenada por `frecuencia × minutos por unidad`, con el riesgo alto bajado al final y las zonas
+prohibidas fuera: solo hay que decirle que eso **es** su plan, y que el segundo proceso ya no cuesta
+dieciocho semanas.
 
 ---
 
 > **Última nota de producción.** Este documento describe un curso; no es el curso. Lo que falta por escribir
 > son ocho módulos de material con sus ejercicios, rúbricas y soluciones comentadas —con **sus dos bloques
-> de cierre**, que es la regla que más se olvida—, el expediente modelo sobre P27, doce claves selladas —ocho dobletes, la codificación de P27 y los tres
-> motivos de descarte— con
-> su bloque de apertura, tres cebos, la lista de 32 procesos, los ficheros de `comun/` y un fichero de clics
-> por entorno. **La estimación honesta es que el material pesa entre cinco y ocho veces este documento**, y
+> de cierre**, que es la regla que más se olvida—, el expediente modelo sobre P27, **doce claves selladas**
+> —ocho dobletes, la codificación de P27 y los tres motivos de descarte—, cada una con su bloque de
+> apertura, tres cebos, la lista de 32 procesos, los ficheros de `comun/` y un fichero de clics por
+> entorno. **La estimación honesta es que el material pesa entre cinco y ocho veces este documento**, y
 > que **la parte más difícil de escribir no es M3, que es la más técnica, sino M1, M5, M6 y M7, que son las
 > que menos se parecen a un curso de IA y las que más tienen que enganchar.**
