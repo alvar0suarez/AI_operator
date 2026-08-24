@@ -41,46 +41,74 @@ tanto lo que puede hacer como lo que puede meter ahí dentro.
 
 ## Objetivo
 
-**Salir del hábito del chat y empezar a usar la IA de forma eficaz fuera de la
-ventana de conversación**, en su propia profesión.
+**Poner al día su profesión.** No trabajar de manera antigua ni entender su oficio de manera
+antigua: adaptarse a cómo debería trabajar hoy alguien de atención al cliente, customer experience
+o customer success, con las herramientas que existen.
 
-Desglosado, tal y como ella lo ha formulado:
+Traducido a una capacidad concreta y comprobable:
 
-1. **Saber qué existe.** Que existen agentes, que existen automatizaciones, qué
-   se puede automatizar de su trabajo y qué no. Hoy no tiene ese mapa.
-2. **Automatizar sus propias tareas.** Empezando por cosas sencillas —
-   automatizaciones— y subiendo después a agentes.
-3. **Manejar datos sensibles con seguridad.** No como aviso legal: como
-   competencia práctica. Quiere saber cuál es la forma segura de trabajar.
+> **Ante una tarea de su profesión, reconocer de qué tipo es, decidir si se puede automatizar, con
+> qué clase de herramienta, y montarlo.**
 
-4. **Adquirir criterio portátil.** No solo resolver sus tareas de hoy: quedarse
-   con un conjunto de habilidades y una agilidad mental que le permita, de forma
-   sencilla y panorámica, mirar un proceso cualquiera —en esta empresa, en otra, o
-   en su vida cotidiana— y ver "esto se puede hacer así, esto se puede automatizar
-   de esta otra manera". Con la conciencia explícita de que esa sensibilidad se
-   afina con la experiencia y de que esto es solo el primer escalón de una
-   formación continua.
-5. **Evangelizar hacia dentro.** Su empresa empuja el uso de IA pero, en su
-   valoración, con bastante desconocimiento de lo que realmente se puede hacer.
-   No necesita permiso, pero sí quiere saber **cómo evidenciar el valor de lo que
-   monta** y cómo arrancar un proyecto de manera que después la organización lo
-   adopte. Es un objetivo distinto de "conseguir el sí": no es pedir autorización,
-   es demostrar y arrastrar.
+Desglosado:
 
-**Lo que NO es el objetivo**, y conviene tenerlo escrito porque es la tentación
-natural de un curso así:
+1. **Saber qué existe** — agentes, automatizaciones, asistentes con fuentes — y sobre todo **qué
+   tipo de tarea corresponde a cada cosa**.
+2. **Reconocer patrones de tarea**, no casos sueltos. Lo que se aprende sobre «responder a una
+   consulta repetida» tiene que valerle en cualquier empresa donde vuelva a haber consultas
+   repetidas.
+3. **Ejecutar.** No basta con saber cuál tocaría: hay que montarlo y verlo funcionar.
+4. **Manejar datos sensibles con criterio** — como competencia profesional, no como trámite.
+5. **Salir con un portfolio** y con un perfil más fuerte en el mercado laboral, aplicable en su
+   empresa actual y en cualquier otra.
 
-- **No es convertirse en AI specialist.** No busca cambiar de rol ni de sector.
-  Ojo con el matiz: sí quiere que lo aprendido le sirva **en su futuro laboral**,
-  también si cambia de empresa. Portabilidad sí, cambio de carrera no.
-- **No es pedir permiso.** En su empresa usar IA ya está bien visto y lo mal visto
-  es no automatizar. La evangelización del punto 5 es para que *adopten* lo que
-  ella construya, no para que la *autoricen*.
-- **No es aprender herramientas por coleccionarlas.** Las herramientas caducan;
-  el criterio para elegirlas, no.
-- **No es hacer algo vistoso.** Prefiere lo útil y eficaz a lo bonito. El grafo
-  de Obsidian del webinar de referencia es un buen ejemplo de lo que *no*
-  queremos: espectacular en pantalla, marginal en valor.
+## La corrección de brief del 2026-08-23, que invierte la columna vertebral
+
+El diseño anterior se organizaba alrededor de **un proceso real de su puesto, con datos reales,
+llevado de punta a punta durante dieciocho semanas**. Eso ya no es lo que se pide, y por dos razones
+que ella ha dado y que son buenas:
+
+**(a) No quiere hacer un proyecto para su empresa. Quiere aprender su profesión.** El objeto de
+estudio no es «el análisis de encuestas de mi academia»: es **el patrón de tarea** del que ese caso
+es un ejemplo, para que le sirva en la siguiente empresa.
+
+**(b) Tiene reparos con meter datos reales de la empresa en el curso, y tiene razón.** Si el curso no
+es un encargo de la empresa, no hay ninguna necesidad de que los datos de sus alumnos entren en él.
+
+**Consecuencia:** el curso se organiza por **patrones de tarea de la profesión**, y se ejecuta sobre
+**casos realistas inventados**, construidos para el curso. Los datos reales los aplica ella en su
+trabajo, por su cuenta, cuando ya sabe — y el curso le enseña explícitamente cómo hacer ese traslado
+sin meter la pata.
+
+### Lo que esto cuesta, dicho antes de rediseñar nada
+
+Es honesto ponerlo por delante, porque es la pieza que se pierde:
+
+> El diseño anterior tenía una respuesta muy fuerte a *«¿cómo se corrige un curso sin profesor?»*:
+> **el artefacto vivía en su mesa y la realidad la corregía cada semana.** Si el curso corre sobre
+> casos inventados, ese corrector desaparece.
+
+Hay que reponerlo con otra cosa, y no de adorno: baterías de casos con clave, rúbricas con criterios
+negativos, claves selladas, y **un paso explícito de «ahora llévalo a tu trabajo» al cerrar cada
+patrón** — que es donde vuelve a entrar la realidad, ya con criterio y sin datos ajenos por medio.
+
+### Lo que gana
+
+- **El problema de protección de datos se disuelve** en el curso, y a la vez el tema gana peso como
+  contenido: saber juzgar qué puedes meter dónde es una competencia de su profesión, no un trámite.
+- **Es portátil por construcción**, que es el objetivo 2.
+- **Es enseñable a un tercero**: un caso inventado se puede poner en un portfolio; el expediente de
+  incidencias de su academia, no.
+
+### Lo que vuelve a entrar, y lo que sigue fuera
+
+- **El portfolio vuelve a entrar.** Un brief anterior lo había descartado, y era correcto entonces:
+  se descartó cuando el objetivo era resolver su propia empresa. Ahora el objetivo incluye
+  explícitamente el mercado laboral.
+- **Sigue fuera cambiar de rol o de sector.** No quiere ser ingeniera de IA. Quiere ser la misma
+  profesional, al día.
+- **Sigue dentro la evangelización interna**, pero deja de ser un módulo aparte: es una consecuencia
+  natural de tener cosas montadas y saber enseñarlas.
 
 ## Escalera de capacidades: la progresión pedida
 

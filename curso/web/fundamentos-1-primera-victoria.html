@@ -1,0 +1,635 @@
+<title>La primera victoria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --ground:#FAFAF8;
+  --surface:#FFFFFF;
+  --surface-2:#F2F3F1;
+  --ink:#16202A;
+  --ink-soft:#3C4753;
+  --muted:#63707C;
+  --rule:#E0E3E1;
+  --rule-strong:#C9CFCC;
+  --accent:#1F5D57;
+  --accent-soft:#E4EDEB;
+  --amber:#8A5A1F;
+  --amber-soft:#F5EDE0;
+  --shadow:0 1px 2px rgba(22,32,42,.05), 0 8px 24px -16px rgba(22,32,42,.28);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0F151B;
+    --surface:#151D25;
+    --surface-2:#1B242D;
+    --ink:#E9EDF0;
+    --ink-soft:#C3CCD4;
+    --muted:#8E9BA7;
+    --rule:#26313B;
+    --rule-strong:#38454F;
+    --accent:#5FB3A6;
+    --accent-soft:#16302D;
+    --amber:#CE9A57;
+    --amber-soft:#2C2417;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0F151B;
+  --surface:#151D25;
+  --surface-2:#1B242D;
+  --ink:#E9EDF0;
+  --ink-soft:#C3CCD4;
+  --muted:#8E9BA7;
+  --rule:#26313B;
+  --rule-strong:#38454F;
+  --accent:#5FB3A6;
+  --accent-soft:#16302D;
+  --amber:#CE9A57;
+  --amber-soft:#2C2417;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--ground);
+  color:var(--ink);
+  font-family:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  font-size:17px;
+  line-height:1.65;
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.5rem 6rem}
+
+/* ---------- cabecera ---------- */
+header.top{
+  border-bottom:1px solid var(--rule);
+  background:var(--surface);
+  padding:2.75rem 0 2rem;
+  margin-bottom:3rem;
+}
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  color:var(--muted);
+  display:flex;flex-wrap:wrap;gap:.5rem 1.1rem;align-items:center;
+  margin-bottom:1.4rem;
+}
+.eyebrow .draft{
+  color:var(--amber);
+  border:1px solid var(--amber);
+  border-radius:2px;
+  padding:.1rem .45rem;
+  letter-spacing:.08em;
+}
+h1{
+  font-family:Newsreader,Georgia,serif;
+  font-weight:500;
+  font-size:clamp(2.1rem,6vw,2.9rem);
+  line-height:1.12;
+  letter-spacing:-.015em;
+  text-wrap:balance;
+  margin:0 0 1rem;
+}
+.dek{
+  font-family:Newsreader,Georgia,serif;
+  font-size:1.2rem;
+  font-style:italic;
+  color:var(--ink-soft);
+  margin:0 0 1.8rem;
+  max-width:34rem;
+}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.75rem;
+  border:1px solid var(--rule-strong);
+  border-radius:2px;
+  padding:.28rem .6rem;
+  color:var(--ink-soft);
+  background:var(--surface-2);
+}
+.chip.key{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+
+/* ---------- estructura ---------- */
+section{margin:0 0 3.25rem}
+.sec-label{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin:0 0 .7rem;
+  display:block;
+}
+h2{
+  font-family:Newsreader,Georgia,serif;
+  font-weight:500;
+  font-size:1.72rem;
+  line-height:1.2;
+  letter-spacing:-.01em;
+  text-wrap:balance;
+  margin:0 0 1rem;
+}
+h3{
+  font-family:Newsreader,Georgia,serif;
+  font-weight:600;
+  font-size:1.2rem;
+  line-height:1.3;
+  margin:2.2rem 0 .6rem;
+  text-wrap:balance;
+}
+p{margin:0 0 1.05rem;max-width:38rem}
+strong{font-weight:600}
+em{font-style:italic}
+a{color:var(--accent)}
+
+ul,ol{margin:0 0 1.05rem;padding-left:1.3rem;max-width:38rem}
+li{margin-bottom:.45rem}
+
+/* ---------- destacados ---------- */
+.pull{
+  border-left:3px solid var(--accent);
+  padding:.2rem 0 .2rem 1.15rem;
+  margin:1.6rem 0;
+  font-family:Newsreader,Georgia,serif;
+  font-size:1.22rem;
+  line-height:1.45;
+  color:var(--ink);
+  max-width:36rem;
+}
+.note{
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-radius:3px;
+  padding:1.1rem 1.25rem;
+  margin:1.5rem 0;
+  box-shadow:var(--shadow);
+}
+.note.warn{border-color:var(--amber);background:var(--amber-soft)}
+.note p:last-child{margin-bottom:0}
+.note .tag{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);display:block;margin-bottom:.5rem;
+}
+.note.warn .tag{color:var(--amber)}
+
+/* recuadro de señas: test de reconocimiento */
+.senas{
+  border:1px solid var(--accent);
+  border-radius:3px;
+  padding:1.3rem 1.4rem;
+  margin:1.6rem 0;
+  background:var(--accent-soft);
+}
+.senas h4{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 .8rem;font-weight:500;
+}
+.senas ol{counter-reset:s;list-style:none;padding-left:0;margin-bottom:.9rem}
+.senas ol li{
+  counter-increment:s;position:relative;padding-left:1.9rem;
+}
+.senas ol li::before{
+  content:counter(s);
+  position:absolute;left:0;top:.15rem;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.75rem;color:var(--accent);
+  border:1px solid var(--accent);border-radius:50%;
+  width:1.35rem;height:1.35rem;display:grid;place-items:center;
+}
+.senas p:last-child{margin-bottom:0}
+
+/* ---------- tabla ---------- */
+.tablewrap{overflow-x:auto;margin:1.5rem 0;border:1px solid var(--rule);border-radius:3px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.95rem;min-width:30rem}
+th,td{text-align:left;padding:.7rem .9rem;border-bottom:1px solid var(--rule);vertical-align:top}
+thead th{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);font-weight:500;background:var(--surface-2);
+}
+tbody tr:last-child td{border-bottom:none}
+td:first-child{font-weight:600}
+
+/* ---------- bloques monoespaciados ---------- */
+.mono{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.82rem;
+  line-height:1.6;
+  background:var(--surface-2);
+  border:1px solid var(--rule);
+  border-radius:3px;
+  padding:1rem 1.1rem;
+  overflow-x:auto;
+  margin:1.4rem 0;
+  white-space:pre;
+  color:var(--ink-soft);
+}
+
+/* ---------- ejercicio ---------- */
+.exercise{
+  border:1px solid var(--rule-strong);
+  border-top:3px solid var(--accent);
+  border-radius:3px;
+  background:var(--surface);
+  padding:1.6rem 1.5rem;
+  margin:2rem 0;
+  box-shadow:var(--shadow);
+}
+.exercise > :first-child{margin-top:0}
+.exercise h3:first-of-type{margin-top:0}
+
+.check{list-style:none;padding-left:0}
+.check li{
+  position:relative;padding-left:1.7rem;
+}
+.check li::before{
+  content:"";position:absolute;left:0;top:.42rem;
+  width:.85rem;height:.85rem;border:1.5px solid var(--rule-strong);border-radius:2px;
+}
+
+/* ---------- pistas y solución ---------- */
+details{
+  border:1px solid var(--rule);
+  border-radius:3px;
+  background:var(--surface);
+  margin:.7rem 0;
+  overflow:hidden;
+}
+details[open]{border-color:var(--rule-strong)}
+summary{
+  cursor:pointer;
+  padding:.75rem 1rem;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.8rem;
+  color:var(--accent);
+  list-style:none;
+  display:flex;align-items:center;gap:.6rem;
+}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸";font-size:.8rem;transition:transform .15s ease}
+details[open] summary::before{transform:rotate(90deg)}
+summary:hover{background:var(--surface-2)}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.details-body{padding:0 1rem 1rem;border-top:1px solid var(--rule)}
+.details-body > :first-child{margin-top:.9rem}
+.details-body > :last-child{margin-bottom:0}
+
+.sealed{
+  border:1px dashed var(--amber);
+  background:var(--amber-soft);
+  border-radius:3px;
+  padding:1.4rem 1.4rem;
+  margin:2rem 0;
+}
+.sealed .tag{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--amber);display:block;margin-bottom:.6rem;
+}
+.sealed p{max-width:34rem}
+.sealed p:last-of-type{margin-bottom:1.1rem}
+button.reveal{
+  font-family:"Source Sans 3",sans-serif;
+  font-size:.92rem;font-weight:600;
+  background:var(--accent);color:#fff;
+  border:none;border-radius:3px;
+  padding:.65rem 1.1rem;cursor:pointer;
+}
+:root[data-theme="dark"] button.reveal,
+:root:not([data-theme="light"]) button.reveal{color:#0F151B}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]) button.reveal{color:#fff}
+}
+button.reveal:hover{filter:brightness(1.08)}
+button.reveal:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.hidden{display:none}
+
+hr.div{border:none;border-top:1px solid var(--rule);margin:3.5rem 0}
+
+footer{
+  border-top:1px solid var(--rule);
+  margin-top:4rem;padding-top:1.5rem;
+  font-size:.9rem;color:var(--muted);
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span>Poner al día un oficio</span>
+      <span>Fundamentos · sesión 1 de 2</span>
+      <span class="draft">borrador para revisión</span>
+    </div>
+    <h1>La primera victoria</h1>
+    <p class="dek">Escribir una vez lo que hoy explicas cada vez — y usarlo esta misma tarde sobre un correo que tienes pendiente.</p>
+    <div class="chips">
+      <span class="chip key">25 minutos</span>
+      <span class="chip">tiempo propio</span>
+      <span class="chip">si solo tienes 10 · pasos 1 y 2</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section>
+  <span class="sec-label">Para qué sirve esto en tu trabajo</span>
+  <h2>Ahora mismo empiezas de cero cada vez</h2>
+  <p>Cada vez que abres una conversación con una IA le explicas quién eres, en qué trabajas, para quién escribes y cómo quieres que suene lo que salga. Y mañana se lo vuelves a explicar.</p>
+  <p>Eso no es una molestia menor: <strong>es la razón principal de que los resultados que sacas sean mediocres.</strong> No es el modelo. No es que no sepas pedir las cosas. Es que le estás pidiendo a alguien que redacte una respuesta a una estudiante coreana que quiere cancelar su alojamiento sin haberle contado nunca que existe tu academia.</p>
+  <p>En los próximos veinticinco minutos vas a escribir eso <strong>una vez</strong>, guardarlo, y usarlo hoy sobre un correo real.</p>
+</section>
+
+<hr class="div">
+
+<section>
+  <span class="sec-label">El criterio · esto no caduca</span>
+  <h2>Qué es un contexto permanente</h2>
+  <p>Una petición a un modelo de lenguaje se compone siempre de dos cosas: <strong>lo que le pides ahora</strong> y <strong>todo lo que ya sabe cuando se lo pides</strong>. Lo segundo es lo que casi nadie usa.</p>
+  <p>Un contexto permanente es un texto que escribes una vez y que la herramienta antepone a cada conversación sin que tú lo pegues. No es un truco de la herramienta que uses hoy: es una propiedad de cómo funcionan estos sistemas, y va a seguir existiendo con otro nombre dentro de cinco años.</p>
+
+  <h3>Qué va dentro, y por qué esas cinco cosas</h3>
+  <p>No es una descripción de ti. Es <strong>lo mínimo que alguien necesitaría saber para hacer tu trabajo un día</strong>.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Bloque</th><th>Qué contesta</th><th>Por qué está</th></tr></thead>
+      <tbody>
+        <tr><td>Quién eres</td><td>Tu puesto, y de qué eres responsable exactamente</td><td>Sin esto, todo lo que salga estará escrito desde ningún sitio</td></tr>
+        <tr><td>Dónde trabajas</td><td>Qué es tu empresa, a qué se dedica, quiénes son sus clientes</td><td>Un modelo que no sabe que tus clientes no dominan el idioma escribe en un registro que no les sirve</td></tr>
+        <tr><td>En qué idiomas escribes</td><td>Cuáles, y cuál usas con quién</td><td>Decide la mitad de las salidas, y casi nadie lo escribe</td></tr>
+        <tr><td>Qué tono usas</td><td>Cómo suena una respuesta tuya que está bien</td><td>Es lo que más se nota cuando falta, y lo más difícil de corregir después petición a petición</td></tr>
+        <tr><td>Qué no debe hacer nunca</td><td>Los límites duros</td><td>Es el bloque que más rinde y el que todo el mundo se deja</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note warn">
+    <span class="tag">El quinto merece medio minuto aparte</span>
+    <p>«Qué no debe hacer nunca» no es una lista de buenos modales: es donde escribes las cosas que te meterían en un problema real. <em>No inventes precios, fechas ni condiciones: si no lo tienes delante, dilo. No prometas nada en nombre de la academia. No des consejo legal ni migratorio.</em> Escribirlo una vez te ahorra cazarlo cada vez.</p>
+  </div>
+
+  <h3>La regla que hace que esto funcione: obsérvate, no te describas</h3>
+  <p>El fallo típico al escribir el bloque de tono es escribir <strong>cómo te gustaría sonar</strong>. Sale un texto que dice «cercano pero profesional» y no cambia nada, porque eso no significa nada operativo.</p>
+  <p>Lo que sí funciona: coge <strong>tres respuestas tuyas reales, de las buenas, y mira qué tienen en común.</strong> ¿Saludas por el nombre? ¿Empiezas disculpándote o vas al grano? ¿Cierras ofreciendo algo? ¿Tuteas, y con quién cambias? Eso es tu tono. Descríbelo con verbos, no con adjetivos.</p>
+
+  <div class="pull">Lo que haces de verdad no se recuerda: se observa. Es la idea que atraviesa todo el curso, y aparece por primera vez aquí.</div>
+
+  <h3>El techo de esta capacidad, escrito ya</h3>
+  <p>Para que sepas desde el principio qué no te va a dar, y no lo interpretes como un fallo tuyo:</p>
+  <div class="pull">Un contexto permanente recuerda sus instrucciones. No recuerda lo que pasó ayer.</div>
+  <p>Sabrá siempre quién eres y cómo escribes, pero no sabrá que ayer resolviste el caso de Marek ni qué decidiste. Para eso hacen falta fuentes, y aun así con condiciones. Esta es la primera fila de tu <strong>lista de techos</strong>, que vas a escribir al cerrar los fundamentos.</p>
+</section>
+
+<hr class="div">
+
+<section>
+  <span class="sec-label">Las señas · cómo reconocerlo en cualquier herramienta</span>
+  <h2>Un test de reconocimiento, no una lista de nombres</h2>
+  <p>Esto es lo que te sirve el día que entres en otra empresa y te abran una pantalla que no has visto nunca.</p>
+
+  <div class="senas">
+    <h4>Qué estás buscando</h4>
+    <p>Un sitio donde escribas un texto <strong>una sola vez</strong> y que la herramienta use <strong>en todas</strong> las conversaciones, sin que tú lo pegues.</p>
+    <h4>Las tres señas de que lo has encontrado</h4>
+    <ol>
+      <li><strong>Sigue ahí mañana</strong>, en una conversación nueva, sin volver a escribirlo.</li>
+      <li><strong>Se nota en la respuesta</strong> sin que lo menciones. Si tienes que recordárselo, no está actuando.</li>
+      <li><strong>Puedes editarlo y verlo entero</strong>, no solo añadir.</li>
+    </ol>
+    <p>Si falta la primera, lo que tienes es un mensaje largo al principio de una conversación — que es otra cosa, y dura lo que dure esa conversación. Es la confusión más frecuente de esta capa.</p>
+    <p><strong>Y una distinción que conviene no mezclar:</strong> algunas herramientas tienen además una <em>memoria</em> que va guardando cosas por su cuenta, sin que tú las elijas. No es lo mismo y no es esto. Lo que aquí te interesa es lo que tú escribes y controlas.</p>
+  </div>
+
+  <p style="color:var(--muted);font-size:.92rem">Dónde está el botón en tu herramienta concreta vive en un fichero aparte, fechado — porque eso sí caduca, y cuando caduque se tira ese fichero y esta página no se toca.</p>
+</section>
+
+<hr class="div">
+
+<section>
+  <span class="sec-label">El ejercicio</span>
+  <h2>Tu contexto permanente, usado hoy</h2>
+
+  <div class="exercise">
+    <h3>Lo que tienes que producir</h3>
+    <p>Dos cosas, y la segunda es la que cuenta:</p>
+    <ol>
+      <li>Un contexto permanente <strong>guardado</strong>, de media página, con los cinco bloques.</li>
+      <li>Un <strong>correo real contestado con él</strong>, con los dos cronometrajes anotados.</li>
+    </ol>
+
+<div class="mono">CONTEXTO PERMANENTE · guardado el ___
+
+QUIÉN SOY:      puesto, y de qué soy responsable exactamente
+DÓNDE TRABAJO:  qué es la academia, a qué se dedica, quiénes son los clientes
+IDIOMAS:        en cuáles escribo, y con quién uso cada uno
+TONO:           cómo suena una respuesta mía que está bien
+                — en verbos, no en adjetivos
+NUNCA:          los límites duros</div>
+
+<div class="mono">LA PRUEBA DE HOY
+
+Correo elegido:                    ______________________
+Minutos que tardé SIN contexto:    ______  (de memoria, vale)
+Minutos que tardé CON contexto:    ______  (cronometrado de verdad)
+Retoques que tuve que hacer:       ______
+¿Lo envié, o lo reescribí entero?  ______</div>
+
+    <h3>Criterios de éxito — obsérvalos, no los valores</h3>
+    <ul class="check">
+      <li>El contexto <strong>está guardado</strong>, no pegado en una conversación.</li>
+      <li>Lo has abierto <strong>en una conversación nueva</strong> y sigue actuando sin recordárselo.</li>
+      <li>El bloque de tono está escrito <strong>con verbos</strong> y no con adjetivos.</li>
+      <li>El bloque «nunca» tiene <strong>al menos tres límites</strong>, y uno es sobre inventar datos.</li>
+      <li>Has contestado <strong>un correo real</strong>, no un ejemplo.</li>
+      <li>Los dos números están anotados, <strong>aunque el segundo sea peor que el primero</strong>.</li>
+    </ul>
+
+    <h3>Los pasos</h3>
+    <p><strong>1 · Las tres respuestas buenas (5 min).</strong> Antes de escribir nada, abre tu bandeja de enviados y busca tres respuestas tuyas de las que estés contenta. Léelas seguidas y anota qué tienen en común. Esas notas son tu bloque de tono.</p>
+    <p><strong>2 · Escribe los cinco bloques (10 min).</strong> Media página en total. Si un bloque te está saliendo más largo que los otros cuatro juntos, córtalo: no es que sepas más de eso, es que te has puesto a contar.</p>
+    <p><strong>3 · Guárdalo (2 min).</strong> Donde tu herramienta guarde este tipo de cosas. Ponle un nombre que reconozcas dentro de tres meses.</p>
+    <p><strong>4 · Ábrelo en una conversación nueva y pruébalo (3 min).</strong> Sin recordarle nada. <strong>Si tienes que recordárselo, no está guardado: está pegado.</strong> Vuelve al paso 3.</p>
+    <p><strong>5 · El correo real (5 min).</strong> Coge uno que tengas pendiente de verdad, de los repetidos. Contéstalo con el contexto puesto. Cronometra.</p>
+
+    <div class="note">
+      <span class="tag">Sobre qué correo elegir</span>
+      <p>No cojas el más difícil para «poner a prueba» la herramienta. Coge uno de los que contestas veinte veces al mes. <strong>Lo que estás midiendo no es el techo: es el suelo, y el suelo es donde está tu tiempo.</strong></p>
+    </div>
+
+    <h3>Antes de comprobar nada: escríbelo</h3>
+    <div class="mono">Por qué lo he hecho así:   (3–5 líneas, en tus palabras)
+Dónde creo que falla:     (1 línea)</div>
+    <p style="font-size:.95rem;color:var(--ink-soft)">Esto se escribe <strong>antes</strong> de corregir. Si lo escribes después no sirve: ya sabes la respuesta, y lo que anotas es una justificación en vez de una predicción.</p>
+  </div>
+
+  <h3>Si te atascas</h3>
+  <p style="font-size:.95rem;color:var(--muted)">Las pistas se abren en orden, no de golpe.</p>
+
+  <details>
+    <summary>Pista 1 · No sé qué poner en «dónde trabajo»</summary>
+    <div class="details-body">
+      <p>Escríbelo como se lo contarías a alguien que empieza el lunes en tu puesto y no ha oído hablar de la academia. Dos o tres frases.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Pista 2 · El tono me sale en adjetivos y no consigo cambiarlo</summary>
+    <div class="details-body">
+      <p>En vez de describirlo, <strong>pega una de tus tres respuestas buenas</strong> dentro del contexto y escribe encima: <em>«escribe como este ejemplo»</em>. Es menos elegante y funciona igual de bien.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Pista 3 · Sigo atascada tras 25 minutos de intento anotado</summary>
+    <div class="details-body">
+      <p>Abre la solución comentada, abajo. Y si lo que te bloquea es que <strong>no encuentras dónde se guarda</strong> en tu herramienta, eso no es este ejercicio: eso es el fichero de clics, y si tampoco está ahí, es una de las seis comprobaciones de la sesión siguiente.</p>
+    </div>
+  </details>
+</section>
+
+<hr class="div">
+
+<section>
+  <span class="sec-label">La rúbrica</span>
+  <h2>Se usa al día siguiente, nunca al terminar</h2>
+  <p>Recién terminado, todo lo que has escrito te parece obvio y completo, porque tienes en la cabeza lo que quisiste decir. Veinticuatro horas después lees lo que pusiste.</p>
+  <p><strong>Encuadre obligatorio:</strong> <em>«reviso el trabajo de una compañera que hace mi puesto.»</em></p>
+
+  <h3>Señales de fallo</h3>
+  <p style="font-size:.95rem">Por cada una: encuentra el caso, <strong>o declara por escrito que has buscado y no existe</strong>. «No aplica» no es una respuesta admitida.</p>
+  <ul class="check">
+    <li>El tono está escrito con <strong>adjetivos</strong> («cercano», «profesional») y no con verbos ni con un ejemplo.</li>
+    <li>El contexto describe cómo te gustaría sonar: no salió de mirar tres respuestas reales.</li>
+    <li>El bloque «nunca» tiene menos de tres límites, o ninguno es sobre inventar datos.</li>
+    <li>Está pegado al principio de una conversación y no guardado.</li>
+    <li>Ocupa más de una página, o un bloque es más largo que los otros cuatro juntos.</li>
+    <li>El correo de prueba era el más difícil del mes y no uno de los repetidos.</li>
+    <li>Falta alguno de los dos números, o el segundo está estimado y no cronometrado.</li>
+    <li>Hay algo dentro que <strong>solo es verdad esta semana</strong>.</li>
+  </ul>
+
+  <div class="note warn">
+    <span class="tag">La última, que es la que menos se ve venir</span>
+    <p>Un contexto permanente que contiene algo temporal es peor que no tenerlo: dentro de dos meses seguirá afirmándolo con total seguridad, y tú ya no te acordarás de que lo escribiste. <strong>Lo que cambia no va aquí: va en las fuentes</strong>, que tienen fecha.</p>
+  </div>
+
+  <h3>Umbral de «listo»</h3>
+  <p>No está listo si en una conversación nueva hay que recordarle quién eres, si el correo de prueba no era real, si el bloque «nunca» está vacío, o si queda alguna señal marcada sin arreglar.</p>
+  <p><strong>Y una que no impide estar lista, aunque te lo parezca:</strong> que el segundo cronometraje haya salido <em>peor</em> que el primero. Es lo normal el primer día, porque estás mirando la herramienta en vez de trabajar. El número empieza a significar algo a partir de la tercera vez. Anótalo como salió.</p>
+
+  <h3>Si lo pasas por la IA</h3>
+  <p>Este entregable es <strong>verde</strong>: es un texto sobre ti y sobre tu academia, sin datos de ningún alumno. De los pocos del curso donde no hay que pensárselo.</p>
+  <p>Pero solo para buscar señales de fallo. <strong>El umbral de listo no se le pregunta</strong>: se comprueba abriendo una conversación nueva y mirando si actúa. Y las tres reglas que más se olvidan: <strong>hilo nuevo</strong> · <strong>no digas que es tuyo</strong> · <strong>no discutas: abre otro hilo</strong>.</p>
+</section>
+
+<hr class="div">
+
+<section>
+  <span class="sec-label">La solución comentada</span>
+  <div class="sealed" id="sello">
+    <span class="tag">Cerrada a propósito</span>
+    <h2 style="margin-top:0">No la abras todavía</h2>
+    <p>Un ejercicio con la solución al lado produce muleta. Sin solución, produce abandono. Por eso está aquí y por eso está cerrada.</p>
+    <p><strong>Ábrela cuando hayas escrito tu versión</strong> — aunque no te guste. Comparar lo tuyo con esto enseña; leer esto primero, no.</p>
+    <button class="reveal" id="btn">Ya he escrito lo mío. Abrir</button>
+  </div>
+
+  <div id="solucion" class="hidden">
+    <h2>Una solución posible</h2>
+    <p style="color:var(--muted);font-size:.95rem">Escrita para el mismo puesto en la academia del curso.</p>
+
+<div class="mono">QUIÉN SOY:
+  Trabajo en atención al cliente de una academia de idiomas. Soy responsable
+  de las consultas previas a la matrícula, de los cambios sobre matrícula ya
+  hecha y de las incidencias durante la estancia, incluidas las de
+  alojamiento. NO llevo la parte académica ni la facturación.
+
+DÓNDE TRABAJO:
+  Academia en Madrid que enseña español a extranjeros. Vienen de fuera, entre
+  dos semanas y un curso entero, y muchos combinan el curso con alojamiento
+  que gestionamos nosotros. Buena parte llega por agencias del país de
+  origen, que tienen condiciones pactadas distintas de las públicas.
+
+IDIOMAS:
+  Escribo en español y en inglés. En español con los alumnos de B2 para
+  arriba y con las familias de acogida; en inglés con todo lo demás y con
+  las agencias. El español que uso con alumnos es sencillo a propósito:
+  frases cortas, sin modismos.
+
+TONO:
+  Saludo por el nombre de pila.
+  Digo primero lo que voy a hacer y después por qué.
+  Si la respuesta es que no, lo digo en la primera frase y luego explico.
+  Ofrezco siempre una alternativa concreta, aunque sea pequeña.
+  Cierro con una sola pregunta, no con tres.
+
+NUNCA:
+  No inventes precios, fechas, plazos ni condiciones. Si no lo tengo
+  delante, escribe "[COMPROBAR: ___]" y sigue.
+  No prometas nada en nombre de la academia.
+  No des consejo legal ni migratorio: los visados se derivan siempre.
+  No escribas nada sobre salud, alergias o medicación de nadie.
+  No cierres una reclamación por escrito: eso lo lleva otra persona.</div>
+
+    <h3>Por qué está así — tres decisiones</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Decisión</th><th>Por qué</th><th>Qué habría pasado con la otra</th></tr></thead>
+        <tbody>
+          <tr><td>«NO llevo la parte académica ni la facturación»</td><td>Los límites del puesto son parte de quién eres</td><td>Respuestas que comprometen a compañeros que no han sido consultados — y que suenan autorizadas porque están bien escritas</td></tr>
+          <tr><td>«El español que uso es sencillo a propósito»</td><td>Es la instrucción que un modelo nunca deduce solo: por defecto escribe bien, y escribir bien aquí es escribir mal</td><td>Frases subordinadas impecables para alguien que lleva tres semanas estudiando</td></tr>
+          <tr><td><code>[COMPROBAR: ___]</code> en vez de «di que no lo sabes»</td><td>Le da algo que <em>hacer</em> en vez de algo que no hacer, y deja una marca que puedes buscar antes de enviar</td><td>«Si no lo sabes, dilo» produce, con bastante frecuencia, un dato inventado con tono seguro</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Lo que también sería correcto</h3>
+    <ul>
+      <li><strong>Un ejemplo pegado en vez de un tono descrito.</strong> Menos elegante, igual de eficaz, y a veces mejor.</li>
+      <li><strong>Un contexto más corto.</strong> Tres bloques bien escritos valen más que cinco rellenados por cumplir.</li>
+      <li><strong>Que el segundo cronometraje salga peor.</strong> El primer día estás mirando la herramienta.</li>
+    </ul>
+
+    <h3>Lo que parece correcto y no lo es</h3>
+    <ul>
+      <li><strong>«Le he puesto que sea siempre educado y empático.»</strong> No cambia nada: ya lo es por defecto, y demasiado. Lo que hace falta es lo contrario — decirle <em>dónde no debe suavizar</em>.</li>
+      <li><strong>«He metido el tarifario para que lo tenga siempre.»</strong> Suena eficiente y es el fallo de lo temporal con otra cara: los precios cambian, el contexto no tiene fecha, y dentro de seis meses seguirá afirmando el precio viejo con total seguridad.</li>
+      <li><strong>«Lo he probado en la misma conversación y funciona perfecto.»</strong> Ahí funciona siempre. La prueba es la conversación nueva.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div>Fundamentos, sesión 1 de 2. La siguiente es <em>Con qué cuenta estoy trabajando</em>: nueve casillas que deciden qué puedes meter en cada sitio, y por qué el mismo texto en la misma pantalla es seguro o inseguro según con qué cuenta hayas entrado.</div>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('btn');
+  if(!b) return;
+  b.addEventListener('click',function(){
+    document.getElementById('solucion').classList.remove('hidden');
+    document.getElementById('sello').style.display='none';
+    try{ localStorage.setItem('m01-solucion','abierta'); }catch(e){}
+  });
+  try{
+    if(localStorage.getItem('m01-solucion')==='abierta'){
+      document.getElementById('solucion').classList.remove('hidden');
+      document.getElementById('sello').style.display='none';
+    }
+  }catch(e){}
+})();
+</script>
